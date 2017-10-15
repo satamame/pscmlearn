@@ -1,0 +1,2008 @@
+TITLE,死人にもち肌
+EMPTY,
+AUTHOR,　　　　　　　　　　　　　　　　　　沙汰青豆
+EMPTY,
+CHARSHEADLINE,　登場人物
+EMPTY,
+CHARACTER,若月永子　　
+CHARACTER,赤木課長　　
+CHARACTER,相原しの　　
+CHARACTER,本田さん　　
+CHARACTER,赤木光子　　
+CHARACTER,御堂さん　　
+EMPTY,
+H1,シーン１
+EMPTY,
+DIRECTION,　　机と椅子二つ。
+DIRECTION_CONTINUED,　　しのが座っている。
+DIRECTION_CONTINUED,　　机の上に電話。
+DIRECTION_CONTINUED,　　後ろにホワイトボード。
+EMPTY,
+DIRECTION,　　電話が鳴る。
+DIRECTION_CONTINUED,　　しの、電話を取ったものかどうか迷う。
+EMPTY,
+DIRECTION,　　暫くして永子が現れる。
+DIRECTION_CONTINUED,　　永子、座って電話に出る。
+EMPTY,
+DIALOGUE,永子　　　「もしもし。」
+DIALOGUE,女１　　　「もしもし。」
+DIALOGUE,永子　　　「あ、えっと、サポート部？　ですけど。」
+DIALOGUE,女１　　　「あのー、無料のお試しセットを、お願いしたいんですけど･･･」
+DIALOGUE,永子　　　「あ、ああ、はいはい。えーっと、インターネット、見れます？」
+DIALOGUE,女１　　　「はい。」
+DIALOGUE,永子　　　「そしたら、『マイナス30才肌』で検索して頂いて、ホームページから
+DIALOGUE_CONTINUED,　　　　　　申し込めるようになってますんで。」
+DIALOGUE,女１　　　「あ、そうですか。」
+DIALOGUE,永子　　　「はーい、よろしくお願いしまーす。」
+EMPTY,
+DIRECTION,　　電話を切る。
+DIRECTION_CONTINUED,　　横にしのがいてびっくりする。
+EMPTY,
+DIALOGUE,永子　　　「うわっ！　･･･いたんだ。」
+DIALOGUE,しの　　　「あ、済みません。電話･･･。」
+DIALOGUE,永子　　　「おばさんさあ、気配消すのやめてもらえる？」
+DIALOGUE,しの　　　「あ、済みません。･･･でも電話、もうかかって来るんですね。」
+DIALOGUE,永子　　　「え、なんで気配消すの？」
+DIALOGUE,しの　　　「あ、じゃあ、気配、出します。」
+DIALOGUE,永子　　　「え～ちょっと待って。電話、もうかかって来るんじゃん。」
+DIALOGUE,しの　　　「さっきみたいに、言えばいいんですか？。」
+DIALOGUE,永子　　　「ああ。あたしさっき、何て言ったっけ。」
+DIALOGUE,しの　　　「何か、インターネットは、人を堕落させるとか･･･」
+DIALOGUE,永子　　　「ていうかさ、いきなりサポート部作るとか言われてもねぇ。ていうか課
+DIALOGUE_CONTINUED,　　　　　　長何やってんの？　ていうかおばさんさっき課長に触られてたよね？」
+DIALOGUE,しの　　　「えっ、･･･。」
+DIALOGUE,永子　　　「気づいてるよね、触られてたの。」
+DIALOGUE,しの　　　「触るっていうか･･･、スキンシップ・トゥルーパーズ？」
+DIALOGUE,永子　　　「え、嫌じゃないの？　ああいうプチ・セクハラ。」
+DIALOGUE,しの　　　「嫌です。･･･あ、でも多分課長としてはそういうつもりは」
+DIALOGUE,永子　　　「いやいやいやいや。え、何？　課長に奥さんいるから？」
+DIALOGUE,しの　　　「それに、主人の事も、分かってるはずなので･･･。」
+DIALOGUE,永子　　　「･･･じゃあどうすんの？　これからも触らせんの？」
+DIALOGUE,しの　　　「これから･･･、お彼岸を過ぎて涼しくなりますね。」
+DIALOGUE,永子　　　「あ、それ喪服？。」
+DIALOGUE,しの　　　「じゃあ、あの、あんまりしつこいようでしたら、殺しま･･･」
+DIALOGUE,永子　　　「おばさんさあ、底なし沼はまった事ないでしょ。あのね、何で最初にす
+DIALOGUE_CONTINUED,　　　　　　ぐ抜け出さなかったんだろうって思うから。」
+DIALOGUE,しの　　　「そうですか･･･。底なし沼へは、良く行かれるんですか？」
+DIALOGUE,永子　　　「おばさん、課長の事どう思ってんの？」
+DIALOGUE,しの　　　「まあ･･･、割と最低な人だと思ってますけど･･･。あ、済みません
+DIALOGUE_CONTINUED,　　　　　　。」
+DIALOGUE,永子　　　「え。･･･え、何謝ってんの。違うからね、あたし。」
+DIALOGUE,しの　　　「ああ、そうですか･･･。」
+DIALOGUE,永子　　　「ちょっと待ってよ。」
+DIALOGUE,しの　　　「昨日、帰り課長と一緒でしたよね･･･？」
+EMPTY,
+DIRECTION,　　電話が鳴る。
+DIRECTION_CONTINUED,　　永子、しのを見ている。
+EMPTY,
+DIALOGUE,しの　　　「済みません、昨日も、気配消えてたみたいで。」
+DIALOGUE,永子　　　「うん。で、何見たの？」
+DIALOGUE,しの　　　「二人でホテルへ入っていくところと、そのホテルから出てくるところ、
+DIALOGUE_CONTINUED,　　　　　　だけですけど･･･。」
+DIALOGUE,永子　　　「そっか･･･。それ本当にあたしと課長なの？　ちょっとちゃんと思い
+DIALOGUE_CONTINUED,　　　　　　出してよ。」
+DIALOGUE,しの　　　「たしか･･･」
+EMPTY,
+DIRECTION,　　しの、ホワイトボードに二人の似顔絵を書く。
+DIRECTION_CONTINUED,　　電話は鳴っている。
+DIRECTION_CONTINUED,　　永子、しばらく似顔絵を見て、
+EMPTY,
+DIALOGUE,永子　　　「じゃああたし、電話出るから。静かにしてて。」
+EMPTY,
+DIRECTION,　　永子、電話に出る。
+DIRECTION_CONTINUED,　　電話、切れる。
+EMPTY,
+DIALOGUE,永子　　　「はい、ココ・プルゲン、サポートセンターです。･･･切れちゃったじ
+DIALOGUE_CONTINUED,　　　　　　ゃん。」
+EMPTY,
+DIRECTION,　　しの、似顔絵の背景に建物を書き加えている。
+EMPTY,
+DIALOGUE,しの　　　「永子さんと、課長ですよね？」
+DIALOGUE,永子　　　「課長何被ってんの？」
+DIALOGUE,しの　　　「え。」
+EMPTY,
+DIRECTION,　　永子、少し線を足して、課長が建物を被っているようにする。
+DIRECTION_CONTINUED,　　電話が鳴る。
+EMPTY,
+DIALOGUE,永子　　　「さっきの人なんじゃないの？　怒ってるかもよ。」
+DIALOGUE,しの　　　「（どうぞ）」
+DIALOGUE,永子　　　「え～、また？（電話を取って）お電話有難うございます。マイナス30
+DIALOGUE_CONTINUED,　　　　　　才肌、ココ・プルゲン、サポートセンターです。大変お待たせして申し
+DIALOGUE_CONTINUED,　　　　　　訳ございませんでした。」
+DIALOGUE,女２　　　「いえ、あの、待ってませんけど。」
+DIALOGUE,永子　　　「あ、そうですか･･･」
+DIALOGUE,女２　　　「あの、どこで買えますか？」
+DIALOGUE,永子　　　「あ、初めての方には、売ってないんですよ。無料のお試しセットがあり
+DIALOGUE_CONTINUED,　　　　　　ますんで、インターネットで申し込んでもらえます？」
+EMPTY,
+DIRECTION,　　電話、切れる。
+EMPTY,
+DIALOGUE,永子　　　「あ、切れた。え～!?」
+DIALOGUE,しの　　　「なんか焦ってましたね、歳をとるという事に。」
+DIALOGUE,永子　　　「うん。何かうちのクリーム、最近急に売れ出したよね。まあ、あたしは
+DIALOGUE_CONTINUED,　　　　　　ずっと使ってるけど。」
+EMPTY,
+H1,シーン２
+EMPTY,
+DIRECTION,　　そこへ課長が、本田を連れてくる。
+EMPTY,
+DIALOGUE,永子　　　「あ、課長。」
+DIALOGUE,課長　　　「（本田に）こちらが若月永子さんで、向こうが相原しのさんです。」
+DIALOGUE,本田　　　「向こう？？」
+DIALOGUE,永子　　　「課長、もう電話かかって来るんですけど。」
+DIALOGUE,課長　　　「ええ？　だってまだ準備できてないからどこにも番号載せてないから、
+DIALOGUE_CONTINUED,　　　　　　知ってるとしたらここの３人だけなんだけどな。」
+EMPTY,
+DIRECTION,　　と言いながら永子の肩とか首とか背中とかを触る。
+EMPTY,
+DIALOGUE,永子　　　「あたし番号知りませんけど。」
+EMPTY,
+DIRECTION,　　永子、課長から逃がれて代わりに本田を触らせる。
+EMPTY,
+DIALOGUE,しの　　　「私も、知りませんけど･･･」
+DIALOGUE,課長　　　「そうか･･･。」
+EMPTY,
+DIRECTION,　　と考え込み、本田を触り続ける。
+DIRECTION_CONTINUED,　　本田、小さくもだえ続ける。
+DIRECTION_CONTINUED,　　永子としの、本田に注目する。
+EMPTY,
+DIALOGUE,永子　　　「え、なんで我慢してんの？」
+DIALOGUE,課長　　　「あ、ごめんごめん、紹介するの忘れてた。えー、今日から新しく入った
+DIALOGUE_CONTINUED,　　　　　　、（名前を忘れて）人です。えー、以前にサポートセンターの仕事をし
+DIALOGUE_CONTINUED,　　　　　　てた経験が、まああるようなないような、まあそんな感じの、ね。質問
+DIALOGUE_CONTINUED,　　　　　　ある人。」
+DIALOGUE,永子　　　「これ電話鳴ったら、とりあえずお待ち下さいみたいな、何？　応答メッ
+DIALOGUE_CONTINUED,　　　　　　セージ？　そういうのつけて欲しいんですけど。」
+DIALOGUE,本田　　　「じゃあ私、それ、営業時間終わったらやっときますんで。」
+DIALOGUE,永子　　　「えー、すぐやってもらった方が良いんじゃない？」
+DIALOGUE,本田　　　「作業の間使えなくなっちゃいますんで、営業時間後の方が･･･。」
+DIALOGUE,永子　　　「でもすぐやった方が良いんじゃないの？」
+DIALOGUE,課長　　　「よし分かった、じゃあ今日はこれで営業時間、終わりにしよう。」
+DIALOGUE,永子　　　「そうね。じゃああとよろしく。」
+EMPTY,
+DIRECTION,　　永子と課長、行こうとする。
+EMPTY,
+DIALOGUE,本田　　　「あ、ちょっと、私、名前名乗っても良いですか？」
+DIALOGUE,課長　　　「良いけど、憶えないよ。」
+DIALOGUE,本田　　　「名前は本田、ジェームズ・本田です。」
+DIALOGUE,永子　　　「じゃお先。」
+EMPTY,
+DIRECTION,　　永子と課長、去る。
+DIRECTION_CONTINUED,　　しのは気配を消して座っている。
+DIRECTION_CONTINUED,　　本田はポーズを取っている。
+DIRECTION_CONTINUED,　　タイトルバック。
+EMPTY,
+H1,シーン３
+EMPTY,
+DIRECTION,　　本田、二人が去ったのを確認して椅子に座る。
+DIRECTION_CONTINUED,　　しのには気づかない。
+DIRECTION_CONTINUED,　　鞄からタブレット端末を取り出し、操作する。
+EMPTY,
+DIALOGUE,端末　　　「おはよう、えっと･･･」
+DIALOGUE,本田　　　「本田です。」
+DIALOGUE,端末　　　「おはよう本田君。今回のミッションだが、アンチエイジング・クリーム
+DIALOGUE_CONTINUED,　　　　　　『ココ・プルゲン』の原料と、その入手経路を調べてくれたまえ。
+DIALOGUE_CONTINUED,　　　　　　原料は、表向きはキュウリという事になっており、当局で分析した結果
+DIALOGUE_CONTINUED,　　　　　　、キュウリが検出された。ていうかキュウリしか検出されなかった。
+DIALOGUE_CONTINUED,　　　　　　でもそれで私みたいに若返るのはおかしいので、何か秘密があるはずな
+DIALOGUE_CONTINUED,　　　　　　ので、それを探ってください。」
+DIALOGUE,本田　　　「あ、使ってるんだ。」
+DIALOGUE,端末　　　「ちなみにこの端末なんですけど、ちょっと仕掛けがありまして、カメラ
+DIALOGUE_CONTINUED,　　　　　　に映った人を画面上でタッチすると、その人を気絶させる事が出来ます
+DIALOGUE_CONTINUED,　　　　　　。これ、エロい事には使わないようにしてください。」
+DIALOGUE,本田　　　「いや、使いませんよ。」
+DIALOGUE,端末　　　「前にね、エロい事に使った人がいるんですよ。でもさあ、それ普通に警
+DIALOGUE_CONTINUED,　　　　　　察に捕まるからね。ほんと、それだけ気をつけて下さい。･･････
+DIALOGUE_CONTINUED,　　　　　　くれぐれも。」
+DIALOGUE,本田　　　「･･････あ、終わったのか。」
+EMPTY,
+DIRECTION,　　と言って端末と電話をつなぎ、応答メッセージの設定をする。
+EMPTY,
+DIALOGUE,電話　　　「お電話有難うございます。マイナス30才肌、ココ・プルゲン、サポー
+DIALOGUE_CONTINUED,　　　　　　トセンターです。ただいま電話が大変混み合っております。順番にお繋
+DIALOGUE_CONTINUED,　　　　　　ぎしておりますので、そのままお待ちいただくか、暫く経ってからおか
+DIALOGUE_CONTINUED,　　　　　　け直しください。」
+DIALOGUE,本田　　　「よし。」
+EMPTY,
+DIRECTION,　　と言って端末を鞄に仕舞う。
+DIRECTION_CONTINUED,　　仕舞いながら、鞄の中の銃を確認する。
+DIRECTION_CONTINUED,　　本田、立ち去る。
+DIRECTION_CONTINUED,　　しのも少し間をおいて出て行く。
+EMPTY,
+H1,シーン４
+EMPTY,
+DIRECTION,　　次の日。
+DIRECTION_CONTINUED,　　永子、しの、課長、本田の４人。
+DIRECTION_CONTINUED,　　電話の応答メッセージを聞いている。
+EMPTY,
+DIALOGUE,永子　　　「え、これ留守電って事？」
+DIALOGUE,本田　　　「いえ、ここが話し中の時は、ちゃんと交換機の方でもメッセージ流れる
+DIALOGUE_CONTINUED,　　　　　　ようにしてもらってますんで。」
+DIALOGUE,永子　　　「先に電話を増やすべきなんじゃないの？」
+DIALOGUE,本田　　　「あとこれ、対応マニュアルの叩き台を作ってきたので、これを元に考え
+DIALOGUE_CONTINUED,　　　　　　て行きましょう。」
+DIALOGUE,課長　　　「もう出来てんじゃん。いいじゃんこれで。」
+DIALOGUE,本田　　　「あと、サポートセンター内はプライバシーや私語は厳禁ですから。私物
+DIALOGUE_CONTINUED,　　　　　　はロッカーに入れて来るようにしてください。」
+DIALOGUE,永子　　　「先に電話を増やすべきなんじゃないの？」
+DIALOGUE,本田　　　「それ、お願いしてありますよね？」
+DIALOGUE,課長　　　「あれ、そうだっけ？　じゃあ俺、買ってくるわ。」
+DIALOGUE,永子　　　「え？　電話買ってくるの？」
+EMPTY,
+DIRECTION,　　課長、行ってしまう。
+DIRECTION_CONTINUED,　　永子それを目で追って、
+EMPTY,
+DIALOGUE,永子　　　「えー･･･。ああいうのって特別な電話なんじゃないの？」
+EMPTY,
+DIRECTION,　　と言いながら仮マニュアルを見たりする。
+EMPTY,
+H1,シーン５
+EMPTY,
+DIALOGUE,本田　　　「あの、若月さん、」
+DIALOGUE,永子　　　「はい、あ、えっと･･･」
+DIALOGUE,本田　　　「本田です。若月さん、いい香りがしますね。」
+DIALOGUE,永子　　　「え。キュウリ臭いって言われるんだけど。」
+DIALOGUE,本田　　　「私はこの匂い、好きですよ。」
+DIALOGUE,永子　　　「カブトムシ、飼ってたでしょ？」
+DIALOGUE,本田　　　「ココ・プルゲン、使ってるんですか？　これ、社員割引とかあるんでし
+DIALOGUE_CONTINUED,　　　　　　ょうか。」
+DIALOGUE,永子　　　「え、欲しいの？　これ最初お試しセットで適性とか見ないといけないか
+DIALOGUE_CONTINUED,　　　　　　ら結構面倒だよ。ああ、あたし訪問販売やってたから、後で見てあげよ
+DIALOGUE_CONTINUED,　　　　　　うか。」
+DIALOGUE,本田　　　「本当ですか。有難うございます。」
+EMPTY,
+DIRECTION,　　本田、永子の手を取り、
+EMPTY,
+DIALOGUE,本田　　　「若月さんは美しいだけでなく、優しい方なんですね。」
+DIALOGUE,永子　　　「いやだ、そんな･･･。永子って呼んでください。」
+DIALOGUE,しの　　　「永子さん、モテモテですね。」
+EMPTY,
+DIRECTION,　　本田、とても驚く。
+EMPTY,
+DIALOGUE,本田　　　「うわっ、だ、誰だ！」
+DIALOGUE,永子　　　「あ、おばさん時々気配消すから、気ぃつけて。」
+DIALOGUE,しの　　　「いいんですか？　課長また怒って備品のボールペン全部折ったり」
+DIALOGUE,永子　　　「課長とは何でもありません。」
+DIALOGUE,しの　　　「でもホテル、行ったんですよね。」
+DIALOGUE,本田　　　「え。」
+DIALOGUE,永子　　　「おばさんだって課長に体触らせてたじゃん。」
+DIALOGUE,本田　　　「どうなってるんだ、この会社は。」
+DIALOGUE,永子　　　「ね。ま課長が悪いんだけどね。あいつただのプチ・セクハラ親父だから
+DIALOGUE_CONTINUED,　　　　　　さ。」
+DIALOGUE,本田　　　「いやしかし、ホテルとなると･･･」
+EMPTY,
+DIRECTION,　　電話に着信があり、応答メッセージが流れる。
+DIRECTION_CONTINUED,　　永子それを無視して、
+EMPTY,
+DIALOGUE,永子　　　「分かりました。じゃあちゃんとお話しします。
+DIALOGUE_CONTINUED,　　　　　　たしかにホテルには行きました。でもビジネスホテルだしちょっと一緒
+DIALOGUE_CONTINUED,　　　　　　に飲んだりしただけです。いかがわしい事は何もしてません。」
+DIALOGUE,しの　　　「あ、でももう、想像しちゃいましたけど。」
+DIALOGUE,永子　　　「ええ～っ？　したの、想像？　あたしと課長の、そういうの？　もうや
+DIALOGUE_CONTINUED,　　　　　　めてよ～。忘れて。想像した事忘れて。（本田にも）忘れて。想像した
+DIALOGUE_CONTINUED,　　　　　　事忘れて。」
+DIALOGUE,本田　　　「わ、私は別に」
+DIALOGUE,永子　　　「（観客にも）忘れて。想像した事忘れて。
+DIALOGUE_CONTINUED,　　　　　　･･･あと、課長の事も別に好きじゃありません。ちょっと課長に頼み
+DIALOGUE_CONTINUED,　　　　　　ごとしたから、仕方なく付き合ったの。
+DIALOGUE_CONTINUED,　　　　　　･･･もういいでしょ？　出るよ電話。」
+DIALOGUE,しの　　　「頼みごとって、何なんですか？」
+DIALOGUE,永子　　　「はぁ･･･。ココ・プルゲンの、『原液』。」
+DIALOGUE,本田　　　「原液･･･？」
+DIALOGUE,永子　　　「薄める前のやつ、手に入るっていうからさ。」
+DIALOGUE,本田　　　「そ、そんな物があるのか！」
+DIALOGUE,しの　　　「電話、出た方が良いんじゃないですか？」
+DIALOGUE,永子　　　「ああ･･･、えっと･･･」
+EMPTY,
+DIRECTION,　　永子、仮マニュアルを見ながら電話を取る。
+EMPTY,
+DIALOGUE,永子　　　「大変お待たせして申し訳ございませんでした。ココ・プルゲン、サポー
+DIALOGUE_CONTINUED,　　　　　　トセンターの若月です。」
+DIALOGUE,光子　　　「･･･若月、永子さん、ですか？」
+DIALOGUE,永子　　　「え？　えっと、あの･･･。（仮マニュアルを見て）このお電話なんで
+DIALOGUE_CONTINUED,　　　　　　すけど、社員教育のために録音させて頂いておりますので、予めご了承
+DIALOGUE_CONTINUED,　　　　　　ください。よろしいでしょうか。」
+DIALOGUE,光子　　　「はい、いいですよ。･･･こっちも、録音してますんで。」
+DIALOGUE,永子　　　「え？　･･･どちら様、ですか･･･。」
+DIALOGUE,光子　　　「私、興信所に頼んで、写真も撮ってもらったんですけど、でももしかし
+DIALOGUE_CONTINUED,　　　　　　たらこれホテルじゃなくて主人が何か被ってるだけなんじゃないかと思
+DIALOGUE_CONTINUED,　　　　　　いましてね、」
+DIALOGUE,しの　　　「あ、それ、ホテルです。」
+EMPTY,
+DIRECTION,　　永子、電話を切る。
+EMPTY,
+DIALOGUE,永子　　　「ちょっとおばさん、」
+DIALOGUE,しの　　　「あ、違います違います。違います。その、被ってるのがホテルですって
+DIALOGUE_CONTINUED,　　　　　　、言っただけなんで。」
+DIALOGUE,永子　　　「そういや課長どこ行ったの、課長。」
+DIALOGUE,しの　　　「課長は、電話を買いに行くふりして、サボってます。」
+DIALOGUE,永子　　　「あの人、奥さんにここの番号教えてんじゃん。」
+DIALOGUE,しの　　　「う～ん、そうすると今までの人たちも課長が教えてたのかも知れません
+DIALOGUE_CONTINUED,　　　　　　ねぇ～。」
+DIALOGUE,本田　　　「あの、今そこが問題なんでしょうか。」
+DIALOGUE,永子　　　「あ、そうだ。これ、録音してるならしてるって言ってよ。」
+DIALOGUE,本田　　　「いやそれ叩き台ですから。録音はまだしてないです。」
+DIALOGUE,しの　　　「向こうでしてくれてたみたいですよ。」
+DIALOGUE,永子　　　「もしかしてこれ何かすごい面倒くさい事になってんじゃないの？」
+DIALOGUE,本田　　　「ですよね、そこですよね問題は。」
+DIALOGUE,永子　　　「あーもう、アンパンマンの頭をどうにかしてやりたい。」
+DIALOGUE,本田　　　「･･･私は、永子さんを信じます。永子さんがそんな、不倫なんかする
+DIALOGUE_CONTINUED,　　　　　　ような人とは思えません。」
+DIALOGUE,永子　　　「本田さん･･･。」
+DIALOGUE,本田　　　「ジェームズ・本田です。一緒に、お茶を飲んだだけなんですよね。ココ
+DIALOGUE_CONTINUED,　　　　　　・プルゲンの原液が手に入ると言われたら、断れる人なんていませんよ
+DIALOGUE_CONTINUED,　　　　　　。」
+DIALOGUE,永子　　　「ですよね。分かってもらえて、永子嬉しいです。」
+DIALOGUE,本田　　　「もし争い事になった場合は、私が必ず永子さんを守りますから。ところ
+DIALOGUE_CONTINUED,　　　　　　で、その原液というのは、本当に手に入るんですか？」
+DIALOGUE,永子　　　「課長、探しに行きましょう。」
+DIALOGUE,本田　　　「はい。あ、じゃあついでにランチでもどうですか？」
+DIALOGUE,永子　　　「そうね。おばさん電話お願い。」
+DIALOGUE,しの　　　「え、私ですか。」
+DIALOGUE,永子　　　「だって今まで全部あたしが出てんじゃん。」
+DIALOGUE,しの　　　「果たしてそうでしょうか･･･。」
+EMPTY,
+DIRECTION,　　二人、そそくさと出かける。
+DIRECTION_CONTINUED,　　本田は鞄を持って行く。
+EMPTY,
+DIALOGUE,本田　　　「おばさんという、お名前なんですか？」
+DIALOGUE,永子　　　「違うよ。子供の頃のあだ名が『おばさん』だったんだって。」
+DIALOGUE,本田　　　「へえ～、そうなんですか。･･･え、そうなんですか!?」
+EMPTY,
+DIRECTION,　　二人、去る。
+EMPTY,
+H1,シーン６
+EMPTY,
+DIRECTION,　　開発部。
+DIRECTION_CONTINUED,　　課長と御堂。
+DIRECTION_CONTINUED,　　巨大なコンピュータがあるという設定。
+EMPTY,
+DIALOGUE,課長　　　「しかしうちに、こんなでっかいコンピュータが、あったんですねぇ。」
+DIALOGUE,御堂　　　「分析、してんの、原料の。」
+DIALOGUE,課長　　　「ああ。･･･あれ、御堂さんも原料分かってないんすか？」
+DIALOGUE,御堂　　　「まあ大体分かってんだけどね。」
+DIALOGUE,課長　　　「でも原液って事は、何かで薄めてるんすよね？」
+DIALOGUE,御堂　　　「匂いで分かんでしょ？」
+DIALOGUE,課長　　　「え、匂いって･･･。」
+DIALOGUE,御堂　　　「ほら、この匂い。嗅いで、ほら、ちゃんと。」
+DIALOGUE,課長　　　「キュウリ、ですよね･･･。」
+DIALOGUE,御堂　　　「何知ってましたみたいな顔してんの。」
+DIALOGUE,課長　　　「いや、だって。」
+DIALOGUE,御堂　　　「そ。キュウリで、薄めてんの。五億倍に。」
+DIALOGUE,課長　　　「五億倍ってそれもうキュウリですよね。ていうか、じゃあ、原液ってす
+DIALOGUE_CONTINUED,　　　　　　ごいんすね。」
+DIALOGUE,御堂　　　「うん、すっごい。」
+DIALOGUE,課長　　　「もらえるんですよね。」
+DIALOGUE,御堂　　　「うん、もうね、原液はね、ほんと、すっごい。」
+DIALOGUE,課長　　　「御堂さん、ここにあるやつ、もらってっていいんすよね。」
+DIALOGUE,御堂　　　「あ、それ駄目。使えない。」
+DIALOGUE,課長　　　「使えない？」
+DIALOGUE,御堂　　　「分析すんのに、放射線とかレーザーとかぐりぐり当てまくってっから。
+DIALOGUE_CONTINUED,　　　　　　」
+DIALOGUE,課長　　　「そっか、使えなくなっちゃうんだ･･･。」
+DIALOGUE,御堂　　　「フフ、笑っちゃうでしょ。五億倍に薄めて、何万って値段で売ってる物
+DIALOGUE_CONTINUED,　　　　　　を、毎日捨ててんの。」
+DIALOGUE,課長　　　「へえ～･･･。でも、分析する前のもあるんすよね。」
+DIALOGUE,御堂　　　「赤木課長、欲しがりすぎ。」
+DIALOGUE,課長　　　「一応、そういう話で、ここへ来ております。」
+DIALOGUE,御堂　　　「赤木課長、やってんでしょ。」
+DIALOGUE,課長　　　「何をですか。」
+DIALOGUE,御堂　　　「課の女の子に、ちょっかい出してんじゃないの？」
+DIALOGUE,課長　　　「いや～、ははは。」
+DIALOGUE,御堂　　　「私には？　やんないの？」
+DIALOGUE,課長　　　「え。」
+DIALOGUE,御堂　　　「私には、セクハラとか不倫とか、やんないのって、聞いてんの。」
+DIALOGUE,課長　　　「･･･あのー、それは、もしかして、」
+DIALOGUE,御堂　　　「ま、私の旦那の名前、ブルータスって言うんだけどね。」
+DIALOGUE,課長　　　「あの、御堂さん、ブルータスは、苗字ですよね･･･。」
+DIALOGUE,御堂　　　「もう帰る？」
+DIALOGUE,課長　　　「いえ、あの、原液を下さい。」
+DIALOGUE,御堂　　　「原液っつったって、キュウリなんだけどね。」
+DIALOGUE,課長　　　「じゃあ、全部キュウリなんですね。」
+DIALOGUE,御堂　　　「コンコンブルって言って、まあキュウリの突然変異なんだわ。ここでは
+DIALOGUE_CONTINUED,　　　　　　その突然変異を、人工的に作ろうとしてんの。
+DIALOGUE_CONTINUED,　　　　　　そういう複雑系のシミュレーションが出来んのよ、このコンピュータ。
+DIALOGUE_CONTINUED,　　　　　　」
+DIALOGUE,課長　　　「複雑系っすか･･･。」
+DIALOGUE,御堂　　　「ああ、モテ期とか予測できるかも。」
+DIALOGUE,課長　　　「え、モテ期？」
+DIALOGUE,御堂　　　「モテ期ってあれ、突然変異だから。」
+DIALOGUE,課長　　　「マジっすか。」
+DIALOGUE,御堂　　　「うん、マジマジ。」
+DIALOGUE,課長　　　「ちょっと、どうやるんすか。教えて下さいよ。」
+DIALOGUE,御堂　　　「これ人工知能だから、もうぐりぐりデータ入れてきゃいいの。学習すっ
+DIALOGUE_CONTINUED,　　　　　　から。」
+DIALOGUE,課長　　　「マジっすか～～。」
+DIALOGUE,御堂　　　「とりあえず、はい。」
+EMPTY,
+DIRECTION,　　といって課長に小瓶を渡す。
+EMPTY,
+DIALOGUE,課長　　　「マジっすか～～。」
+EMPTY,
+H1,シーン７
+EMPTY,
+DIRECTION,　　サポート部の部屋。
+DIRECTION_CONTINUED,　　しのがマニュアルを読んでいる。
+DIRECTION_CONTINUED,　　そこへ永子と本田が戻ってくる。
+EMPTY,
+DIALOGUE,永子　　　「電話あった？」
+DIALOGUE,しの　　　「いえ･･･。」
+DIALOGUE,永子　　　「もうないかもね。課長ね、奥さん入れて３人しか番号教えてないって。
+DIALOGUE_CONTINUED,　　　　　　」
+DIALOGUE,しの　　　「奥さんからは、またかかってくるかも･･･。」
+DIALOGUE,永子　　　「ていうか何であたしたち、奥さん専用のホットラインに３人がかりで待
+DIALOGUE_CONTINUED,　　　　　　機してんの？」
+DIALOGUE,しの　　　「じゃあ、どうしましょうか･･･。」
+DIALOGUE,永子　　　「おばさんランチは？」
+DIALOGUE,しの　　　「お昼になったら、行きますけど。」
+DIALOGUE,永子　　　「あそっか、あたしたち早く行き過ぎちゃった。じゃあ、お昼になったら
+DIALOGUE_CONTINUED,　　　　　　もう一回行く？」
+DIALOGUE,本田　　　「うわー、自由な、社風ですねー。」
+DIALOGUE,永子　　　「さっき食べたハンバーグが７６１キロカロリーで、小ライスが２２０キ
+DIALOGUE_CONTINUED,　　　　　　ロカロリーだから、足して９８１キロカロリーでしょ。サプリで吸収を
+DIALOGUE_CONTINUED,　　　　　　15％抑えてるから０・８５かけて８３３・８５キロカロリーか。朝が
+DIALOGUE_CONTINUED,　　　　　　３２２キロカロリーだから、えっと、あと３４４・１５キロカロリーま
+DIALOGUE_CONTINUED,　　　　　　で大丈夫で、サプリで抑える分も考えると、あと４０４・８８２キロカ
+DIALOGUE_CONTINUED,　　　　　　ロリー。晩ごはんも入れてだけど。」
+EMPTY,
+DIRECTION,　　と言いながら、小瓶を取り出してフタを開ける。
+EMPTY,
+DIALOGUE,本田　　　「あっ！」
+DIALOGUE,永子　　　「え？」
+DIALOGUE,本田　　　「あ、気をつけないと。それ原液、ですよね。」
+DIALOGUE,永子　　　「う～ん、でも匂い同じだし、そんなに濃いって訳でもないんじゃない？
+DIALOGUE_CONTINUED,　　　　　　」
+EMPTY,
+DIRECTION,　　永子、原液を顔にぺたぺたと塗る。
+DIRECTION_CONTINUED,　　それを見て
+EMPTY,
+DIALOGUE,本田　　　「うわ～･･･。」
+DIALOGUE,永子　　　「ん？」
+DIALOGUE,本田　　　「いや、えっと･･･、それ以上、綺麗にならなくても･･･。」
+DIALOGUE,永子　　　「（笑って）ほれ。（本田に塗ろうとする）」
+DIALOGUE,本田　　　「うわ、危ない！（避けるが、少し付く）」
+DIALOGUE,永子　　　「大丈夫よ、適性検査してないからって、死にゃしないって。」
+DIALOGUE,本田　　　「じゃ、じゃあ、とりあえず私たちは、マニュアルの見直しでもしていま
+DIALOGUE_CONTINUED,　　　　　　しょうか。」
+DIALOGUE,しの　　　「課長には、会ったんですよね？」
+DIALOGUE,本田　　　「ええ、電話の件を聞いたら、今から買いに行くって言ってましたね。」
+DIALOGUE,永子　　　「今まで何やってたんだろうね。」
+DIALOGUE,しの　　　「どこで、会ったんですか？」
+DIALOGUE,永子　　　「地下のトイレの前。」
+DIALOGUE,しの　　　「じゃあ開発部の近くですね。」
+DIALOGUE,永子　　　「そうだね。」
+DIALOGUE,本田　　　「開発部？　えっと、ちょっと待って下さい。開発は工場にしかないんじ
+DIALOGUE_CONTINUED,　　　　　　ゃありませんでしたっけ？」
+DIALOGUE,永子　　　「ああ、クリームの開発じゃなくて、何かコンピュータでね、何かしてる
+DIALOGUE_CONTINUED,　　　　　　みたい。最近できたの。」
+DIALOGUE,本田　　　「へえ～、そうなんですか。あそうだ、済みません、私、課長に用事があ
+DIALOGUE_CONTINUED,　　　　　　るのを思い出しました。ちょっと、行ってきます。まだあの辺にいます
+DIALOGUE_CONTINUED,　　　　　　かね？」
+EMPTY,
+DIRECTION,　　本田、鞄を持って立ち去る。
+DIRECTION_CONTINUED,　　不審そうに見送るしの。
+DIRECTION_CONTINUED,　　クリームを塗っている永子。
+EMPTY,
+H1,シーン８
+EMPTY,
+DIALOGUE,永子　　　「本田さんって、ちょーっと、変わってるよね。」
+DIALOGUE,しの　　　「意外と、抜けてるとこ、ありますよね。」
+DIALOGUE,永子　　　「何か人の話聞いてない時あるでしょ。」
+DIALOGUE,しの　　　「明らかに別の事考えてる時、ありますよね。」
+DIALOGUE,永子　　　「何か急に態度変わったりするしね。」
+DIALOGUE,しの　　　「まあ隠し事、してますからね。」
+DIALOGUE,永子　　　「そう。それで隠すのすごい下手だよね。」
+DIALOGUE,しの　　　「下手、すぎますよね。」
+DIALOGUE,永子　　　「ね。･･･何？　何であんな下手なの？」
+DIALOGUE,しの　　　「多分、お芝居とかすごい下手ですよね。」
+DIALOGUE,永子　　　「隠し事するのが下手な人の役だったら上手いかもね。」
+DIALOGUE,しの　　　「抜けてるんじゃないですか、頭の部品が。」
+DIALOGUE,永子　　　「一番大事な部品が抜けてたりしてね。」
+DIALOGUE,しの　　　「･･･脳、ですか。」
+DIALOGUE,永子　　　「それはノー・コメント。いや駄洒落じゃないから。」
+DIALOGUE,しの　　　「永子さんに近づこうと必死ですよね。」
+DIALOGUE,永子　　　「ほんと、見え見えの口説き方、しないで欲しいよね。まったく。」
+DIALOGUE,しの　　　「あんなバカな人になびくような、そんなバカな女は、いないですよね。
+DIALOGUE_CONTINUED,　　　　　　」
+EMPTY,
+DIRECTION,　　永子、少し笑ってから真顔になって、
+EMPTY,
+DIALOGUE,永子　　　「ちょっと、それは言いすぎでしょ。」
+DIALOGUE,しの　　　「･･･どうしたんですか？」
+DIALOGUE,永子　　　「下手は下手なりに頑張ってるんだからさ、そんな言い方しなくてもいい
+DIALOGUE_CONTINUED,　　　　　　じゃん。」
+DIALOGUE,しの　　　「でも、永子さんを騙そうとしてるんですよ。」
+DIALOGUE,永子　　　「騙すって･･･。ちょっと口説いてるだけでしょ。」
+DIALOGUE,しの　　　「あ、済みません。永子さんは気づいてると思ってました。」
+DIALOGUE,永子　　　「え、何それ。」
+DIALOGUE,しの　　　「本田さんは、ココ･プルゲンの原料の秘密を探るために、永子さんのご
+DIALOGUE_CONTINUED,　　　　　　機嫌を取っているんです。」
+DIALOGUE,永子　　　「･･･おばさんさあ、自分がモテないからって、いい加減な事いうのや
+DIALOGUE_CONTINUED,　　　　　　めてくれる？」
+DIALOGUE,しの　　　「本当です。私、聞いたんです。」
+DIALOGUE,永子　　　「聞いたって何。え。何を聞いたの。え。」
+DIALOGUE,しの　　　「あの、落ち着いて、落ち着いて聞いてください。」
+DIALOGUE,永子　　　「落ち着いてるよ。ほら言ってごらんなさいよ。適当な事言ってんじゃな
+DIALOGUE_CONTINUED,　　　　　　いよ。」
+DIALOGUE,しの　　　「あ。」
+EMPTY,
+DIRECTION,　　本田が戻って来る。
+EMPTY,
+H1,シーン９
+EMPTY,
+DIALOGUE,本田　　　「いやあ済みません。課長まだ開発部にいましたよ。何か、コンピュータ
+DIALOGUE_CONTINUED,　　　　　　に夢中でした。」
+EMPTY,
+DIRECTION,　　といいながらタブレット端末を操作する。
+EMPTY,
+DIALOGUE,永子　　　「謝んなさいよ。」
+DIALOGUE,本田　　　「はい？」
+DIALOGUE,永子　　　「（しのに）謝って、本田さんに。」
+DIALOGUE,しの　　　「でも･･･」
+DIALOGUE,永子　　　「謝んなさいって言ってんでしょ！」
+DIALOGUE,本田　　　「何が、あったんですか？」
+DIALOGUE,しの　　　「済みません、ちょっとこれ貸して下さい。」
+EMPTY,
+DIRECTION,　　しの、端末を奪い、カメラを二人の方へ向ける。
+DIRECTION_CONTINUED,　　本田、なんとなく永子と並んでピースをする。
+DIRECTION_CONTINUED,　　しの、端末の画面にタッチする。
+EMPTY,
+DIALOGUE,本田　　　「うっ。」
+EMPTY,
+DIRECTION,　　本田、ピースしたまま気絶する。
+EMPTY,
+DIALOGUE,永子　　　「えっ･･･？」
+EMPTY,
+DIRECTION,　　しの、（パスワードはたしか･･･）などと言いながら端末を操作して、そこに
+DIRECTION_CONTINUED,　　保存されているデータを永子に見せる。
+EMPTY,
+DIALOGUE,しの　　　「本田さんは、この会社の秘密を探っているんです。」
+DIALOGUE,永子　　　「何いってんの･･･。そんな訳ないでしょ！」
+EMPTY,
+DIRECTION,　　永子、驚きを隠せない。本田を見る。
+DIRECTION_CONTINUED,　　しの、本田の鞄から銃を出し、机に置く。
+DIRECTION_CONTINUED,　　永子は取り乱し、銃を持って去る。。
+EMPTY,
+DIALOGUE,しの　　　「あ。･･･それ、多分本物ですけど･･･。」
+EMPTY,
+H1,シーン10
+EMPTY,
+DIRECTION,　　しの、タブレット端末を見ている。
+DIRECTION_CONTINUED,　　課長が戻って来る。
+EMPTY,
+DIALOGUE,課長　　　「あ～あ、追い出されちゃったよ。御堂さんに。」
+DIALOGUE,しの　　　「御堂さん？」
+DIALOGUE,課長　　　「開発部の、スーパーコンピュータのとこにいる人。」
+DIALOGUE,しの　　　「電話は、買って来なかったんですか？」
+DIALOGUE,課長　　　「ああ、ちょっと、開発部のコンピュータでやる事あってさ。（小瓶を見
+DIALOGUE_CONTINUED,　　　　　　て）あ、これ、･･･しのちゃん、使ったの？」
+DIALOGUE,しの　　　「いえ。」
+DIALOGUE,課長　　　「あ、そう。そういや永子ちゃん、どこ行ったの？」
+DIALOGUE,しの　　　「トイレに行ってます。」
+DIALOGUE,課長　　　「え、さっきもトイレ行ってたけどな。」
+DIALOGUE,しの　　　「さっきは、おしっこだったんじゃないですか？」
+DIALOGUE,課長　　　「ああ、そう。ふ～ん、･･･ま、まあいいか。」
+EMPTY,
+DIRECTION,　　電話が鳴り、応答メッセージが流れる。
+EMPTY,
+DIALOGUE,しの　　　「これ、マニュアルです。」
+DIALOGUE,課長　　　「え、俺が出るの？」
+DIALOGUE,しの　　　「私、永子さんの様子見てきます。」
+DIALOGUE,課長　　　「だってこれ、」
+DIALOGUE,しの　　　「ちょっと心配なんで。」
+EMPTY,
+DIRECTION,　　しの、出て行く。
+EMPTY,
+H1,シーン11
+EMPTY,
+DIALOGUE,課長　　　「で、何でこいつは寝てるんだ。」
+EMPTY,
+DIRECTION,　　課長、本田のピースが気持ち悪くて、見えないように手の向きを変えてから電話
+DIRECTION_CONTINUED,　　に出る。
+EMPTY,
+DIALOGUE,課長　　　「も、もしもし･･･。」
+DIALOGUE,光子　　　「ねえ若月さん、私、頼みがあるんですけど。」
+DIALOGUE,課長　　　「え。」
+DIALOGUE,光子　　　「あ、でもこれ、録音されてるんですよね。」
+DIALOGUE,課長　　　「今は、してません。･･･大丈夫ですよ。」
+EMPTY,
+DIRECTION,　　本田のピースが元の位置に戻るので、課長はまた向きを変える。
+EMPTY,
+DIALOGUE,光子　　　「あなた、うちの主人、やっちゃってくれない？」
+EMPTY,
+DIRECTION,　　課長、驚いて本田の指を変な向きにひねる。
+EMPTY,
+DIALOGUE,本田　　　「ひいっ。」
+DIALOGUE,光子　　　「･･･もしかしてそこに、主人いるんですか？」
+DIALOGUE,課長　　　「い･･･いませんよ。」
+DIALOGUE,光子　　　「もしいるんなら、今やっちゃって。もう首でも何でも絞めて。やって早
+DIALOGUE_CONTINUED,　　　　　　く。･･･あ、待って。駄目。駄目そんな事したら。駄目駄目駄目駄目
+DIALOGUE_CONTINUED,　　　　　　。落ち着いて。いい？　あなたのやろうとしている事は、殺人なんです
+DIALOGUE_CONTINUED,　　　　　　よ。」
+DIALOGUE,課長　　　「えー･･･。」
+DIALOGUE,光子　　　「私、もう一回主人とちゃんと話します。もしかしたら私がもうちょっと
+DIALOGUE_CONTINUED,　　　　　　寛容に、なるべきなのかも知れないし。そりゃ主人だって男ですものね
+DIALOGUE_CONTINUED,　　　　　　。そういう気持ちになる事だってあると思います。分かりますそれは分
+DIALOGUE_CONTINUED,　　　　　　かるんですけど、でも若月さんね、他人の夫と関係を持つっていうのは
+DIALOGUE_CONTINUED,　　　　　　、それはいけない事なの。その上さっきあなた、殺そうとしてたんです
+DIALOGUE_CONTINUED,　　　　　　からね。
+DIALOGUE_CONTINUED,　　　　　　私は、寛容になります。主婦として、家庭を守ります。あなたみたいに
+DIALOGUE_CONTINUED,　　　　　　、不倫とか殺人とか平気でするような、そんな人にはなりたくないの。
+DIALOGUE_CONTINUED,　　　　　　普通に、普通の主婦として、普通の家庭を作りたいだけなの。
+DIALOGUE_CONTINUED,　　　　　　そのために私は、主人に対しては寛容になりますから。私にはそれが出
+DIALOGUE_CONTINUED,　　　　　　来るんです。ま、あなたには絶対出来ませんけど。」
+EMPTY,
+DIRECTION,　　光子、電話を切る。
+EMPTY,
+DIALOGUE,課長　　　「うわ･･･。だから主婦はひとりで家にいたら駄目なんだよ。あとテレ
+DIALOGUE_CONTINUED,　　　　　　ビね。もうああいう大映のドラマとか、ほんとやめてくれないかなぁ。
+DIALOGUE_CONTINUED,　　　　　　」
+EMPTY,
+H1,シーン12
+EMPTY,
+DIRECTION,　　課長、置いてあるタブレット端末を見て
+EMPTY,
+DIALOGUE,課長　　　「あれ？　これ何？　繋がってんの？」
+EMPTY,
+DIRECTION,　　といって本田を見て、また手の位置を直そうとする。
+EMPTY,
+DIALOGUE,本田　　　「いててててててて。（起きて）あれ？　それ、私のですか？　あれ？　
+DIALOGUE_CONTINUED,　　　　　　パスワードかかってませんでした？」
+DIALOGUE,課長　　　「自分で外したんじゃないの？」
+DIALOGUE,本田　　　「いや、そんなはずは･･･。」
+DIALOGUE,課長　　　「あのさあ、俺の声って、永子ちゃんの声に似てるのかなあ？」
+DIALOGUE,本田　　　「あれぇ、パスワード外したかな･･･」
+DIALOGUE,課長　　　「ねえねえ、俺の声、永子ちゃんに似てる？」
+DIALOGUE,本田　　　「なんだか記憶が、記憶の大部分が消えてしまっているような気がする･
+DIALOGUE_CONTINUED,　　　　　　･･。」
+DIALOGUE,課長　　　「ねえちょっと。えっと･･･、名前なんだっけ？」
+DIALOGUE,本田　　　「ジェームズ・本田です。駄目だ、何人だか思い出せない。」
+DIALOGUE,課長　　　「え、どうしたの？　永子ちゃん、分かるよね？」
+DIALOGUE,本田　　　「あ、若月永子さんですよね。はい。分かります。とても親切にしてもら
+DIALOGUE_CONTINUED,　　　　　　っていますよ。」
+DIALOGUE,課長　　　「それは憶えてるんだ。じゃあしのちゃんは？」
+DIALOGUE,本田　　　「えっと、確か永子さんよりちょっと年上の女性の方が、一人いましたよ
+DIALOGUE_CONTINUED,　　　　　　ね･･･。」
+DIALOGUE,課長　　　「いないよ、永子ちゃんがこの中で一番年上なんだから。」
+DIALOGUE,本田　　　「えーっ。でも永子さんはしのさんの事を、おばさんって呼んでますよね
+DIALOGUE_CONTINUED,　　　　　　。･･･あ、いや、それは子供の頃のあだ名だったんだ。おかしいな、
+DIALOGUE_CONTINUED,　　　　　　ちゃんと思い出しているのに、なぜかますます混乱してきたぞ･･･。
+DIALOGUE_CONTINUED,　　　　　　」
+DIALOGUE,課長　　　「（端末を見て）これさあ、コンピュータ繋がってるの？」
+DIALOGUE,本田　　　「･･･繋がってたら、マズいですか？」
+DIALOGUE,課長　　　「いやいや、全然マズくない。グッドグッド。あ、御堂さんの機嫌悪かっ
+DIALOGUE_CONTINUED,　　　　　　たのは、気にしなくていいから。」
+DIALOGUE,本田　　　「機嫌悪かったんですか？　私がコンピュータを触らせてもらったから、
+DIALOGUE_CONTINUED,　　　　　　でしょうか･･･？」
+DIALOGUE,課長　　　「違うでしょ。すごい変質者を見るような目で、御堂さんの事見てたから
+DIALOGUE_CONTINUED,　　　　　　だよ。本田さん顔に出すぎなんだよ。」
+DIALOGUE,本田　　　「ああ、その部分の記憶はないですね･･･。」
+DIALOGUE,課長　　　「なんだよ、永子ちゃんの事はちゃんと憶えてるのに。」
+DIALOGUE,本田　　　「はあ･･･（少し照れる）。」
+EMPTY,
+H1,シーン13
+EMPTY,
+DIRECTION,　　しのが戻って来る。
+EMPTY,
+DIALOGUE,しの　　　「永子さん、トイレにずっと篭ったままで･･･。」
+DIALOGUE,課長　　　「そんなにお腹悪いの？」
+EMPTY,
+DIRECTION,　　しの、小瓶のクリームを手につける。
+DIRECTION_CONTINUED,　　課長はそれをガン見する。
+EMPTY,
+DIALOGUE,しの　　　「本田さん。」
+DIALOGUE,本田　　　「え、あ、はい。えっと･･･。」
+DIALOGUE,しの　　　「課長にちゃんと、お話しした方が･･･。」
+DIALOGUE,本田　　　「（しのを見て）たしかに、しのさんはおばさんと言うには若いけど、で
+DIALOGUE_CONTINUED,　　　　　　も永子さんの方が･･･。あ、そうか、ココ・プルゲンを使っているか
+DIALOGUE_CONTINUED,　　　　　　らか･･･。」
+EMPTY,
+DIRECTION,　　本田、端末を操作し、それを見ながら、
+EMPTY,
+DIALOGUE,本田　　　「原料であるコンコンブルの働きは、他のアンチエイジング・クリームと
+DIALOGUE_CONTINUED,　　　　　　は全然違うんですね。傷ついた細胞を、元通りに修復する力があるのか
+DIALOGUE_CONTINUED,　　　　　　･･･。」
+EMPTY,
+DIRECTION,　　しの、端末を取り上げる。
+EMPTY,
+DIALOGUE,しの　　　「本田さん、何でこんな事、調べてるんですか･･･？」
+DIALOGUE,本田　　　「ですよね。実は、そこのところの記憶がちょっと･･･。」
+EMPTY,
+DIRECTION,　　しの、端末を課長に渡す。
+EMPTY,
+DIALOGUE,しの　　　「何でみんな、人の物を自分の物にしたがるんでしょうか。何でもっと、
+DIALOGUE_CONTINUED,　　　　　　仲良くできないんでしょうか。」
+EMPTY,
+DIRECTION,　　課長は二人から少し離れて、端末で遊んでいる。
+EMPTY,
+DIALOGUE,課長　　　「そりゃ死ぬからだよ。死ぬまでに色んな物を手に入れたいって思ったら
+DIALOGUE_CONTINUED,　　　　　　さ、仲良くなってる時間なんか無いもん。」
+DIALOGUE,しの　　　「でも、仲良くしないから死ぬっていう事も、あるんじゃないんですか？
+DIALOGUE_CONTINUED,　　　　　　」
+EMPTY,
+DIRECTION,　　しのの手が、いつの間にか青くなっている。
+EMPTY,
+DIALOGUE,本田　　　「あの、その、手は･･･。」
+DIALOGUE,しの　　　「あ、何だろう･･･。」
+DIALOGUE,課長　　　「さっきさあ、そのクリーム、塗ってただろ。」
+DIALOGUE,本田　　　「それが、原因なんですか？」
+DIALOGUE,課長　　　「分かんないけど、でも御堂さん、原液はすっごいって言ってたからなぁ
+DIALOGUE_CONTINUED,　　　　　　。ちょっと、聞いてくるよ。」
+EMPTY,
+DIRECTION,　　課長、端末を置いて出て行く。
+EMPTY,
+H1,シーン14
+EMPTY,
+DIALOGUE,しの　　　「トイレで手を洗ったから、つい、何となく、塗ってしまいました。」
+DIALOGUE,本田　　　「痛みなどは、無いんですか？」
+DIALOGUE,しの　　　「いえ、むしろ良く動くようになった気がします。」
+EMPTY,
+DIRECTION,　　しの、虫のように指を動かしてみせる。
+EMPTY,
+DIALOGUE,しの　　　「ちょっと、腕相撲してもらっていいですか？」
+DIALOGUE,本田　　　「あ、はい。」
+EMPTY,
+DIRECTION,　　しの、喪服の袖をまくると、金属製のブレスレットをしている。
+EMPTY,
+DIALOGUE,しの　　　「あ、これ、主人の形見なんです･･･。」
+EMPTY,
+DIRECTION,　　二人、腕相撲をする。
+DIRECTION_CONTINUED,　　頑張っている本田と、微動だにしないしの。
+EMPTY,
+DIALOGUE,本田　　　「（頑張りながら）さっの、もっと仲良くすればいいって話、私はちょっ
+DIALOGUE_CONTINUED,　　　　　　と分かる気がします。」
+EMPTY,
+DIRECTION,　　永子がふらっと戻って来る。
+DIRECTION_CONTINUED,　　顔が青くなっている。
+DIRECTION_CONTINUED,　　手には銃を持っている。
+DIRECTION_CONTINUED,　　二人は気付かない。
+EMPTY,
+DIALOGUE,しの　　　「あの、私が言った『仲良くする』っていうのは、永子さんみたいに課長
+DIALOGUE_CONTINUED,　　　　　　とホテルに行ったりする事とは、違うんです。」
+DIALOGUE,本田　　　「分かります。分かります。ああいうのは、駄目ですよね。」
+EMPTY,
+DIRECTION,　　しのが本田の腕をきゅっと寝かせる。
+EMPTY,
+DIALOGUE,しの　　　「はい。」
+DIALOGUE,本田　　　「ああ･･･。」
+EMPTY,
+DIRECTION,　　二人、組んでいた手を解き、すこし笑う。
+DIRECTION_CONTINUED,　　本田が先に永子に気付く。
+EMPTY,
+DIALOGUE,本田　　　「うわっ！　･･･永子･･･さん？」
+EMPTY,
+DIRECTION,　　しのも永子を見て驚く。
+DIRECTION_CONTINUED,　　永子、涙で二人を睨む。
+DIRECTION_CONTINUED,　　声にならない。
+EMPTY,
+H1,シーン15
+EMPTY,
+DIRECTION,　　三人、睨み合いのまま。
+DIRECTION_CONTINUED,　　暫くして課長と御堂が来る。
+DIRECTION_CONTINUED,　　永子を見て
+EMPTY,
+DIALOGUE,課長　　　「あれ？　お腹は？　っていうか顔色悪いよ。」
+DIALOGUE,御堂　　　「うわ～、うわ～、人間に使っちゃったんだ･･･。ちょっと見せて。う
+DIALOGUE_CONTINUED,　　　　　　わキュウリくさ。でもせっかくだから色々調べさせてもらうわ。私の部
+DIALOGUE_CONTINUED,　　　　　　屋、来てもらえる？」
+EMPTY,
+DIRECTION,　　御堂、永子の腕をつかむ。
+EMPTY,
+DIALOGUE,本田　　　「ちょっと、ちょっと待ってください。連れて行ってどうするんですか？
+DIALOGUE_CONTINUED,　　　　　　」
+DIALOGUE,御堂　　　「色々調べる事があるって言ってんの。」
+DIALOGUE,本田　　　「それは、やめてもらえませんか。その人は、･･･その人は、大事な人
+DIALOGUE_CONTINUED,　　　　　　なんです。」
+DIALOGUE,永子　　　「･･･大事なのは、あたしじゃないんでしょ。」
+EMPTY,
+DIRECTION,　　と言って銃を御堂に渡す。
+EMPTY,
+DIALOGUE,御堂　　　「？」
+EMPTY,
+DIRECTION,　　御堂、なんとなく銃を構え、撃つ。
+DIRECTION_CONTINUED,　　本田、死ぬ。
+EMPTY,
+DIALOGUE,課長　　　「うわあっ。」
+DIALOGUE,御堂　　　「ああ、渡すから撃っちゃったよ。こういうのは、渡しちゃ、ダメ。」
+EMPTY,
+DIRECTION,　　といって銃を課長に渡す。
+EMPTY,
+DIALOGUE,御堂　　　「ほら、おいで。」
+EMPTY,
+DIRECTION,　　御堂、永子を連れて出て行く。
+DIRECTION_CONTINUED,　　課長もそれを追う。
+EMPTY,
+DIRECTION,　　しのは気配を消して怯えている。
+DIRECTION_CONTINUED,　　本田は死んでいる。
+EMPTY,
+DIRECTION,　　しの、何となく小瓶を開け、本田に近づく。
+DIRECTION_CONTINUED,　　本田の手が動いて、しのの腕をつかむ。
+DIRECTION_CONTINUED,　　手が小瓶からクリームをすくい、顔や体に塗る。
+DIRECTION_CONTINUED,　　塗り終わると、また動かなくなる。
+DIRECTION_CONTINUED,　　本田は死んでいる。
+EMPTY,
+DIRECTION,　　しの、じっと本田を見ている。
+DIRECTION_CONTINUED,　　本田が徐々に起き上がる。
+DIRECTION_CONTINUED,　　低いうめき声。
+DIRECTION_CONTINUED,　　やがて完全に起き上がる。
+EMPTY,
+DIALOGUE,本田　　　「放せ、その人を･･･、放せ･･･。」
+EMPTY,
+DIRECTION,　　本田、御堂たちが行った方へ走り去る。
+EMPTY,
+H1,シーン16
+EMPTY,
+DIRECTION,　　しの、本田が行った方を気にしながら、端末を手に取る。
+EMPTY,
+DIALOGUE,端末　　　「（出来れば映像で）ココ・プルゲンには細胞を修復する能力があり、傷
+DIALOGUE_CONTINUED,　　　　　　ついた細胞は一晩で元通りになる。原料の純度を上げるとその分速く修
+DIALOGUE_CONTINUED,　　　　　　復する。」
+EMPTY,
+DIRECTION,　　電話がかかって来るが、無視して読み続ける。
+EMPTY,
+DIALOGUE,端末　　　「個々の細胞が状態を保つ代わりに、細胞分裂をしなくなる。よってテロ
+DIALOGUE_CONTINUED,　　　　　　メア短縮による老化も起こらなくなる。
+DIALOGUE_CONTINUED,　　　　　　コンコンブルとは、フランス語でキュウリの事。かつてフランスの植民
+DIALOGUE_CONTINUED,　　　　　　地だったハイチでは、キュウリを黒魔術に使っていたようだ。」
+EMPTY,
+DIRECTION,　　課長が戻って来る。
+EMPTY,
+DIALOGUE,課長　　　「なんか、すごいのが来たぞ。なんか、獣だよ。獣が来たからさぁ、逃げ
+DIALOGUE_CONTINUED,　　　　　　て来ちゃったよ。」
+DIALOGUE,しの　　　「それ、本田さんです。」
+DIALOGUE,課長　　　「えぇ？　そうなの？　ああそっか。いや俺さ、本田さん来た時から何か
+DIALOGUE_CONTINUED,　　　　　　隠してると思ってたんだよね。そっかー。やっぱり獣だったかー。」
+DIALOGUE,しの　　　「課長、この原液って、売ってるクリームの何倍なんですか？」
+DIALOGUE,課長　　　「え、何でそんな事聞くの？」
+EMPTY,
+DIRECTION,　　課長、端末を覗き込む。
+EMPTY,
+DIALOGUE,課長　　　「さ、さあ、何倍だろうね。電話、いいの？」
+EMPTY,
+DIRECTION,　　電話、切れる。
+EMPTY,
+DIALOGUE,課長　　　「･･･あのさ、本田さん、銃で撃たれてなかったっけ？　何なのあの銃
+DIALOGUE_CONTINUED,　　　　　　？」
+DIALOGUE,しの　　　「あの銃は、･･･本田さんのです。」
+DIALOGUE,課長　　　「えー、自分の銃で撃たれて、獣に戻っちゃったの？　やばいよあれ。す
+DIALOGUE_CONTINUED,　　　　　　ごい暴れてたもん。」
+DIALOGUE,しの　　　「あ、どうしよう、私も塗っちゃいました。」
+DIALOGUE,課長　　　「あ、手が青い。」
+DIALOGUE,しの　　　「あの、もし私暴れたら、済みません。」
+EMPTY,
+DIRECTION,　　課長、しのと距離をとり、端末をキープする。
+EMPTY,
+DIALOGUE,課長　　　「分かんないけど、今日はもう、帰ったら？」
+DIALOGUE,しの　　　「でも、これが何なのかはっきりするまで、私たちは外に出ない方が良い
+DIALOGUE_CONTINUED,　　　　　　んじゃないですか？」
+DIALOGUE,課長　　　「『私たち』って？」
+DIALOGUE,しの　　　「私と、本田さんと、永子さんです。」
+DIALOGUE,課長　　　「ああ、そう。じゃあ３人はここに残って、俺が帰ればいいのかな？」
+DIALOGUE,しの　　　「それ（端末）置いてってくださいね。」
+DIALOGUE,課長　　　「おっと･･･。そうか。しのちゃん、あと何分くらいしたら暴れるの？
+DIALOGUE_CONTINUED,　　　　　　」
+DIALOGUE,しの　　　「さあ･･･。気持ち的にはすぐにでも」
+DIALOGUE,課長　　　「なんか本田さんがすごいパワフルでさ、御堂さんと永子ちゃんに襲い掛
+DIALOGUE_CONTINUED,　　　　　　かってたんだよ。」
+DIALOGUE,しの　　　「え、永子さんにも襲い掛かったんですか？」
+DIALOGUE,課長　　　「･･･二人とも、もう駄目かも知れないな。」
+EMPTY,
+H1,シーン17
+EMPTY,
+DIRECTION,　　そこへ永子が顔を出す。
+DIRECTION_CONTINUED,　　課長、驚く。
+EMPTY,
+DIALOGUE,永子　　　「おばさん、ちょっと。（手招きする）」
+EMPTY,
+DIRECTION,　　しの、永子の方へ行き、二人は一旦はける。
+DIRECTION_CONTINUED,　　課長、様子を伺いながら端末で遊ぶ。
+DIRECTION_CONTINUED,　　少し遊んでいると、永子としのが戻って来る。
+DIRECTION_CONTINUED,　　気絶した本田を運んでいる。
+DIRECTION_CONTINUED,　　課長、驚く。
+DIRECTION_CONTINUED,　　椅子に座らせると、本田の顔が青くなっている。
+DIRECTION_CONTINUED,　　しばらく３人で本田を見ている。
+EMPTY,
+DIALOGUE,課長　　　「あの･･･、御堂さんは？」
+DIALOGUE,永子　　　「あっちで、寝てます。」
+DIALOGUE,課長　　　「そっか、二人とも無事だったんだ。」
+DIALOGUE,永子　　　「いえ、むちゃくちゃ大変でした。」
+DIALOGUE,課長　　　「あの」
+DIALOGUE,永子　　　「むちゃくちゃ、大変でした。まあ寝てるっていうか、気ぃ失ってるんで
+DIALOGUE_CONTINUED,　　　　　　すけど。」
+DIALOGUE,課長　　　「えー、お疲れ様です。本田さん･･･、永子ちゃんにも襲い掛かってた
+DIALOGUE_CONTINUED,　　　　　　よね。あれは何？　御堂さんへの襲い掛かりと、永子ちゃんへの襲い掛
+DIALOGUE_CONTINUED,　　　　　　かりは、同じ襲い掛かりなの？」
+EMPTY,
+DIRECTION,　　しばらくの沈黙のあと、本田ががばっと起き上がり、課長に襲い掛かる。
+EMPTY,
+DIALOGUE,課長　　　「ああっ、違いますっ！　人違い。人違いだよっ！」
+DIALOGUE,永子　　　「はい大人しくしてー。」
+EMPTY,
+DIRECTION,　　と言いながら本田を座らせる。
+DIRECTION_CONTINUED,　　何かコツがあるようだ。
+EMPTY,
+DIALOGUE,本田　　　「あ、済みません。」
+DIALOGUE,永子　　　「ねえあたし、知りたい事が３つあるんだけど。」
+DIALOGUE,本田　　　「はい･･･。」
+DIALOGUE,しの　　　「あ、その話、多分長くなりますよね。」
+DIALOGUE,永子　　　「うん、なるかも。」
+DIALOGUE,しの　　　「私、食べる物買ってきます。」
+DIALOGUE,課長　　　「あ、俺も行くよ。ていうかその手で買い物大丈夫？」
+DIALOGUE,しの　　　「じゃあ手を使うところだけ、課長お願いします。」
+DIALOGUE,課長　　　「ああ、うん･･･。」
+EMPTY,
+DIRECTION,　　しのと課長、出て行く。
+EMPTY,
+H1,シーン18
+EMPTY,
+DIRECTION,　　永子と本田の気まずい時間。
+EMPTY,
+DIALOGUE,本田　　　「あの、知りたい事って･･･。」
+DIALOGUE,永子　　　「ココ・プルゲンが何なのかって事と、本田さんが誰なのかって事と、あ
+DIALOGUE_CONTINUED,　　　　　　たしたちがどうなってんのかって事。」
+DIALOGUE,本田　　　「ココ･プルゲンは、細胞を修復するんですよね･･･。あ、ここに書い
+DIALOGUE_CONTINUED,　　　　　　てありますよ。」
+DIALOGUE,永子　　　「え、最初に自分の事じゃないの？」
+DIALOGUE,本田　　　「え。･･･ああ、そうですね。でも、自分でも良く分からないんですよ
+DIALOGUE_CONTINUED,　　　　　　。」
+DIALOGUE,永子　　　「だよね。･･･ねえ、銃で撃たれたのに何でそんな元気なの？」
+DIALOGUE,本田　　　「はぁ･･･。あ、そういえばしのさんも･･･。あそうだ、ちょっと、
+DIALOGUE_CONTINUED,　　　　　　腕相撲してもらっていいですか？」
+DIALOGUE,永子　　　「やだ。」
+DIALOGUE,本田　　　「･･･ですよね。済みません、だしぬけに。」
+DIALOGUE,永子　　　「何それ。ナンパ？　腕相撲でナンパ？」
+DIALOGUE,本田　　　「いえ違います、あ、あの時は、しのさんが。」
+DIALOGUE,永子　　　「ふ～ん、撃たれる前の事、憶えてんだ。」
+DIALOGUE,本田　　　「･･･ああ、そう言えば。･･･私、永子さんに失礼な事言ってました
+DIALOGUE_CONTINUED,　　　　　　よね･･･。」
+DIALOGUE,永子　　　「（苦笑して）大事な人だって言ってたね。」
+DIALOGUE,本田　　　「じゃあもしかして、記憶をなくす前、私と永子さんは付き合っていたん
+DIALOGUE_CONTINUED,　　　　　　でしょうか。それを忘れたから怒ってるんですか？」
+DIALOGUE,永子　　　「怒ってない（←怒っている）。ていうか付き合ってる訳ないじゃん。」
+DIALOGUE,本田　　　「ですよね、はは･･･。」
+DIALOGUE,永子　　　「あたしを利用して、ココ・プルゲンの秘密を探ってたんでしょ。」
+DIALOGUE,本田　　　「それについては本当に憶えてないんですよ。あ、さっきのは、別に襲い
+DIALOGUE_CONTINUED,　　　　　　掛かったんじゃなくて、助けようと･･･」
+DIALOGUE,永子　　　「あんな動きで助けられると思ってんの？」
+DIALOGUE,本田　　　「え。結構、速かったと思いますけど。」
+DIALOGUE,永子　　　「えーマジで？　止まってるみたいに見えたけど。」
+DIALOGUE,本田　　　「永子さんは、やっぱり、すごいですね･･･。」
+DIALOGUE,永子　　　「何『やっぱり』って？」
+DIALOGUE,本田　　　「え。･･･ああ、永子さんは、綺麗だし、優しいし、」
+DIALOGUE,永子　　　「怒るよ。」
+DIALOGUE,本田　　　「え、何で怒るんですか？」
+DIALOGUE,永子　　　「あんたはね、おばさんと仲良くしてりゃいいの。」
+DIALOGUE,本田　　　「そ、そうなんですか？」
+DIALOGUE,永子　　　「いいじゃん、あたしより若いし、未亡人だし。」
+DIALOGUE,本田　　　「若さで言ったら、そんなに変わらないんじゃないですか？」
+DIALOGUE,永子　　　「あたしはクリームで止めてるから、どうせこの後いっきに歳とんのよ。
+DIALOGUE_CONTINUED,　　　　　　」
+DIALOGUE,本田　　　「え、でも･･･、それ、おかしくないですか？」
+DIALOGUE,永子　　　「ね。何にも悪い事してないのに歳とるなんてね。」
+DIALOGUE,本田　　　「あの、未亡人だと何が良いんですか？」
+DIALOGUE,永子　　　「知らないよ。男の人そういうの好きじゃん。」
+DIALOGUE,本田　　　「あの･･･、しのさんのご主人って･･･。」
+DIALOGUE,永子　　　「やっぱおばさんに興味あるんじゃん。」
+DIALOGUE,本田　　　「いえ、あの、じゃあ、いいです。別に知りたくないです。」
+DIALOGUE,永子　　　「なんか、ヒーローのふりして悪い人注意してたら、殺されちゃったんだ
+DIALOGUE_CONTINUED,　　　　　　って。」
+DIALOGUE,本田　　　「え･･･。それは、酷いな･･･。」
+DIALOGUE,永子　　　「･･･いいから自分の事思い出したら？」
+DIALOGUE,本田　　　「ああ、はい･･･。これ私のですよね。」
+EMPTY,
+DIRECTION,　　といって端末を見る。
+EMPTY,
+DIALOGUE,本田　　　「あれ。あんまりデータ残ってないな。」
+DIALOGUE,永子　　　「課長がちょいちょいいじってたよ。」
+EMPTY,
+DIRECTION,　　永子もいっしょに覗き込む。
+EMPTY,
+DIALOGUE,本田　　　「開発部のコンピュータに繋いでますね。」
+DIALOGUE,永子　　　「繋いだの自分でしょ。」
+DIALOGUE,本田　　　「何かシミュレーションの結果みたいなのがたくさん保存されてますね。
+DIALOGUE_CONTINUED,　　　　　　それで他のデータを消したのかも知れません。」
+DIALOGUE,永子　　　「全然残ってないの？」
+DIALOGUE,本田　　　「さっき見たのだけですね。」
+DIALOGUE,永子　　　「これさ、細胞分裂しなくなるって、大丈夫なの？」
+DIALOGUE,本田　　　「分裂させずに、今ある細胞を修復し続けるみたいですね。」
+DIALOGUE,永子　　　「ふ～ん･･･。純度が高ければその分速く修復するって事は、一晩８時
+DIALOGUE_CONTINUED,　　　　　　間として３６００かけて２８８００秒だから、五億で割ると、えっと、
+DIALOGUE_CONTINUED,　　　　　　０．００００５７６秒か。拳銃の弾ってどれくらいの速さだろ。」
+DIALOGUE,本田　　　「プロ野球のピッチャーが１５０キロくらいだから、」
+DIALOGUE,永子　　　「10倍くらいかな？　てことは秒速にすると、一万かけて３６００で割
+DIALOGUE_CONTINUED,　　　　　　るから４１７メートルだから、５７６かけて、えーっと、拳銃の弾が２
+DIALOGUE_CONTINUED,　　　　　　．４センチ進む間に修復するって事か･･･。
+DIALOGUE_CONTINUED,　　　　　　じゃあ、あんまり飛び散らないね。」
+DIALOGUE,本田　　　「でも、ダメージはありますよね。」
+EMPTY,
+DIRECTION,　　永子、本田の方を見ると意外と近くにいたので
+EMPTY,
+DIALOGUE,永子　　　「ちょっと近いよ。」
+EMPTY,
+DIRECTION,　　また気まずい感じに。
+EMPTY,
+H1,シーン19
+EMPTY,
+DIRECTION,　　そこへ課長としのが食べ物を持って戻って来る。
+DIRECTION_CONTINUED,　　二人とも、顔が青くなっている。
+EMPTY,
+DIALOGUE,課長　　　「お待たせ。･･･ん？　どうしたの？」
+DIALOGUE,永子　　　「青くなってますけど。」
+DIALOGUE,課長　　　「ああ、これね。何なんだろうね。」
+DIALOGUE,永子　　　「いやそうじゃなくて、課長クリーム使ってましたっけ？」
+DIALOGUE,課長　　　「ん、ん～、まあ、ちょっとね。とりあえず、食べよかな。」
+EMPTY,
+DIRECTION,　　４人、食べ物を食べながら話をする。
+DIRECTION_CONTINUED,　　少し関係ない話をしてから、
+EMPTY,
+DIALOGUE,しの　　　「あの･･･、永子さんの知りたい事って･･･。」
+DIALOGUE,永子　　　「ひとつは本田さんの事なんだけど、なんか本人も分からないって言うか
+DIALOGUE_CONTINUED,　　　　　　ら」
+DIALOGUE,本田　　　「原料の調査してたって事は、調査機関か、産業スパイですかね。」
+DIALOGUE,課長　　　「人ごとみたいだな。え、大体、何で記憶なくしたの？」
+EMPTY,
+DIRECTION,　　３人、首をひねる。
+EMPTY,
+DIALOGUE,本田　　　「もう一回、良くデータを見てみましょうか。」
+EMPTY,
+DIRECTION,　　端末を見ようとすると、課長がさっと取り上げる。
+EMPTY,
+DIALOGUE,本田　　　「はい？」
+DIALOGUE,課長　　　「食べ物触った手で、タッチパネル触らないでくれる？」
+DIALOGUE,本田　　　「え、それ、私のじゃないんですか？」
+DIALOGUE,課長　　　「たとえ君のだったとしても、食べ物触った手でタッチパネルを触る事は
+DIALOGUE_CONTINUED,　　　　　　、ちょっと許せないんだよね。」
+DIALOGUE,永子　　　「課長も触ってましたよね。これ。」
+DIALOGUE,課長　　　「いや、･･･それ、食べ物かな。」
+DIALOGUE,永子　　　「え、じゃあ何なんですか？」
+DIALOGUE,課長　　　「えっと･･･、飲み物？」
+DIALOGUE,永子　　　「じゃあちょっと飲んでみて下さいよ。」
+EMPTY,
+DIRECTION,　　課長、まごまごする。
+DIRECTION_CONTINUED,　　本田、手を拭いている。
+EMPTY,
+DIALOGUE,本田　　　「では、手を拭きましたので。」
+EMPTY,
+DIRECTION,　　といって端末を見る。
+EMPTY,
+DIALOGUE,本田　　　「なるほど、ここの開発のコンピュータはすごいんですね。複雑系のシミ
+DIALOGUE_CONTINUED,　　　　　　ュレーションができるコンピュータなんて、世界を探してもあんまり無
+DIALOGUE_CONTINUED,　　　　　　いんじゃないですかね。」
+DIALOGUE,永子　　　「何が出来るの？」
+DIALOGUE,本田　　　「『モテ期の発生確率』･･･？　『モテ期』とは何でしょう。」
+DIALOGUE,課長　　　「あ、それ、俺の個人的なアレだから、ちょっと消すわ。」
+DIALOGUE,しの　　　「この話は、もういいんじゃないですか？」
+DIALOGUE,本田　　　「そうですね、課長の個人的なデータでは、私の事は分からないでしょう
+DIALOGUE_CONTINUED,　　　　　　し。いいですよ消さなくて。」
+DIALOGUE,しの　　　「私海外ドラマで見たんですけど、スパイって、任務に失敗すると身分証
+DIALOGUE_CONTINUED,　　　　　　明とか記録とか、全部消されるみたいですよ。」
+DIALOGUE,課長　　　「うわ～、大変だね。（端末を操作して）よし、消えた。」
+EMPTY,
+DIRECTION,　　本田、置かれた端末を見て遠い目をする。
+EMPTY,
+DIALOGUE,永子　　　「消えちゃったもんはしょうがないじゃん。後でみんなで作ろうよ。本田
+DIALOGUE_CONTINUED,　　　　　　さんの設定とか、ストーリーとかさ。」
+DIALOGUE,本田　　　「あの、それ、今作ってもらう訳には･･･」
+DIALOGUE,しの　　　「結局、ココ･プルゲンは何なんですか？」
+DIALOGUE,永子　　　「これ、読んだ？」
+DIALOGUE,しの　　　「はい、さっき、ちょっと。」
+DIALOGUE,永子　　　「あたしもさっき読んだんだけど･･･、多分あたしたち、死ななくなっ
+DIALOGUE_CONTINUED,　　　　　　てると思う。」
+EMPTY,
+DIRECTION,　　３人、（やっぱりか･･･）という感じ。
+EMPTY,
+DIALOGUE,永子　　　「でも原理が良く分からないんだよね。（本田に）分かる？」
+EMPTY,
+DIRECTION,　　本田、遠い目をしている。
+EMPTY,
+DIALOGUE,永子　　　「後で設定とストーリー作ってあげるから。」
+DIALOGUE,本田　　　「いや、もう良く分かんないっス。」
+DIALOGUE,課長　　　「原理は、いいじゃん。だって死なないんでしょ。そっか、それで本田さ
+DIALOGUE_CONTINUED,　　　　　　ん生きてるんだ。」
+DIALOGUE,本田　　　「今の私が、はたして生きていると言えるでしょうか。」
+DIALOGUE,永子　　　「じゃあもう産業スパイって事にしよ。再春館製薬から送り込まれたスパ
+DIALOGUE_CONTINUED,　　　　　　イって事で、いいでしょ？　ん？」
+DIALOGUE,本田　　　「ああ、はい、まあ、永子さんがそう言うのなら･･･。」
+EMPTY,
+DIRECTION,　　課長としの、永子と本田の間に何かを感じる。
+EMPTY,
+DIALOGUE,課長　　　「お、二人、仲いいねえ。付き合ってんの？」
+DIALOGUE,本田　　　「いえ、そういう訳では･･･。（永子に）ないんですよね？」
+DIALOGUE,しの　　　「ていうか課長がそれ言っちゃ駄目です。」
+DIALOGUE,永子　　　「課長、奥さん大丈夫なんですか？」
+EMPTY,
+DIRECTION,　　課長、端末を操作して、
+EMPTY,
+DIALOGUE,課長　　　「大丈夫、だよ。うん、だってこっちは死なない訳だから。そうすると寿
+DIALOGUE_CONTINUED,　　　　　　命は何年になるの？　千年にしてみようか。おお、やっぱり確率上がる
+DIALOGUE_CONTINUED,　　　　　　んだ。」
+DIALOGUE,本田　　　「楽しそうですね。」
+DIALOGUE,しの　　　「死なないという話を、あっさり信じましたね。」
+DIALOGUE,永子　　　「あのさ、」
+EMPTY,
+DIRECTION,　　永子、銃を取り出して皆に見せる。
+EMPTY,
+DIALOGUE,永子　　　「ちょっと、試してみる？」
+EMPTY,
+H1,シーン20
+EMPTY,
+DIRECTION,　　なんとなく課長を撃つ雰囲気になる。
+EMPTY,
+DIALOGUE,課長　　　「え、俺？」
+DIALOGUE,永子　　　「確認しといた方がいいでしょ？」
+DIALOGUE,本田　　　「はい、いいと思います。」
+DIALOGUE,しの　　　「いざという時、死んだら大変ですからね。」
+DIALOGUE,課長　　　「そうか。･･･え、そうか？　その考え方、正しいか？」
+DIALOGUE,永子　　　「はい、行きますよー。」
+EMPTY,
+DIRECTION,　　課長に銃を向ける。
+EMPTY,
+DIALOGUE,課長　　　「ちょっと待って、待って待って、ちょっと、待ってよ。無理だよ。無理
+DIALOGUE_CONTINUED,　　　　　　無理無理無理。」
+DIALOGUE,本田　　　「何がですか？」
+DIALOGUE,課長　　　「こんな状況で無理だって。」
+DIALOGUE,しの　　　「それは、まず雰囲気を作るとか、そういう事でしょうか？」
+DIALOGUE,本田　　　「設定とストーリーを作ってやったら、いいんじゃないですか？」
+DIALOGUE,課長　　　「えー、そういう問題かなぁ･･･。」
+DIALOGUE,永子　　　「はい、ストーリー、考えました。」
+DIALOGUE,課長　　　「いやいやいやいや、え、何で俺からなの？　本田さんからでもいいじゃ
+DIALOGUE_CONTINUED,　　　　　　ん。」
+DIALOGUE,本田　　　「順番が問題なんですか？　まあ私はすでに一回死んでますけど。」
+DIALOGUE,課長　　　「ああ･･･。」
+DIALOGUE,しの　　　「くじ引きで決めましょうか。」
+EMPTY,
+DIRECTION,　　といってくじを持ってくる。
+DIRECTION_CONTINUED,　　４人、暫くくじを見たままけん制しあう。
+EMPTY,
+DIALOGUE,本田　　　「私は、いいんですよね。」
+DIALOGUE,永子　　　「ああ、じゃああたしから引くよ。」
+EMPTY,
+DIRECTION,　　引いて、
+EMPTY,
+DIALOGUE,永子　　　「何これ？　･･･『缶バッジ』？」
+DIALOGUE,しの　　　「おめでとうございます。（といって缶バッジを渡し）じゃあ私引きます
+DIALOGUE_CONTINUED,　　　　　　。」
+EMPTY,
+DIRECTION,　　引いて、
+EMPTY,
+DIALOGUE,しの　　　「缶バッジですね。（といって缶バッジをもらう）」
+EMPTY,
+DIRECTION,　　しの、課長の分の缶バッジを用意する。
+DIRECTION_CONTINUED,　　課長がくじを引こうとすると、
+EMPTY,
+DIALOGUE,本田　　　「え、もう引かなくていいんじゃないですか？」
+EMPTY,
+DIRECTION,　　しの、用意した缶バッジを本田にあげる。
+EMPTY,
+DIALOGUE,課長　　　「えー。」
+DIALOGUE,永子　　　「じゃあストーリーを言います。私が、『被害者の気持ちをどう思います
+DIALOGUE_CONTINUED,　　　　　　か』って聞くんで、そしたら、『痴漢されるって事は可愛いって事なの
+DIALOGUE_CONTINUED,　　　　　　で自信を持てば良いと思います』って言ってください。そしたら撃ちま
+DIALOGUE_CONTINUED,　　　　　　すんで。」
+DIALOGUE,課長　　　「え、何それ。」
+DIALOGUE,永子　　　「本田さん、キュー出して。（といって銃を構える）」
+DIALOGUE,本田　　　「よーい、はい。」
+DIALOGUE,課長　　　「もう構えてんじゃん。」
+DIALOGUE,永子　　　「被害者の気持ちをどう思いますか？」
+DIALOGUE,課長　　　「痴漢されるって事は可愛いって事なので、自信を持てば良いと思います
+DIALOGUE_CONTINUED,　　　　　　。」
+EMPTY,
+DIRECTION,　　永子、撃つ。
+DIRECTION_CONTINUED,　　課長、倒れる。
+DIRECTION_CONTINUED,　　プロジェクターに課長の『死』のイメージが流れる。
+DIRECTION_CONTINUED,　　３人は倒れた課長を見守っている。
+DIRECTION_CONTINUED,　　映像が終わっても課長は暫く寝ている。
+DIRECTION_CONTINUED,　　３人見守っている。
+DIRECTION_CONTINUED,　　課長、がばっと起き上がって、
+EMPTY,
+DIALOGUE,課長　　　「･･･え。え、何今の。俺、死んでた？　死ぬってそういう事？　え。
+DIALOGUE_CONTINUED,　　　　　　いいじゃん。何これ。いいじゃん。うぉーっ！」
+DIALOGUE,しの　　　「課長、落ち着いてください。」
+DIALOGUE,課長　　　「あ、本田さん。本田さんも、一回やったんだよね。いいよね、これ。す
+DIALOGUE_CONTINUED,　　　　　　ごいよね。」
+DIALOGUE,本田　　　「はい。私もちょっと興奮して、御堂さんに襲い掛かってしまいました。
+DIALOGUE_CONTINUED,　　　　　　」
+DIALOGUE,課長　　　「後でもう一回やってよ。あ、今すぐでなくていいよ。余韻に浸るから。
+DIALOGUE_CONTINUED,　　　　　　」
+DIALOGUE,永子　　　「じゃあ次、あたしやろっかな。」
+DIALOGUE,課長　　　「おお、やった方がいいよ。やんなさい。」
+DIALOGUE,永子　　　「その前に確認しとこかな。」
+EMPTY,
+DIRECTION,　　といって指を切る。
+EMPTY,
+DIALOGUE,永子　　　「痛っ。･･･あ、本当だ。すぐふさがるんだ。」
+DIALOGUE,課長　　　「俺の時、いきなり撃ってたよね。はは。」
+DIALOGUE,永子　　　「じゃあやります。本田さん、撃ってくれる？」
+DIALOGUE,本田　　　「いいですよ。」
+DIALOGUE,永子　　　「外すと死ねないから、ここで撃って。」
+EMPTY,
+DIRECTION,　　といって本田の銃を自分のこめかみにあてる。
+EMPTY,
+DIALOGUE,課長　　　「俺の時、遠くから撃ってたよね。はは。」
+DIALOGUE,本田　　　「じゃあ、いくよ。」
+DIALOGUE,永子　　　「うん。」
+EMPTY,
+DIRECTION,　　本田、撃つ。
+DIRECTION_CONTINUED,　　永子、本田の胸に倒れこむ。
+DIRECTION_CONTINUED,　　プロジェクターに永子の『死』のイメージが流れる。
+DIRECTION_CONTINUED,　　本田は永子を支えて立っている。
+DIRECTION_CONTINUED,　　映像が終わって暫くしてから、永子が起きる。
+DIRECTION_CONTINUED,　　永子、照れて本田から離れる。
+EMPTY,
+DIALOGUE,しの　　　「･･･どうでした？」
+DIALOGUE,永子　　　「･･･すごい。」
+DIALOGUE,課長　　　「な、な、すごいだろ。」
+DIALOGUE,永子　　　「すごい。何これ。」
+DIALOGUE,課長　　　「な、ほらな。やっぱすごいんだよ！」
+DIALOGUE,永子　　　「うわぁーっ！　うわぁーっ！」
+EMPTY,
+DIRECTION,　　永子、ぴょんぴょん飛び跳ねる。
+EMPTY,
+DIALOGUE,永子　　　「もう一回。もう一回やって。後で。じゃ次おばさん？　誰撃つ？　誰撃
+DIALOGUE_CONTINUED,　　　　　　つの？」
+DIALOGUE,しの　　　「私は、自分でやります。」
+DIALOGUE,３人　　　「おお～。」
+EMPTY,
+DIRECTION,　　しの、こめかみに銃を当てて、撃つ。
+DIRECTION_CONTINUED,　　倒れ掛かるしのを本田が抱えて椅子に座らせる。
+DIRECTION_CONTINUED,　　プロジェクターにしのの『死』のイメージが流れる。
+DIRECTION_CONTINUED,　　３人はしのを見守っている。
+DIRECTION_CONTINUED,　　映像が終わって暫くするとしのが目を覚ます。
+DIRECTION_CONTINUED,　　不思議な物を見た驚きで一杯の表情。
+EMPTY,
+DIALOGUE,しの　　　「これは･･･。私たちはもしかしたら、そんなに死ぬという事を、恐れ
+DIALOGUE_CONTINUED,　　　　　　なくてもいいんじゃないでしょうか。」
+DIALOGUE,課長　　　「本田さん、もう一回やる？　やらないんだったら、俺やろうかな。」
+DIALOGUE,本田　　　「そんな事してたら弾が無くなってしまいますよ。」
+DIALOGUE,永子　　　「えー。弾なくなるんだ。ドンキで買ってきてよ。」
+DIALOGUE,本田　　　「あの、皆さん、一回落ち着きましょう。はい深呼吸。」
+DIALOGUE,しの　　　「･･･主人もあの時、こんな感じだったんですね･･･。」
+EMPTY,
+DIRECTION,　　しの、少しだけ笑顔を見せる。
+EMPTY,
+H1,シーン21
+EMPTY,
+DIALOGUE,課長　　　「（興奮したまま）ちょっと、落ち着こうか。」
+DIALOGUE,本田　　　「あのぉ、念のため、元に戻る方法を知っておいた方が良いんじゃないで
+DIALOGUE_CONTINUED,　　　　　　しょうか。」
+DIALOGUE,課長　　　「いいよぅ。どうせ戻んないでしょ？」
+DIALOGUE,しの　　　「･･･私は、戻りたいですけど。」
+DIALOGUE,課長　　　「ええっ？」
+DIALOGUE,しの　　　「私は、ちゃんと主人と同じお墓に入りたいです。」
+DIALOGUE,永子　　　「おばさん、何か普通に気配があるんだけど･･･。」
+EMPTY,
+DIRECTION,　　しの、戸惑う。
+EMPTY,
+DIALOGUE,永子　　　「･･･そっか。じゃあ御堂さんに聞けばいいの？　あたしは戻らないけ
+DIALOGUE_CONTINUED,　　　　　　ど。」
+DIALOGUE,課長　　　「だよね。戻らないよね。」
+DIALOGUE,本田　　　「まあ、わざわざ戻る必要はないですね。」
+DIALOGUE,しの　　　「課長、御堂さんに聞いてきてもらえますか。」
+DIALOGUE,課長　　　「うん。」
+EMPTY,
+DIRECTION,　　といってドアの方へ行く。
+EMPTY,
+DIALOGUE,課長　　　「あれ？　ドアが開かないんだけど。まあ電話でいいか。」
+DIALOGUE,永子　　　「その電話、課長の奥さん専用になってるんじゃないの？」
+DIALOGUE,本田　　　「この端末から呼びかけてみましょうか。･･･パスワード、なんですか
+DIALOGUE_CONTINUED,　　　　　　？」
+DIALOGUE,課長　　　「パスワードは、そいつに憶えさせてあるでしょ？」
+DIALOGUE,本田　　　「でも入力しろって言ってますよ。」
+DIALOGUE,しの　　　「課長がデータと一緒に消したんじゃないですか？」
+DIALOGUE,課長　　　「そんな事ないでしょ。ちょっと良く見せてよ。･･･これかな？」
+EMPTY,
+DIRECTION,　　といって何か起動すると、映画が始まる。
+EMPTY,
+DIALOGUE,本田　　　「それは、映像のデータですね。」
+DIALOGUE,永子　　　「映画？」
+EMPTY,
+DIRECTION,　　４人、端末を覗き込む。
+EMPTY,
+DIALOGUE,しの　　　「これは、『未来惑星ザルドス』の、ラストシーンです。」
+DIALOGUE,課長　　　「え、何？　未来惑星？」
+DIALOGUE,しの　　　「死ななくなった人たちを、無理やり殺すお話です。」
+DIALOGUE,課長　　　「本田さん何でそんな映画･･･」
+DIALOGUE,永子　　　「ちょっと（しーっ）。」
+EMPTY,
+DIRECTION,　　４人、暫く見ている。
+DIRECTION_CONTINUED,　　交響曲第７番第２楽章が流れる。
+DIRECTION_CONTINUED,　　４人、自分たちを見ているような気持ちになる。
+DIRECTION_CONTINUED,　　曲が終わる。
+EMPTY,
+DIALOGUE,永子　　　「あたし、元の体に戻ろっかな･･･。」
+DIALOGUE,本田　　　「その方が、いいかも知れませんね。」
+DIALOGUE,課長　　　「えーっ？　･･･へえ～。あ、そう。」
+DIALOGUE,永子　　　「だって、細胞分裂しないって事はさ、新しい細胞を作り出さないって事
+DIALOGUE_CONTINUED,　　　　　　でしょ？」
+DIALOGUE,本田　　　「私もそれを言おうと思ったところです。古くなった細胞は、死んで入れ
+DIALOGUE_CONTINUED,　　　　　　替わっていくべきですよね･･･。」
+DIALOGUE,課長　　　「でも、そうすると、歳を取っちゃうじゃん。」
+DIALOGUE,しの　　　「パスワードは、なかったんですか？」
+DIALOGUE,課長　　　「おっかしいなあ･･･。」
+EMPTY,
+DIRECTION,　　本田、ドアを調べに行く。
+EMPTY,
+DIALOGUE,本田　　　「このドア、生体認証のセンサーがついてますね。」
+DIALOGUE,永子　　　「そういやこないだ、指、やられたよね、機械で。」
+DIALOGUE,しの　　　「サポートセンターは、プライバシーは厳禁だからって、言ってましたね
+DIALOGUE_CONTINUED,　　　　　　。」
+DIALOGUE,課長　　　「その、生体認証のセンサーが、壊れちゃったって事？」
+EMPTY,
+DIRECTION,　　４人、嫌な予感に襲われる。
+DIRECTION_CONTINUED,　　代わる代わる、センサーにタッチするが開かない。
+EMPTY,
+H1,シーン22
+EMPTY,
+DIALOGUE,課長　　　「これ、出るときにも認証が必要なんだね、はは。」
+DIALOGUE,永子　　　「パスワード、思い出せないんですか？」
+DIALOGUE,課長　　　「あー、誰にも分からないようなのにしたからなぁ。」
+DIALOGUE,しの　　　「誰にも分からないようにしたのに、これに憶えさせてたんですか？」
+DIALOGUE,本田　　　「課長、どうやって、誰にも分からないようにしたんですか？」
+DIALOGUE,課長　　　「え、どういうこと？」
+DIALOGUE,本田　　　「誰にも分からないようにしようって、思ったんですよね。」
+DIALOGUE,課長　　　「うん。」
+DIALOGUE,本田　　　「それで、どうすれば誰にも分からなくなると、思ったんですか？」
+DIALOGUE,課長　　　「ああ、電卓で、適当に計算して」
+DIALOGUE,本田　　　「電卓･･･（端末を見る）。あれ、電卓ないですよ。え、電卓アプリ消
+DIALOGUE_CONTINUED,　　　　　　して、映画は消してないんですか？」
+DIALOGUE,課長　　　「映画は、だって、さっき観れて良かったでしょ？」
+DIALOGUE,永子　　　「計算式、思い出してもらえます？」
+DIALOGUE,課長　　　「え～、あ、そうか。誕生日にしたんだ。」
+DIALOGUE,しの　　　「分かりやすい･･･。」
+DIALOGUE,課長　　　「1976、かける６･･･」
+DIALOGUE,永子　　　「えっと･･･11856、はい。」
+DIALOGUE,課長　　　「割る14」
+DIALOGUE,永子　　　「･･･何桁出せばいいの？」
+DIALOGUE,本田　　　「あ、整数の割り算は循環小数になりますから、循環するところまででい
+DIALOGUE_CONTINUED,　　　　　　いんじゃないですか？」
+DIALOGUE,永子　　　「書いて。846.857142857142･･･」
+DIALOGUE,本田　　　「できた。これを入るとこまで入れればいいのかな。」
+DIALOGUE,課長　　　「の、ルート。」
+EMPTY,
+DIRECTION,　　全員課長の方を見る。
+EMPTY,
+DIALOGUE,本田　　　「平方根、ですか。」
+DIALOGUE,永子　　　「無理。電卓ないの？」
+DIALOGUE,本田　　　「携帯などはみんなロッカーに置いてますからね･･･。とりあえずパス
+DIALOGUE_CONTINUED,　　　　　　ワードが何文字入るか見てみましょう。」
+EMPTY,
+DIRECTION,　　本田、入力して確かめる。
+EMPTY,
+DIALOGUE,本田　　　「16文字ですね。じゃあ小数点以下８桁残しましょう。そうすると、8
+DIALOGUE_CONTINUED,　　　　　　4685714285 × (0.0001)^2 。とりあえず、素
+DIALOGUE_CONTINUED,　　　　　　因数分解しましょうか。５で割れますよね。」
+DIALOGUE,永子　　　「16937142857。」
+DIALOGUE,本田　　　「奇数ですね。３で割れますか？」
+DIALOGUE,永子　　　「割れない。」
+DIALOGUE,課長　　　「え、見ただけで分かるの？」
+DIALOGUE,本田　　　「７では？」
+DIALOGUE,永子　　　「･･･割れないね。」
+DIALOGUE,本田　　　「う～ん、桁が、大きすぎる･･･。」
+DIALOGUE,課長　　　「助けが来るまで、待てばいいんじゃないの？　どうせ死なないんだしさ
+DIALOGUE_CONTINUED,　　　　　　あ。」
+DIALOGUE,しの　　　「･･･死なないって事は、死んでるって事なんじゃないですか？」
+EMPTY,
+DIRECTION,　　課長、黙る。
+EMPTY,
+DIALOGUE,本田　　　「しらみつぶしに計算して行くしかないか･･･。」
+DIALOGUE,しの　　　「あの･･･、ニュートン法を使ったらどうでしょうか。」
+EMPTY,
+DIRECTION,　　y = x^2 - 84685714285
+EMPTY,
+DIALOGUE,しの　　　「この曲線で、y = 0 となる x を出せば良いので、まず少し大
+DIALOGUE_CONTINUED,　　　　　　きめの値 x0 を決めて、そこでの接線とｘ軸が交わる点 x1 を
+DIALOGUE_CONTINUED,　　　　　　求めるんです。」
+DIALOGUE,本田　　　「そうか、それを繰り返せば･･･」
+DIALOGUE,しの　　　「x0 から x1 を求める式は、」
+EMPTY,
+DIRECTION,　　x1 = x0 - (x0^2 - 84685714285) / 2x0
+EMPTY,
+DIALOGUE,しの　　　「x0 にとりあえず30万を入れてみましょうか。そうすると x1 
+DIALOGUE_CONTINUED,　　　　　　の値は･･･」
+DIALOGUE,永子　　　「えっと900億だから（暗算して）291142.8･･･」
+DIALOGUE,しの　　　「あ、まだ整数部分だけでいいです。繰り上げた方がいいので、最後43
+DIALOGUE_CONTINUED,　　　　　　にして、」
+EMPTY,
+DIRECTION,　　本田、ホワイトボードに書く。
+EMPTY,
+DIALOGUE,永子　　　「またさっきの式に入れればいいの？　分かった。」
+EMPTY,
+DIRECTION,　　永子、集中する。
+EMPTY,
+DIALOGUE,課長　　　「これは別に、書いて計算してもいいんじゃ･･･。」
+DIALOGUE,本田・しの「しっ！」
+DIALOGUE,永子　　　「･･･291008.1、だから･･･、最後９にして、」
+EMPTY,
+DIRECTION,　　本田、291009と書く。
+DIRECTION_CONTINUED,　　永子、集中してぶつぶつ言い始める。
+EMPTY,
+DIALOGUE,課長　　　「時間ならあるんだからさ･･･。」
+EMPTY,
+DIRECTION,　　永子、課長を撃ち殺し、再び集中する。
+EMPTY,
+DIALOGUE,永子　　　「･･･もう整数部分が変わらないんだけど。」
+DIALOGUE,しの　　　「じゃあ、桁を増やしますか･･･。」
+EMPTY,
+DIRECTION,　　永子、291008.1000347068と書く。
+EMPTY,
+DIALOGUE,永子　　　「ていうかこれ･･･、二乗するとさっきの数字になる。」
+EMPTY,
+DIRECTION,　　３人、顔を見合わせる。
+EMPTY,
+DIALOGUE,本田　　　「16桁、ありますね。」
+EMPTY,
+DIRECTION,　　本田、入力する。
+EMPTY,
+DIALOGUE,本田　　　「通った。」
+EMPTY,
+H1,シーン23
+EMPTY,
+DIRECTION,　　メッセンジャーの画面が映し出される。
+DIRECTION_CONTINUED,　　本田、タイプする。
+EMPTY,
+DIRECTION,　　Akagi: みどうさ～ん
+EMPTY,
+DIALOGUE,永子　　　「あかぎ？」
+DIALOGUE,しの　　　「課長の苗字です。」
+EMPTY,
+DIRECTION,　　Midon: なに？
+DIRECTION_CONTINUED,　　Akagi: ちょっとこっちこれますか？
+DIRECTION_CONTINUED,　　Midon: 急ぎ？
+EMPTY,
+DIALOGUE,本田　　　「ですよね。」
+EMPTY,
+DIRECTION,　　Akagi: しきゅうおねがいします。
+DIRECTION_CONTINUED,　　Midon: 言っても良いけど、そこ青い顔の人以内？
+DIRECTION_CONTINUED,　　Akagi: いますけど
+DIRECTION_CONTINUED,　　Midon: じゃ無理。
+EMPTY,
+DIALOGUE,永子　　　「え～」
+DIALOGUE,本田　　　「とりあえず、」
+EMPTY,
+DIRECTION,　　Akagi: わたしもいますから、だいじょうぶですよ。
+DIRECTION_CONTINUED,　　Midon: じゃ青い顔の人、捕まえてて。後課長の奥さん着てるんで、連れ
+DIRECTION_CONTINUED,　　て区から。
+DIRECTION_CONTINUED,　　Akagi: わかりました。おねがいします。
+DIRECTION_CONTINUED,　　Midon: じゃ今から
+EMPTY,
+DIRECTION,　　本田、メッセンジャーを閉じる。
+EMPTY,
+DIALOGUE,本田　　　「奥さん、来ちゃいますね･･･。」
+DIALOGUE,しの　　　「とりあえず、椅子に座らせましょうか･･･。」
+EMPTY,
+DIRECTION,　　３人で課長を椅子に座らせる。
+DIRECTION_CONTINUED,　　そこへ御堂と光子が入って来る。
+DIRECTION_CONTINUED,　　御堂は道具箱のような物を持っている。
+DIRECTION_CONTINUED,　　光子は後ろ手に何か持っている。
+EMPTY,
+H1,シーン24
+EMPTY,
+DIRECTION,　　御堂、３人の顔が青いのに気付き、
+EMPTY,
+DIALOGUE,御堂　　　「ちょ、青いじゃん。もうだめ。マジ無理（うずくまる）」
+DIALOGUE,本田　　　「あの、課長の奥さん、ですよね」
+DIALOGUE,光子　　　「はい･･･。」
+EMPTY,
+DIRECTION,　　課長が突然起き上がり興奮しだす。
+EMPTY,
+DIALOGUE,課長　　　「うぉーっ！　うぉーっ！」
+EMPTY,
+DIRECTION,　　ひとしきり騒いで、光子に気付き、
+EMPTY,
+DIALOGUE,課長　　　「･･･（笑顔で）おう！」
+EMPTY,
+DIRECTION,　　思いつめた感じの光子、刃物を取り出す。
+EMPTY,
+DIALOGUE,本田　　　「うわ」
+DIALOGUE,光子　　　「私･･･、やっぱりこうするのが一番なんじゃないかって、思うんです
+DIALOGUE_CONTINUED,　　　　　　。全部終わりにするのが、やっぱりそうするのが一番なんじゃないかっ
+DIALOGUE_CONTINUED,　　　　　　て･･･。」
+DIALOGUE,永子　　　「あの、違うんです。私、課長とは何でもないんです。」
+DIALOGUE,光子　　　「そんな事、そんな顔で言われても･･･。」
+EMPTY,
+DIRECTION,　　しの、原液の小瓶をそっと光子の方へ差し出す。
+DIRECTION_CONTINUED,　　課長、『こらっ』といって小瓶を引っ込める。
+EMPTY,
+DIALOGUE,課長　　　「お前、一人で家に篭ってて、ちょっと暗い気持ちになっちゃったんじゃ
+DIALOGUE_CONTINUED,　　　　　　ないのか？」
+DIALOGUE,御堂　　　「じゃ私部屋に篭るわ。」
+DIALOGUE,本田　　　「いえ、いて下さい。」
+EMPTY,
+DIRECTION,　　御堂、怯える。特に本田を恐れているようだ。
+EMPTY,
+DIALOGUE,光子　　　「そ、そうですね。ちょっと取り乱してしまいました。（刃物を置いて）
+DIALOGUE_CONTINUED,　　　　　　でも、家に篭ってた訳じゃないんです。
+DIALOGUE_CONTINUED,　　　　　　音楽でも聴いて、気分を落ち着けようと思って、それでコンサートに行
+DIALOGUE_CONTINUED,　　　　　　ったんですけど、演目が確か『エリック・サティ』だったと思ったんで
+DIALOGUE_CONTINUED,　　　　　　すけど、行ってみたら、何でしたっけ、『ブラック･･･サバス』？　
+DIALOGUE_CONTINUED,　　　　　　ていうちょっと、刺激的な演目で･･･、」
+DIALOGUE,しの　　　「ブラサバですか･･･。」
+DIALOGUE,光子　　　「それで、雰囲気に飲まれてしまって･･･」
+DIALOGUE,課長　　　「すぐ出ればいいじゃん。」
+DIALOGUE,御堂　　　「じゃ私外出てるわ。」
+DIALOGUE,本田　　　「いや、いて下さい。」
+DIALOGUE,永子　　　「じゃあ、落ち着いてもらえましたか？」
+DIALOGUE,光子　　　「はい。済みませんでした。あら、どうしましょ。恥ずかしい･･･。」
+EMPTY,
+DIRECTION,　　しの、光子を椅子に座らせる。
+EMPTY,
+H1,シーン25
+EMPTY,
+DIALOGUE,本田　　　「では御堂さん、本題なんですけど」
+DIALOGUE,御堂　　　「とりあえず離れて。」
+DIALOGUE,本田　　　「ココ・プルゲンの原液がどういう物かはご存知ですよね。」
+DIALOGUE,御堂　　　「ああ、コンコンブルね、あれ突然変異じゃなかった。ただのキュウリだ
+DIALOGUE_CONTINUED,　　　　　　ったんだけど、ブードゥー教の呪いがかかってるんだって。」
+DIALOGUE,しの　　　「呪い、ですか･･･」
+DIALOGUE,永子　　　「え、ちょっと待って。適性検査は？　呪いに適性なんてあんの？」
+DIALOGUE,御堂　　　「あるよ。私には効かなかったから。」
+DIALOGUE,永子　　　「あ、塗ったんだ･･･」
+DIALOGUE,本田　　　「じゃあ逆に、呪いを効かなくする方法もあるって事ですよね。」
+DIALOGUE,課長　　　「その話さあ、俺のいないとこでしてくんない？　聞いちゃうと、ほら。
+DIALOGUE_CONTINUED,　　　　　　」
+DIALOGUE,しの　　　「･･･課長は、どうして元に戻りたくないんですか？」
+DIALOGUE,課長　　　「そんなの、決まってるだろ。このまま歳をとっていったら俺は、ハゲと
+DIALOGUE_CONTINUED,　　　　　　かデブとか臭いとかに、苦しむ事になるんだぞ。肌だってどんどん醜く
+DIALOGUE_CONTINUED,　　　　　　なっていくんだ。」
+DIALOGUE,御堂　　　「肌はいいじゃん。」
+DIALOGUE,課長　　　「体が動かなくなって、あちこちゆるくなって、いろいろ思い出せなくな
+DIALOGUE_CONTINUED,　　　　　　って、もう、駄洒落と下ネタを言うくらいしか出来なくなるんだ。そう
+DIALOGUE_CONTINUED,　　　　　　なったらもう、女の子にモテなくなっちゃうだろ。」
+EMPTY,
+DIRECTION,　　光子、いつのまにか銃を手にしている。
+EMPTY,
+DIALOGUE,光子　　　「そんなに、女の子にモテたいんですか？」
+DIALOGUE,課長　　　「そりゃモテたいよ！　モテたくないやつなんていないだろ！　（観客に
+DIALOGUE_CONTINUED,　　　　　　）な、モテたいな。（光子に）ほらぁ。」
+DIALOGUE,光子　　　「私の子供、産んでもらえませんか？」
+DIALOGUE,課長　　　「え、いや、産むのは無理だよ。」
+EMPTY,
+DIRECTION,　　光子、課長を撃つ。撃った自分に驚く。
+DIRECTION_CONTINUED,　　課長は死ぬが３人が落ち着いているので、光子はそれが不思議。
+EMPTY,
+DIALOGUE,本田　　　「あ～あ、駄目ですよ、銃置きっぱなしにしちゃ。」
+DIALOGUE,永子　　　「（光子に）モテるって言っても、課長のはそんな本格的なのじゃないか
+DIALOGUE_CONTINUED,　　　　　　ら。バーで出会ったゆきずりの女とベッドインとか、そういうのは出来
+DIALOGUE_CONTINUED,　　　　　　ないんですよ。」
+DIALOGUE,しの　　　「ま、ある物で済ませようとするタイプですね･･･。」
+EMPTY,
+DIRECTION,　　光子、だんだん恐ろしくなってくる。
+EMPTY,
+DIALOGUE,本田　　　「とりあえずそれ仕舞っておきますんで。」
+EMPTY,
+DIRECTION,　　といって手を出した本田を撃つ。
+DIRECTION_CONTINUED,　　永子としのが光子に近づこうとする。
+DIRECTION_CONTINUED,　　光子、その２人も撃つ。
+DIRECTION_CONTINUED,　　しばらく唖然としてから振り向くと御堂がいる。
+EMPTY,
+DIALOGUE,光子　　　「私、取り返しのつかない事をしてしまった･･･。」
+DIALOGUE,御堂　　　「まあでも、銃持たされたら撃つよね。」
+DIALOGUE,光子　　　「私、私、う、う、うううう･･･。」
+EMPTY,
+DIRECTION,　　光子、興奮して泣いたり笑ったりする。
+DIRECTION_CONTINUED,　　死んだ４人も興奮しながら起き上がる。
+EMPTY,
+DIALOGUE,４人　　　「ひゅーっ！」
+DIALOGUE,光子　　　「ぎゃーっ！」
+EMPTY,
+DIRECTION,　　４人暫くはしゃいで、はっとなり、光子をなだめる。
+DIRECTION_CONTINUED,　　まあまあ、落ち着いて、等という。
+DIRECTION_CONTINUED,　　光子、訳が分からない。
+DIRECTION_CONTINUED,　　ドッキリのネタばらしをされたような感じになって、半笑いになって、おどけて
+DIRECTION_CONTINUED,　　自分に銃を向けてみたりする。
+DIRECTION_CONTINUED,　　４人、だめだめ、と言いながら銃を取り上げる。
+DIRECTION_CONTINUED,　　光子、銃と刃物を４人に渡し、なぜかポケットからドリンクチケットを出してそ
+DIRECTION_CONTINUED,　　れも渡し、気絶する。
+EMPTY,
+DIALOGUE,本田　　　「これは、ライブハウスのドリンクチケットですね。」
+DIALOGUE,永子　　　「引き換えてないんだ。」
+DIALOGUE,しの　　　「もったいない･･･。」
+EMPTY,
+H1,シーン26
+EMPTY,
+DIALOGUE,御堂　　　「じゃあ、呪い解く方法いうけど。」
+EMPTY,
+DIRECTION,　　課長、耳をふさいで『あー』などと言う。
+DIRECTION_CONTINUED,　　御堂、課長の手を耳からはがし、
+EMPTY,
+DIALOGUE,御堂　　　「聞いといた方がいいよ。知らずに解いちゃうかもしんないから。」
+EMPTY,
+DIRECTION,　　課長、大人しくなる。
+EMPTY,
+DIALOGUE,御堂　　　「ブードゥーの呪いを解く方法が、一つだけあんの。その方法は、メイク
+DIALOGUE_CONTINUED,　　　　　　を落とす事。」
+EMPTY,
+DIRECTION,　　青い顔の４人、なんとなく事情が飲み込めてくる。
+DIRECTION_CONTINUED,　　ああ、そういうこと？　みたいな感じに。
+EMPTY,
+DIALOGUE,御堂　　　「あー、ただ一回呪い解いちゃうと、二度と効かなくなるから。クリーム
+DIALOGUE_CONTINUED,　　　　　　の効果は全部なかった事になるから、それだけ気ぃつけて。」
+DIALOGUE,永子　　　「（しのと本田に）いいよね？　落とそう。」
+EMPTY,
+DIRECTION,　　御堂、来た時から持っていた箱を差し出す。
+DIRECTION_CONTINUED,　　開けるとメイク道具。
+DIRECTION_CONTINUED,　　４人、準備いいね、とか言う。
+EMPTY,
+DIALOGUE,御堂　　　「はい、じゃあもうさっさと落として。」
+DIALOGUE,課長　　　「俺は落とさないぞ。」
+DIALOGUE,御堂　　　「なんなの、もう。まあいいや。用事済んだから帰るわ。もう二度と、こ
+DIALOGUE_CONTINUED,　　　　　　の部屋へは来ないから。」
+EMPTY,
+DIRECTION,　　御堂、はける。
+EMPTY,
+H1,シーン27
+EMPTY,
+DIRECTION,　　３人、メイクを落としながらだらだら喋る。
+DIRECTION_CONTINUED,　　大体、以下のような話をする。
+EMPTY,
+DIALOGUE,しの　　　「御堂さんは、何で青い顔が苦手なんでしょうね。」
+DIALOGUE,永子　　　「本田さんが襲い掛かったから。」
+DIALOGUE,しの　　　「トラウマ･･･、ですかね。」
+DIALOGUE,永子　　　「うん。だってあたし引いたもん。」
+DIALOGUE,本田　　　「え、そうなんですか？」
+DIALOGUE,永子　　　「ちょっと、すっぴん見ないでよ。」
+DIALOGUE,本田　　　「あ、済みません。･･･でも、すっぴんでもお綺麗だと思いますけどね
+DIALOGUE_CONTINUED,　　　　　　。」
+DIALOGUE,しの　　　「見た事あるんですか？」
+DIALOGUE,永子　　　「いや見せないよ、すっぴんなんか。」
+DIALOGUE,本田　　　「はい、でも、何となく。」
+DIALOGUE,課長　　　「お前たち、本当に、元に戻って、いいの？」
+DIALOGUE,本田　　　「（落としながら）あ～、なんか、生き返る。」
+DIALOGUE,課長　　　「いや違うよ、死ぬんだよ。それ落としたら。」
+DIALOGUE,永子　　　「すぐは死なないでしょ。ちゃんと歳とって死ぬんでしょ。」
+DIALOGUE,しの　　　「課長は、もう歳をとらないんですよね。」
+DIALOGUE,本田　　　「いいですね、何百年先の未来を見れる訳ですよね。うらやましいです。
+DIALOGUE_CONTINUED,　　　　　　」
+DIALOGUE,課長　　　「本当にそう思ってる？」
+DIALOGUE,しの　　　「私は、世の中について行けなくなりそうで怖いです。」
+DIALOGUE,永子　　　「メイク道具持っといた方がいいよ。いつでも死ねるように。」
+DIALOGUE,本田　　　「人類が滅ぶかも知れませんしね。そっか、課長、長く生きてたら宇宙人
+DIALOGUE_CONTINUED,　　　　　　見れるかも知れないですね。」
+DIALOGUE,永子　　　「人類滅んでメイク道具なかったらさあ、その後キツいよね。」
+DIALOGUE,しの　　　「ちょっと、想像したくないですね。」
+DIALOGUE,本田　　　「でもまあ、自分が死ななくても、宇宙にも寿命はあるっていいますから
+DIALOGUE_CONTINUED,　　　　　　ね。」
+DIALOGUE,課長　　　「黙ってメイクを落とせ！　お前ら･･･、怖いよ。」
+EMPTY,
+H1,シーン28
+EMPTY,
+DIRECTION,　　光子、起きる。
+EMPTY,
+DIALOGUE,光子　　　「どうしたんですか？　（課長に）大丈夫ですか？　顔色が･･･。」
+DIALOGUE,しの　　　「課長、奥さんどうするんですか？」
+DIALOGUE,課長　　　「そ、それは･･･。」
+DIALOGUE,光子　　　「･･･私、主人が他の女の人に惹かれてしまうのは、それはもうしょう
+DIALOGUE_CONTINUED,　　　　　　がないと思うんです。ただ･･･、ただね、若月さん。私、この人と一
+DIALOGUE_CONTINUED,　　　　　　緒になったからには、この人の子供を産みたいって思うんです。それだ
+DIALOGUE_CONTINUED,　　　　　　けはどうしても、私に必要な事なんです。」
+DIALOGUE,永子　　　「いやそれ、あたしに言われても･･･ねぇ。いいんじゃないんですか産
+DIALOGUE_CONTINUED,　　　　　　めば。」
+EMPTY,
+DIRECTION,　　光子、もどかしい。
+EMPTY,
+DIALOGUE,しの　　　「子供は、歳をとるんですよね･･･。」
+DIALOGUE,課長　　　「そんな事、今考えたってしょうがないだろ。」
+EMPTY,
+DIRECTION,　　本田、メイクを取り終わる。
+DIRECTION_CONTINUED,　　ドアへ行って生体認証を確認する。
+EMPTY,
+DIALOGUE,本田　　　「あ、ドア開けられるようになりましたよ。」
+EMPTY,
+DIRECTION,　　３人、おお～、などと言う。
+EMPTY,
+DIALOGUE,本田　　　「ま、記憶は戻りませんけどね。」
+DIALOGUE,永子　　　「あのさあ、自分の家も分かんないの？」
+DIALOGUE,本田　　　「う～ん、思い出せませんね･･･。」
+DIALOGUE,永子　　　「とりあえず、おばさんのとこに転がり込んじゃえば？」
+DIALOGUE,しの　　　「え、そ、それは･･･。」
+DIALOGUE,本田　　　「何でそうなるんですか･･･。」
+EMPTY,
+DIRECTION,　　永子としのは、青を落として普段のメイクをする。
+EMPTY,
+DIALOGUE,永子　　　「課長、今日もう仕事いいですよね？」
+DIALOGUE,課長　　　「ん？　うん･･･、いいんじゃないかな。」
+DIALOGUE,永子　　　「じゃあ帰ろっか。あー、よっこいしょっと。」
+EMPTY,
+DIRECTION,　　４人、永子を見る。
+EMPTY,
+DIALOGUE,永子　　　「ああ、はは、なんか疲れちゃった。」
+DIALOGUE,光子　　　「皆さん、お帰りですか？」
+DIALOGUE,本田　　　「ああ、どうしよっかな。」
+DIALOGUE,しの　　　「あの･･･。」
+DIALOGUE,本田　　　「いえ、泊まるのはホテルに泊まりますよ。仕事をどうしようかなと。」
+DIALOGUE,課長　　　「いいよいいよ、帰ろ。」
+DIALOGUE,光子　　　「あの･･･、その前にちょっと、お聞きしたいんですけど、コンサート
+DIALOGUE_CONTINUED,　　　　　　というのは、どうして必ずアンコールをするんでしょうか。」
+DIALOGUE,課長　　　「え？　なに急に。その話は、今しないと駄目なの？」
+DIALOGUE,光子　　　「はい、多分、とても大事な話だと思うんです。どうしてコンサートのお
+DIALOGUE_CONTINUED,　　　　　　客さんは必ずアンコールをするんでしょうか。」
+DIALOGUE,しの　　　「アンコール用の曲を、聞きたいからじゃないんですか。」
+DIALOGUE,光子　　　「どうして、アンコール用の曲が用意されているって、分かるんでしょう
+DIALOGUE_CONTINUED,　　　　　　か。だって、たとえば、お芝居でアンコール用のシーンは用意されてい
+DIALOGUE_CONTINUED,　　　　　　ないですよね。」
+DIALOGUE,課長　　　「え、何で今その話するの？」
+DIALOGUE,永子　　　「課長、分かった。これ、すごい大事な話だと思う。」
+DIALOGUE,本田　　　「なるほど･･･、もしかするとアンコール用のシーンが用意されている
+DIALOGUE_CONTINUED,　　　　　　お芝居も、あるかも知れないって事か･･･。」
+DIALOGUE,しの　　　「でもそれは、アンコールをしてみないと分からないですよね･･･。」
+DIALOGUE,光子　　　「そう、そうなんです。それが言いたかったんです。」
+EMPTY,
+DIRECTION,　　４人、あ～、などという。
+EMPTY,
+DIALOGUE,永子　　　「え、アンコールってどうやるの？」
+EMPTY,
+DIRECTION,　　みんなでアンコールの予行演習をする。
+EMPTY,
+DIALOGUE,課長　　　「へえ･･･。まあいいや、帰ろ。あ、ドア開けて。」
+DIALOGUE,永子　　　「はいはい、終わりで～す。」
+EMPTY,
+DIRECTION,　　全員はける。
+DIRECTION_CONTINUED,　　アンコールが起こった場合は以下へ続く。
+EMPTY,
+H1,シーン29
+EMPTY,
+DIRECTION,　　永子、しの、本田、課長が出てくる。
+EMPTY,
+DIALOGUE,課長　　　「やっぱり、ちょっと仕事して行こっか。」
+DIALOGUE,永子　　　「なんだ温泉でも行こうと思ったのに。はあ～。」
+DIALOGUE,本田　　　「じゃあまた、マニュアルの見直しをしましょうか。」
+DIALOGUE,しの　　　「４人で、ですか･･･？」
+DIALOGUE,課長　　　「みんなで知恵を出し合えばいいんじゃないの？　会議しようよ、会議。
+DIALOGUE_CONTINUED,　　　　　　」
+DIALOGUE,永子　　　「課長、会議好きだもんね。しのちゃん、ちょっと、肩。」
+DIALOGUE,しの　　　「あ、はい･･･。」
+EMPTY,
+DIRECTION,　　しの、永子の肩を揉む。
+EMPTY,
+DIALOGUE,永子　　　「あ～。」
+DIALOGUE,しの　　　「あ、済みません、痛かったですか？」
+DIALOGUE,永子　　　「いい、いい。そんくらい強い方が。」
+DIALOGUE,しの　　　「なんかつい、手に力が入っちゃうんですよね･･･。」
+EMPTY,
+DIRECTION,　　しの、カンフーのように手を動かしてみせる。
+DIRECTION_CONTINUED,　　本田、永子を見ている。
+EMPTY,
+DIALOGUE,永子　　　「どうしたの本田君。」
+DIALOGUE,本田　　　「あ、いえ･･･。そういえば課長、電話ってどうなってます？」
+DIALOGUE,課長　　　「あ、電話ね。電話でしょ。今から注文するよ。」
+DIALOGUE,永子　　　「本田君が一番ちゃんとしてんじゃん。部外者なのにね。」
+DIALOGUE,本田　　　「ああ、えっとですね、一応正式に入社してますんで、部外者ではないん
+DIALOGUE_CONTINUED,　　　　　　ですよ。どこから来たのかも分かりませんし。」
+DIALOGUE,しの　　　「切り替え、早いですね。」
+DIALOGUE,本田　　　「私の過去なんて脚本家のさじ加減でどうにでもなるんで、興味ないです
+DIALOGUE_CONTINUED,　　　　　　。･･･それよりも私は今、課長の将来に興味があります。」
+DIALOGUE,永子　　　「何だっけ。人類が滅んだら宇宙人の女の子にモテるんだっけ？」
+DIALOGUE,課長　　　「えっとね･･･、違う。」
+DIALOGUE,本田　　　「最後は宇宙がなくなって、課長も一緒にいなくなるんです。」
+DIALOGUE,しの　　　「あ、それはもう決まったんですか？」
+DIALOGUE,永子　　　「最後って大事だよね～。これ最後どうすんの？　あたしたち出てきちゃ
+DIALOGUE_CONTINUED,　　　　　　ったけど。」
+DIALOGUE,課長　　　「それ･･･、俺たちで決めるの？」
+DIALOGUE,永子　　　「ああ、課長、決めるの嫌いだもんね。」
+DIALOGUE,しの　　　「え、会議好きなのに･･･。」
+DIALOGUE,本田　　　「どうせならスカっと終わりたいですね。」
+DIALOGUE,永子　　　「なんか、悪者倒してイェーイ、みたいなのがいいよね。あ、しのちゃん
+DIALOGUE_CONTINUED,　　　　　　ありがと。」
+EMPTY,
+DIRECTION,　　４人、悪者かぁ、などと言う。
+EMPTY,
+DIALOGUE,課長　　　「やっぱりこの、クリームを作ったやつとか、うちの会社の上の方のやつ
+DIALOGUE_CONTINUED,　　　　　　だよな。まったく、人の命をおもちゃみたいにしやがって。なぁ。」
+DIALOGUE,しの　　　「あ、いえ、それは、違うと思います。」
+DIALOGUE,課長　　　「･･･おいおい、俺は別に何もしてないだろ。」
+DIALOGUE,本田　　　「ええ、何も･･･してないですね･･･。」
+DIALOGUE,課長　　　「ええっ？　何だよ、俺を倒してイェーイとは、ならないだろ。ていうか
+DIALOGUE_CONTINUED,　　　　　　倒すって何？　倒すって具体的に何なの？」
+EMPTY,
+DIRECTION,　　永子、メイク道具に手をかける。
+EMPTY,
+DIALOGUE,課長　　　「ちょっと待てよ。ちょっと、ちょっと、これ見てこれ。」
+EMPTY,
+DIRECTION,　　課長、タブレット端末を見せる。
+EMPTY,
+DIALOGUE,課長　　　「今の平均寿命を考えると、死ぬまでにモテ期が来る可能性は、わずか0
+DIALOGUE_CONTINUED,　　　　　　.325％なんだよ。ところが、仮に千年生きるとすると、なんとこの
+DIALOGUE_CONTINUED,　　　　　　確率が0.975％になるんだ。･･･て事は何倍だ？」
+DIALOGUE,本田　　　「0.975割る0.325だから･･･。」
+EMPTY,
+DIRECTION,　　永子を見る。
+DIRECTION_CONTINUED,　　永子、携帯を出して計算する。
+EMPTY,
+DIALOGUE,しの　　　「あれ、持ち込んでいいんですか？」
+DIALOGUE,永子　　　「いいじゃんまだ準備中なんだから。固いこと言わないの。･･･ああ字
+DIALOGUE_CONTINUED,　　　　　　ぃ細かくて読めない。」
+EMPTY,
+DIRECTION,　　といってしのに携帯を見せる。
+EMPTY,
+DIALOGUE,しの　　　「３倍、ですね。」
+DIALOGUE,課長　　　「３倍だよ。モテ期が来る確率が、３倍に跳ね上がるんだよ。」
+DIALOGUE,永子　　　「つっても0.9％でしょ？　大して変わんないじゃん。」
+DIALOGUE,課長　　　「え、何いってんの、３倍だよ。全然違うじゃん。それ言ったらさ、お前
+DIALOGUE_CONTINUED,　　　　　　らのその化粧だって、ところ構わずせっせと直してるけどさ、それだっ
+DIALOGUE_CONTINUED,　　　　　　て大して変わんないよ。」
+EMPTY,
+DIRECTION,　　永子、課長を睨んで立ち上がる。
+EMPTY,
+DIALOGUE,課長　　　「おう、なんだよ。」
+DIALOGUE,永子　　　「あいてててて（腰）。しのちゃん、ちょっと捕まえてて。」
+EMPTY,
+DIRECTION,　　しの、課長を羽交い絞めにする。
+EMPTY,
+DIALOGUE,課長　　　「おおおおい、何するんだよ。」
+DIALOGUE,永子　　　「メイクが意味無いって言うんなら、取ったげるわ。」
+EMPTY,
+H1,シーン30
+EMPTY,
+DIALOGUE,永子　　　「あ、メイク落としがない･･･」
+EMPTY,
+DIRECTION,　　御堂が入ってくる。
+DIRECTION_CONTINUED,　　でかいメイク落としを持っている。
+EMPTY,
+DIALOGUE,御堂　　　「やっちまいな！」
+DIALOGUE,課長　　　「ノォーーッ！」
+EMPTY,
+DIRECTION,　　みんなで課長のメイクを取り始める。
+DIRECTION_CONTINUED,　　取っている間中、課長は以下のような事をわめく。
+EMPTY,
+DIALOGUE,課長　　　「や、やめろっ。お前ら何してるか分かってるのか。おい。死んじゃうだ
+DIALOGUE_CONTINUED,　　　　　　ろ。そんな事したら、死んじゃうだろ。おいちょっとマジで。マジでや
+DIALOGUE_CONTINUED,　　　　　　めて。やめろって言ってんだろ、こら。ちょっと本当、落ち着こう。一
+DIALOGUE_CONTINUED,　　　　　　回、落ち着こう。ちょっともう、ああもう、死んじゃうじゃん。死んじ
+DIALOGUE_CONTINUED,　　　　　　ゃうじゃああんっ。」
+EMPTY,
+DIRECTION,　　取り終わると課長、魂が抜けたようになる。
+DIRECTION_CONTINUED,　　御堂、気分よくはける。
+EMPTY,
+DIALOGUE,課長　　　「おかしいじゃん。」
+EMPTY,
+DIRECTION,　　３人は黙って課長を見ている。
+EMPTY,
+DIALOGUE,課長　　　「人殺し。」
+DIALOGUE,本田　　　「･･･あの、ずっと気になってたんですけど、千年生きた場合のシミュ
+DIALOGUE_CONTINUED,　　　　　　レーションって、通信ソフトのパスワード消した後にやってませんでし
+DIALOGUE_CONTINUED,　　　　　　たっけ？」
+DIALOGUE,しの　　　「ああ、そうだったかも･･･。」
+DIALOGUE,課長　　　「人殺し。」
+DIALOGUE,本田　　　「気になる人はこのお芝居をもう一回観てみてください。たしかパスワー
+DIALOGUE_CONTINUED,　　　　　　ドを消した後なんですよ。」
+DIALOGUE,永子　　　「じゃあさっきの数字なに？」
+EMPTY,
+DIRECTION,　　３人、端末を見る。
+EMPTY,
+DIALOGUE,永子　　　「何これ。」
+DIALOGUE,本田　　　「これは、無料の占いアプリですね。」
+DIALOGUE,永子　　　「へえ、これ無料なんだ。良く出来てるわ。」
+DIALOGUE,しの　　　「あっ。」
+EMPTY,
+DIRECTION,　　課長、いつの間にか銃を手にしている。
+DIRECTION_CONTINUED,　　どうやらおかしくなっている。
+EMPTY,
+DIALOGUE,永子　　　「なんなの、夫婦そろって。」
+DIALOGUE,しの　　　「弾は、何発入ってるんですか？」
+DIALOGUE,本田　　　「あれは、17発入るやつです。」
+DIALOGUE,永子　　　「とりあえずしのちゃん、気配消しなよ。」
+DIALOGUE,しの　　　「ああ･･･、済みません、もう出来ないみたいです。」
+DIALOGUE,永子　　　「あそうだ、課長、ちょっと待って。」
+EMPTY,
+DIRECTION,　　３人、缶バッジを服からはずす。
+EMPTY,
+DIALOGUE,永子　　　「ほら、缶バッジあげる。ほらほら。」
+EMPTY,
+DIRECTION,　　課長、３人を撃ち殺す。
+DIRECTION_CONTINUED,　　転がる死体。
+DIRECTION_CONTINUED,　　課長、椅子に腰掛けてがっくり肩を落とす。
+EMPTY,
+DIALOGUE,課長　　　「知らねえよ。知らねえよ･･･。アンコールなんかするから･･･。ア
+DIALOGUE_CONTINUED,　　　　　　ンコールなんかするから、こんな事になったんだぞ。
+DIALOGUE_CONTINUED,　　　　　　もうアンコールなんかするな。な、もう絶対、アンコールなんかするな
+DIALOGUE_CONTINUED,　　　　　　。」
+EMPTY,
+DIRECTION,　　アンコール用の音楽がかかる。
+DIRECTION_CONTINUED,　　アンコールが起こった場合は以下へ続く。
+EMPTY,
+H1,シーン31
+EMPTY,
+DIRECTION,　　しの、ゆっくり起き上がる。
+DIRECTION_CONTINUED,　　課長気付いて顔を上げ、対峙する形に。
+DIRECTION_CONTINUED,　　課長の額には赤い点が付いている。
+DIRECTION_CONTINUED,　　対峙したまま、しのが喪服を脱ぐ。
+DIRECTION_CONTINUED,　　かっこいい衣装と、金属製のブレスレット。
+EMPTY,
+DIRECTION,　　プロジェクタにさっきのシーンが映る。
+DIRECTION_CONTINUED,　　プロジェクタの映像がスローモーションになる。
+DIRECTION_CONTINUED,　　しのが、素早い動きで弾を跳ね返している。
+DIRECTION_CONTINUED,　　跳ね返った弾は、３発とも課長の額へ。
+EMPTY,
+DIRECTION,　　映像が消える。
+DIRECTION_CONTINUED,　　永子と本田が起き上がる。
+DIRECTION_CONTINUED,　　課長は自分の額に触れ、血を確認する。
+EMPTY,
+DIALOGUE,課長　　　「だから言ったんだよ、アンコールするなって･･･。」
+DIALOGUE,しの　　　「とりあえず、病院へ･･･。」
+DIALOGUE,課長　　　「でもこれ、助かるの？」
+DIALOGUE,しの　　　「いえ、あの、無理だと思いますけど･･･。」
+DIALOGUE,永子　　　「ちゃんと病院で、死んでって事。」
+DIALOGUE,課長　　　「ああ、そっか･･･。じゃあ、そうしよっかね･･･。」
+EMPTY,
+DIRECTION,　　課長、銃を持ってふらふらと出て行く。
+EMPTY,
+DIALOGUE,課長　　　「（ドアを開けて）あ、開いた･･･。」
+EMPTY,
+DIRECTION,　　３人、課長を見送る。
+EMPTY,
+H1,シーン32
+EMPTY,
+DIRECTION,　　しのの衣装に注目が集まる。
+EMPTY,
+DIALOGUE,しの　　　「あ、これ、主人の形見なんです･･･。」
+DIALOGUE,本田　　　「弾を、跳ね返したんですか？」
+DIALOGUE,しの　　　「なんか、そうみたいです･･･。なんか、手だけすごく良く動くんです
+DIALOGUE_CONTINUED,　　　　　　。」
+DIALOGUE,永子　　　「アル中？」
+DIALOGUE,本田　　　「そういえば、最初に手に塗ってましたよね。」
+DIALOGUE,しの　　　「そっか、それで腕相撲して･･･。」
+DIALOGUE,本田　　　「最初に塗った所だけ、何かそういう、効果が残るんでしょうか。」
+DIALOGUE,永子　　　「かーもね。よいしょっと（座る）。もういいじゃん。ねえ、温泉行かな
+DIALOGUE_CONTINUED,　　　　　　い？」
+DIALOGUE,しの　　　「あ、温泉、私も行きたいです。」
+DIALOGUE,永子　　　「温泉つかるとさあ、生き返るよねー。本田君は？」
+DIALOGUE,本田　　　「あ、はい、行きます。」
+DIALOGUE,永子　　　「あたしこないだ、若返りの湯っていうの見つけたんだけどさ（といって
+DIALOGUE_CONTINUED,　　　　　　はしたなく笑う）。」
+DIALOGUE,本田　　　「永子さん･･･。」
+DIALOGUE,永子　　　「ん？」
+DIALOGUE,本田　　　「若返りとか長生きとか、みんなしたがるけど、私は、本当は命は永遠な
+DIALOGUE_CONTINUED,　　　　　　んじゃないかって思うんです。」
+DIALOGUE,しの　　　「？」
+DIALOGUE,本田　　　「私たち一人一人は死んでも、子供へと受け継がれて行くでしょう？　だ
+DIALOGUE_CONTINUED,　　　　　　から。」
+DIALOGUE,永子　　　「そうね。いい事言うじゃん。ね。」
+DIALOGUE,しの　　　「はい。」
+EMPTY,
+DIRECTION,　　永子立ち上がって、
+EMPTY,
+DIALOGUE,永子　　　「あいてて。･･･それじゃ悪者も倒した事だし、せーの、」
+EMPTY,
+DIRECTION,　　３人、イェーイと言おうとして寸止め。
+DIRECTION_CONTINUED,　　電話が鳴る。
+EMPTY,
+H1,シーン33
+EMPTY,
+DIRECTION,　　３人、顔を見合わせる。
+DIRECTION_CONTINUED,　　電話には出ずに、ドアを開けてみる。
+DIRECTION_CONTINUED,　　光子が入って来る。
+DIRECTION_CONTINUED,　　泣いている。
+EMPTY,
+DIALOGUE,光子　　　「う、う、うううう･･･。主人が、主人が･･･、私がしてきた事が、
+DIALOGUE_CONTINUED,　　　　　　全部無駄になってしまいました･･･。普通でいいから、普通の家庭を
+DIALOGUE_CONTINUED,　　　　　　守ろうと、そのために、どんな事も我慢して来たのに、それなのに･･
+DIALOGUE_CONTINUED,　　　　　　･。
+DIALOGUE_CONTINUED,　　　　　　ただ子供を産んで、その子が優しい子に育ってくれれば、それで良かっ
+DIALOGUE_CONTINUED,　　　　　　たのに、それだけで良かったのに･･･。なんで、なんでこんな事に･
+DIALOGUE_CONTINUED,　　　　　　･･。
+DIALOGUE_CONTINUED,　　　　　　主人は、もう生き返らないんですか？　さっきみたいに、生き返らない
+DIALOGUE_CONTINUED,　　　　　　んですか？　私どんな事でもします。あの人が生き返るなら、あの人の
+DIALOGUE_CONTINUED,　　　　　　子供を産めるなら、どんな事でもします。
+DIALOGUE_CONTINUED,　　　　　　お願い、若月さん、お願いします。お願いします･･･。」
+EMPTY,
+DIRECTION,　　光子、号泣する。
+DIRECTION_CONTINUED,　　涙が涸れて声も出なくなる。
+DIRECTION_CONTINUED,　　光子の携帯が鳴る。
+EMPTY,
+DIALOGUE,光子　　　「（出て）はい･･･。え、という事は･･･。ほ、本当ですか。」
+EMPTY,
+DIRECTION,　　電話を切り、３人の方へ、
+EMPTY,
+DIALOGUE,光子　　　「病院からでした。あの、主人の子供を産むことができるみたいです。」
+DIALOGUE,３人　　　「え･･･？」
+DIALOGUE,光子　　　「いえ、死んでるんですけど、ちんこだけは生きているから、産めるんだ
+DIALOGUE_CONTINUED,　　　　　　そうです。」
+DIALOGUE,永子　　　「（本田に）そういえばさっき、何かいい事言ってたよね？」
+DIALOGUE,本田　　　「え、ああ、命は子供に受け継がれるから、永遠だっていう話ですか？」
+DIALOGUE,永子　　　「そうそう。そして～（と光子に振る）。」
+DIALOGUE,光子　　　「ちんこは生きている！」
+DIALOGUE,４人　　　「イェーイ！」
+EMPTY,
+DIRECTION,　　ハッピーな音楽がかかる。
+EMPTY,
+ENDMARK,　　　　　　　　　　「死人にもち肌」おわり
