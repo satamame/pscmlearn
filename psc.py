@@ -16,3 +16,12 @@ classes = (
 "DIALOGUE_CONTINUED",
 "COMMENT_CONTINUED"
 )
+
+features = (
+    # Feature of the script
+    "sc_count_of_lines",
+    "sc_count_of_lines_with_bracket",
+    # Feature of the line
+    "ln_count_of_characters",
+    "ln_count_of_brackets"
+)
