@@ -36,6 +36,7 @@ class_pattern = re.compile(r"([A-Z0-9_]+),(.*)")
 space_pattern = re.compile(r"[/s　]+")
 
 for line in fin.readlines():
+    # Isolate class name and data
     matched = re.match(class_pattern, line)
     if matched and matched.group(1) in psc.classes:
         data = matched.group(2)
@@ -44,6 +45,7 @@ for line in fin.readlines():
     else:
         data = line
     
+    # Count space characters in indent
     matched = re.match(space_pattern, data)
     if matched:
         space = matched.group()

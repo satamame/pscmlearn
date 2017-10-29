@@ -1,2 +1,3 @@
 sc_count_of_lines
 ln_count_of_characters
+sc_count_of_lines
