@@ -17,8 +17,7 @@ def close_all():
 def make_feature_elements(ffeat):
 
     # Load feature elements to be used
-    ft_sc = [] # Feature elements of script
-    ft_ln = [] # Feature elements of line
+    ftin = [] # Feature elements input
     for line in ffeat.readlines():
         ftline = re.sub(r"#.*", "", line).strip()
         if not ftline:
@@ -26,43 +25,29 @@ def make_feature_elements(ffeat):
         ftel = [ft.strip() for ft in ftline.split(",")]
         if len(ftel) < 2:
             ftel.append('1')
-        if ftel[0] in psc.features_sc:
-            ft_sc.append(ftel)
-        elif ftel[0] in psc.features_ln:
-            ft_ln.append(ftel)
+        if ftel[0] in psc.features:
+            ftin.append(ftel)
         elif ftel[0]:
             print('Warning: ' + ftel[0] + ' is in feature elements but not defined.')
     
-    ftnames_sc = [ftel[0] for ftel in ft_sc]
-    ftnames_ln = [ftel[0] for ftel in ft_ln]
+    ftnames = [ftel[0] for ftel in ftin]
 
     # Check duplicates
-    for ft in psc.features_sc:
-        if ftnames_sc.count(ft) > 1:
-            print('Warning: ' + ft + ' is duplicated in feature elements.')
-    for ft in psc.features_ln:
-        if ftnames_ln.count(ft) > 1:
+    for ft in psc.features:
+        if ftnames.count(ft) > 1:
             print('Warning: ' + ft + ' is duplicated in feature elements.')
 
     # Make feature elements definition
-    ftel_sc = []
-    for ftel in ft_sc:
-        if not ftel[0] in [ft[0] for ft in ftel_sc]:
+    ftels = []
+    for ftel in ftin:
+        if not ftel[0] in [ft[0] for ft in ftels]:
             try:
                 v = float(ftel[1])
             except:
                 v = 1.
-            ftel_sc.append((ftel[0], v))
-    ftel_ln = []
-    for ftel in ft_ln:
-        if not ftel[0] in [ft[0] for ft in ftel_ln]:
-            try:
-                v = float(ftel[1])
-            except:
-                v = 1.
-            ftel_ln.append((ftel[0], v))
+            ftels.append((ftel[0], v))
 
-    return ftel_sc, ftel_ln
+    return ftels
 
 
 # def extract_script_features(fin, ftel_sc):
@@ -84,8 +69,7 @@ except IOError as err:
     sys.exit()
 
 # Load feature elements to be used
-ftel_sc, ftel_ln = make_feature_elements(ffeat)
+ftels = make_feature_elements(ffeat)
 
-print ('Features of script : {0}'.format(ftel_sc))
-print ('Features of line : {0}'.format(ftel_ln))
+print ('Feature elements : {0}'.format(ftels))
 
