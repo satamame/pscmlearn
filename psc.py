@@ -17,11 +17,14 @@ classes = (
 "COMMENT_CONTINUED"
 )
 
-features = (
-    # Feature of the script
+# Feature elements of the script
+features_sc = (
     "sc_count_of_lines",
-    "sc_count_of_lines_with_bracket",
-    # Feature of the line
+    "sc_count_of_lines_with_bracket"
+)
+
+# Feature elements of the line
+features_ln = (
     "ln_count_of_characters",
     "ln_count_of_brackets"
 )
