@@ -8,5 +8,5 @@ python psc_morph.py train\tr_0000_sc.txt train\tr_0000_mrph.json
 
 特徴量抽出
 
-python psc_extract.py train\tr_0000_mrph.json feat\ft_0000.txt train\tr_0000_ftsc.txt train\tr_0000_ftln.txt
+python psc_extract.py train\tr_0000_mrph.json feat\ft_0000.txt train\tr_0000_ft.txt
 

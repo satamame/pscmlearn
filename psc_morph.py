@@ -5,7 +5,6 @@ import sys
 from janome.tokenizer import Tokenizer
 import re
 import json
-
 import psc
 
 
@@ -22,7 +21,7 @@ if len(args) < 3:
     sys.exit()
 try:
     fin = open(args[1], encoding='utf-8')
-    fout = open(args[2], 'w')
+    fout = open(args[2], 'w', encoding='utf-8')
     if len(args) > 3:
         flbl = open(args[3], 'w')
 except IOError as err:
@@ -45,14 +44,12 @@ for line in fin.readlines():
     else:
         data = line
     
-    # Count space characters in indent
+    # Space characters in indent
     matched = re.match(space_pattern, data)
     if matched:
-        space = matched.group()
-        space = space.replace('　', '  ').replace('\t', '    ')
-        space_count = len(space)
+        indent_chars = matched.group()
     else:
-        space_count = 0
+        indent_chars = ""
 
     tokenized_words = []
     for token in t.tokenize(data):
@@ -68,7 +65,7 @@ for line in fin.readlines():
         tokenized_words.append(token_info)
 
     token_lines.append({
-        'indent_chars': space_count,
+        'indent_chars': indent_chars,
         'tokenized_words': tokenized_words
     })
 

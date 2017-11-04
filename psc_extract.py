@@ -3,13 +3,12 @@
 
 import sys
 import re
-
+import json
 import psc
 
 
 def close_all():
-    foutln.close()
-    foutsc.close()
+    fout.close()
     ffeat.close()
     fin.close()
 
@@ -50,19 +49,15 @@ def make_feature_elements(ffeat):
     return ftels
 
 
-# def extract_script_features(fin, ftel_sc):
-
-
 args = sys.argv
-if len(args) < 5:
-    print('Usage: python psc_extract.py in-filename feature-vector-filename ' + \
-        'out-filename-for-script out-filename-for-lines')
+if len(args) < 4:
+    print('Usage: python psc_extract.py in-filename feature-elements-filename ' + \
+        'out-filename')
     sys.exit()
 try:
     fin = open(args[1], encoding='utf-8') # Morphologically analyzed script
     ffeat = open(args[2]) # Feature vector definition
-    foutsc = open(args[3], 'w') # Output of features extracted from script
-    foutln = open(args[4], 'w') # Output of features extracted from lines
+    fout = open(args[3], 'w') # Output of features
 except IOError as err:
     print(err)
     close_all()
@@ -71,5 +66,10 @@ except IOError as err:
 # Load feature elements to be used
 ftels = make_feature_elements(ffeat)
 
-print ('Feature elements : {0}'.format(ftels))
+# print ('Feature elements : {0}'.format(ftels))
 
+lines = json.load(fin)
+for lnum in range(len(lines)):
+    print (lnum)
+
+close_all()
