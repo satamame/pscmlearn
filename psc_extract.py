@@ -49,6 +49,38 @@ def make_feature_elements(ffeat):
     return ftels
 
 
+class Extractor:
+    def __init__(self, lines, ftels):
+        self.lines = lines
+        self.ftels = ftels
+    def extract(self, fout):
+        for lnum in range(len(self.lines)):
+            fout.write(ex.extract_line(lnum) + '\n')
+    def extract_line(self, lnum):
+        feature_vec = []
+        for ftname in [ftel[0] for ftel in ftels]:
+            if ftname == 'sc_count_of_lines':
+                ft = str(len(self.lines))
+            elif ftname == 'sc_count_of_lines_with_bracket':
+                ft = str(self.count_of_lines_with_bracket())
+            elif ftname == 'ln_count_of_characters':
+                #
+                #
+                #
+                ft = "1"
+            elif ftname == 'ln_count_of_brackets':
+                #
+                #
+                #
+                ft = "1"
+            feature_vec.append(ft)
+        return ",".join(feature_vec)
+    def count_of_lines_with_bracket(self):
+        #
+        #   
+        #
+        return 1
+
 args = sys.argv
 if len(args) < 4:
     print('Usage: python psc_extract.py in-filename feature-elements-filename ' + \
@@ -68,8 +100,6 @@ ftels = make_feature_elements(ffeat)
 
 # print ('Feature elements : {0}'.format(ftels))
 
-lines = json.load(fin)
-for lnum in range(len(lines)):
-    print (lnum)
-
+ex = Extractor(json.load(fin), ftels)
+ex.extract(fout)
 close_all()
