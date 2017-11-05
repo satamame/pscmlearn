@@ -22,6 +22,8 @@ features = (
     "sc_count_of_lines",
     "sc_count_of_lines_with_bracket",
     # Feature elements of the line
-    "ln_count_of_characters",
+    "ln_count_of_words",
     "ln_count_of_brackets"
 )
+
+brackets = ('「', '」', '『', '』')
