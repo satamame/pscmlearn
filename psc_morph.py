@@ -8,7 +8,7 @@ import sys
 from janome.tokenizer import Tokenizer
 import re
 import json
-from psc import psc
+from psclib import psc
 
 
 # すべてのファイルを閉じる関数。
@@ -42,7 +42,7 @@ except IOError as err:
 
 
 t = Tokenizer()
-# token_lines は、行ごとの解析結果を要素とするリストになる。
+# token_lines は、行ごとの解析結果（辞書型）を要素とするリストになる。
 token_lines = []
 # 以下の2つは、正規表現マッチングに使うパターン。
 class_pattern = re.compile(r"([A-Z0-9_]+),(.*)")

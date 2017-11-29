@@ -33,7 +33,7 @@ brackets = ('「', '」', '『', '』')
 
 
 # 特徴量定義データから、(特徴名, ハイパーパラメータ) のタプルのリストを作る関数。
-# ffeat は、存在が確認されているファイルの名前。
+# ffeat は、存在が保証されているファイルの名前。
 def make_feature_elements(ffeat):
 
     # Load feature elements to be used
