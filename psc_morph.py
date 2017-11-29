@@ -8,7 +8,7 @@ import sys
 from janome.tokenizer import Tokenizer
 import re
 import json
-from psclib import psc
+import psclib.psc as psc
 
 
 # すべてのファイルを閉じる関数。

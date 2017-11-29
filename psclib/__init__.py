@@ -1,2 +1,0 @@
-import psc
-import extractor
