@@ -1,7 +1,7 @@
 #! python3
 # encoding: utf-8
 
-# 形態素データと特徴量定義データを入力として、行ごとの特徴ベクトルを出力するプログラム。
+# 形態素データと特徴量設定データを入力として、行ごとの特徴ベクトルを出力するプログラム。
 
 import sys
 import re
@@ -25,15 +25,15 @@ if len(args) < 4:
         'out-filename')
     sys.exit()
 try:
-    fin = open(args[1], encoding='utf-8') # Morphologically analyzed script
-    ffeat = open(args[2]) # Feature vector definition
-    fout = open(args[3], 'w') # Output of features
+    fin = open(args[1], encoding='utf-8') # Morphologically analyzed script.
+    ffeat = open(args[2]) # Feature vector setting.
+    fout = open(args[3], 'w') # Output of features.
 except IOError as err:
     print(err)
     close_all()
     sys.exit()
 
-# Load feature elements to be used
+# Load feature elements to be used.
 ftels = psc.make_feature_elements(ffeat)
 
 # print ('Feature elements : {0}'.format(ftels))
