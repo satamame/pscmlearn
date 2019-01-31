@@ -1,0 +1,17 @@
+特徴量の定義
+
+sc_count_of_lines
+	台本内の行数
+
+sc_count_of_lines_with_bracket
+	台本内の括弧を含む行の数
+
+ln_count_of_words
+	行内の語数
+
+ln_count_of_brackets
+	行内の括弧の数 (括弧の定義は、psc.brackets)
+
+ln_length_of_common_head
+	行頭の何単語まで他の行と共通するか
+

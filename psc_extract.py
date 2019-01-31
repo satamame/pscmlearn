@@ -7,7 +7,7 @@ import sys
 import re
 import json
 import psclib.psc as psc
-import psclib.extractor as pscext
+from psclib.extractor import Extractor
 
 # すべてのファイルを閉じる関数。
 def close_all():
@@ -26,8 +26,8 @@ if len(args) < 4:
     sys.exit()
 try:
     fin = open(args[1], encoding='utf-8') # Morphologically analyzed script.
-    ffeat = open(args[2]) # Feature vector setting.
-    fout = open(args[3], 'w') # Output of features.
+    ffeat = open(args[2])                 # Feature vector setting.
+    fout = open(args[3], 'w')             # Output of features.
 except IOError as err:
     print(err)
     close_all()
@@ -38,6 +38,6 @@ ftels = psc.make_feature_elements(ffeat)
 
 # print ('Feature elements : {0}'.format(ftels))
 
-ex = pscext.Extractor(json.load(fin), ftels)
+ex = Extractor(json.load(fin), ftels)
 ex.extract(fout)
 close_all()
