@@ -1,3 +1,6 @@
-.ipynb_checkpoints
-__pycache__
+/.venv/
 /runjupyter.bat
+
+.ipynb_checkpoints/
+.vscode/
+__pycache__/
