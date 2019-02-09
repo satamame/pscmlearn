@@ -3,3 +3,4 @@ sc_count_of_lines_with_bracket, 1000
 ln_count_of_words
 ln_count_of_brackets
 ln_length_of_common_head
+ln_first_bracket_pos

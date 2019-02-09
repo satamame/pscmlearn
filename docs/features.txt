@@ -15,7 +15,9 @@ ln_count_of_brackets
 ln_length_of_common_head
 	行頭の何単語まで他の行と共通するか
 
-行の長さ
+ln_first_bracket_pos
+	行内の最初の括弧の位置 (0, 1, ...) を x とし、0.8^x の値
+
 かぎかっこの出現と位置
 空白文字の出現と位置
 最後の文字

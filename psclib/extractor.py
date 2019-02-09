@@ -32,13 +32,20 @@ class Extractor:
             elif ftname == 'ln_count_of_words': # 行内の語数
                 ft = str(len(line['tokenized_words']))
             elif ftname == 'ln_count_of_brackets': # 行内の括弧の数
-                ft = str(sum((word['surface'] in psc.brackets) \
-                    for word in line['tokenized_words']))
+                lw = [word['surface'] for word in line['tokenized_words']]
+                lb = [x for x in lw if x in psc.brackets]
+                ft = str(len(lb))
             elif ftname == 'ln_length_of_common_head': # 行頭の何単語まで他の行と共通するか
                 ft = str(len(self.get_length_of_common_head(lnum)))
                 # とりあえず、共通の行頭が存在する最大の単語数を特徴として使ってみる。
                 # "単語数 * 存在する行数" などを特徴として使う手もある。
-
+            elif ftname == 'ln_first_bracket_pos': # 括弧がどれくらい早く出現するか
+                lw = [word['surface'] for word in line['tokenized_words']]
+                li = [i for i, x in enumerate(lw) if x in psc.brackets]
+                if len(li) > 0:
+                    ft = str(0.8 ** li[0])
+                else:
+                    ft = "0"
 
 
 

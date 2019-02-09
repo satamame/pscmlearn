@@ -27,7 +27,8 @@ features = (
     # Feature elements of the line
     "ln_count_of_words",
     "ln_count_of_brackets",
-    "ln_length_of_common_head"
+    "ln_length_of_common_head",
+    "ln_first_bracket_pos"
 )
 
 brackets = ('「', '」', '『', '』')
