@@ -1,5 +1,6 @@
 import psclib.psc as psc
 import copy
+import numpy as np
 
 
 class Extractor:
@@ -26,31 +27,48 @@ class Extractor:
             ftels の各要素の特徴名にもとづいて、特徴量を取得する。
             """
             if ftname == 'sc_count_of_lines': # 台本内の行数
-                ft = str(len(self.lines))
+                ft = len(self.lines)
+
             elif ftname == 'sc_count_of_lines_with_bracket': # 台本内の括弧を含む行の数
-                ft = str(self.get_count_of_lines_with_bracket())
+                ft = self.get_count_of_lines_with_bracket()
+
             elif ftname == 'ln_count_of_words': # 行内の語数
-                ft = str(len(line['tokenized_words']))
+                ft = len(line['tokenized_words'])
+
             elif ftname == 'ln_count_of_brackets': # 行内の括弧の数
                 lw = [word['surface'] for word in line['tokenized_words']]
                 lb = [x for x in lw if x in psc.brackets]
-                ft = str(len(lb))
+                ft = len(lb)
+
             elif ftname == 'ln_length_of_common_head': # 行頭の何単語まで他の行と共通するか
-                ft = str(len(self.get_length_of_common_head(lnum)))
+                ft = len(self.get_length_of_common_head(lnum))
                 # とりあえず、共通の行頭が存在する最大の単語数を特徴として使ってみる。
                 # "単語数 * 存在する行数" などを特徴として使う手もある。
+
             elif ftname == 'ln_first_bracket_pos': # 括弧がどれくらい早く出現するか
                 lw = [word['surface'] for word in line['tokenized_words']]
                 li = [i for i, x in enumerate(lw) if x in psc.brackets]
                 if len(li) > 0:
-                    ft = str(0.8 ** li[0])
+                    x = li[0]
+                    ft = np.exp(-x/4)
                 else:
-                    ft = "0"
+                    ft = 0
 
+            elif ftname == 'ln_first_space_pos': # 空白がどれくらい早く出現するか
+                lw = [word['surface'] for word in line['tokenized_words']]
+                li = [i for i, x in enumerate(lw) if x in psc.spaces]
+                if len(li) > 0:
+                    x = li[0]
+                    ft = np.exp(-x/4)
+                else:
+                    ft = 0
+
+            elif ftname == 'ln_length_of_indent': # インデントの長さ
+                ft = len(line['indent_chars'])
 
 
             feature_vec.append(ft)
-        return ",".join(feature_vec)
+        return ",".join([str(ft) for ft in feature_vec])
     
     def get_count_of_lines_with_bracket(self):
         """

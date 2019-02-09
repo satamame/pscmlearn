@@ -46,7 +46,7 @@ t = Tokenizer()
 token_lines = []
 # 以下の2つは、正規表現マッチングに使うパターン。
 class_pattern = re.compile(r"([A-Z0-9_]+),(.*)")
-space_pattern = re.compile(r"[/s　]+")
+space_pattern = re.compile(r"[\s　]+")
 
 
 # 入力の行ごとの処理。

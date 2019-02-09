@@ -28,11 +28,13 @@ features = (
     "ln_count_of_words",
     "ln_count_of_brackets",
     "ln_length_of_common_head",
-    "ln_first_bracket_pos"
+    "ln_first_bracket_pos",
+    "ln_first_space_pos",
+    "ln_length_of_indent"
 )
 
 brackets = ('「', '」', '『', '』')
-
+spaces = (' ', '　', '\t')
 
 # 特徴量設定データから、(特徴名, ハイパーパラメータ) のタプルのリストを作る関数。
 # ffeat は、存在が保証されているファイルの名前。
