@@ -14,6 +14,7 @@ class Extractor:
         台本のすべての行の特徴を抽出してファイルに書き出すメソッド。
         """
         for lnum in range(len(self.lines)):
+            # print('Line {}'.format(lnum))
             fout.write(self.extract_line(lnum) + '\n')
     
     def extract_line(self, lnum):
@@ -45,27 +46,39 @@ class Extractor:
                 # とりあえず、共通の行頭が存在する最大の単語数を特徴として使ってみる。
                 # "単語数 * 存在する行数" などを特徴として使う手もある。
 
-            elif ftname == 'ln_first_bracket_pos': # 括弧がどれくらい早く出現するか
-                lw = [word['surface'] for word in line['tokenized_words']]
-                li = [i for i, x in enumerate(lw) if x in psc.brackets]
-                if len(li) > 0:
-                    x = li[0]
-                    ft = np.exp(-x/4)
-                else:
-                    ft = 0
+            elif ftname == 'ln_first_open_bracket_pos': # 開き括弧がどれくらい早く出現するか
+                ft = self.get_first_pos_in_line(lnum, psc.open_brackets)
+
+            elif ftname == 'ln_first_close_bracket_pos': # 閉じ括弧がどれくらい早く出現するか
+                ft = self.get_first_pos_in_line(lnum, psc.close_brackets)
 
             elif ftname == 'ln_first_space_pos': # 空白がどれくらい早く出現するか
-                lw = [word['surface'] for word in line['tokenized_words']]
-                li = [i for i, x in enumerate(lw) if x in psc.spaces]
-                if len(li) > 0:
-                    x = li[0]
-                    ft = np.exp(-x/4)
-                else:
-                    ft = 0
+                ft = self.get_first_pos_in_line(lnum, psc.spaces)
+
+            elif ftname == 'ln_first_comma_pos': # 読点がどれくらい早く出現するか
+                ft = self.get_first_pos_in_line(lnum, psc.commas)
+
+            elif ftname == 'ln_first_period_pos': # 句点がどれくらい早く出現するか
+                ft = self.get_first_pos_in_line(lnum, psc.periods)
 
             elif ftname == 'ln_length_of_indent': # インデントの長さ
                 ft = len(line['indent_chars'])
 
+            elif ftname == 'ln_begins_with_name': # 最初の単語が名詞/固有名詞/人名か
+                tw = line['tokenized_words']
+                ft = 0
+                if len(tw) > 0:
+                    pos = tw[0]['part_of_speech'].split(',')
+                    ft += (pos[0] == '名詞')        # 名詞なら 1
+                    ft += (pos[1] == '固有名詞')    # さらに固有名詞なら 2
+                    ft += (pos[2] == '人名') * 2    # さらに人名なら 4
+            
+            elif ftname == 'ln_ends_with_close_bracket': # 行の最後が閉じ括弧か
+                tw = line['tokenized_words']
+                if len(tw) > 0:
+                    ft = int(tw[-1]['surface'] in psc.close_brackets)
+                else:
+                    ft = 0
 
             feature_vec.append(ft)
         return ",".join([str(ft) for ft in feature_vec])
@@ -137,3 +150,17 @@ class Extractor:
                 else:
                     break
         return count
+
+    def get_first_pos_in_line(self, lnum, words):
+        """
+        lnum 行目にて、words 内のいずれかの語が最初に出現する位置。
+        返り値は、位置 (0, 1, ...) を x とし、e^(-x/4) の値。なければ 0。
+        """
+        line = self.lines[lnum]
+        lw = [word['surface'] for word in line['tokenized_words']]
+        li = [i for i, x in enumerate(lw) if x in words]
+        if len(li) > 0:
+            x = li[0]
+            return np.exp(-x/4)
+        else:
+            return 0

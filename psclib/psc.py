@@ -28,13 +28,22 @@ features = (
     "ln_count_of_words",
     "ln_count_of_brackets",
     "ln_length_of_common_head",
-    "ln_first_bracket_pos",
+    "ln_first_open_bracket_pos",
+    "ln_first_close_bracket_pos",
     "ln_first_space_pos",
-    "ln_length_of_indent"
+    "ln_first_comma_pos",
+    "ln_first_period_pos",
+    "ln_length_of_indent",
+    "ln_begins_with_name",
+    "ln_ends_with_close_bracket"
 )
 
-brackets = ('「', '」', '『', '』')
+open_brackets = ('「', '『')
+close_brackets = ('」', '』')
+brackets = open_brackets + close_brackets
 spaces = (' ', '　', '\t')
+commas = (',', '、')
+periods = ('.', '。')
 
 # 特徴量設定データから、(特徴名, ハイパーパラメータ) のタプルのリストを作る関数。
 # ffeat は、存在が保証されているファイルの名前。
@@ -51,21 +60,21 @@ def make_feature_elements(ffeat):
             continue
         # 読み込んだ行をカンマで区切ったリスト。
         ftel = [ft.strip() for ft in ftline.split(",")]
-        # 2個目の要素（ハイパーパラメータ）が無ければ1（デフォルト値）とする。
+        # 2個目の要素（ハイパーパラメータ）が無ければ 1（デフォルト値）とする。
         if len(ftel) < 2:
             ftel.append('1')
         # 定義された特徴名なら、リストに追加。
         if ftel[0] in features:
             ftin.append(ftel)
         elif ftel[0]:
-            print('Warning: ' + ftel[0] + ' is in feature elements but not defined.')
+            print('Warning: Feature \'' + ftel[0] + '\' not defined.')
     
     ftnames = [ftel[0] for ftel in ftin]
 
     # Check duplicates.
     for ft in features:
         if ftnames.count(ft) > 1:
-            print('Warning: ' + ft + ' is duplicated in feature elements.')
+            print('Warning: \'' + ft + '\' is duplicated in feature elements.')
 
     # Make feature elements definition.
     ftels = []

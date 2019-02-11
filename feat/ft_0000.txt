@@ -3,6 +3,11 @@ sc_count_of_lines_with_bracket, 1000
 ln_count_of_words
 ln_count_of_brackets
 ln_length_of_common_head
-ln_first_bracket_pos
+ln_first_open_bracket_pos
+ln_first_close_bracket_pos
 ln_first_space_pos
+ln_first_comma_pos
+ln_first_period_pos
 ln_length_of_indent
+ln_begins_with_name
+ln_ends_with_close_bracket

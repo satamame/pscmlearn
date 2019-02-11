@@ -15,19 +15,34 @@ ln_count_of_brackets
 ln_length_of_common_head
 	行頭の何単語まで他の行と共通するか
 
-ln_first_bracket_pos
-	行内の最初の括弧の位置 (0, 1, ...) を x とし、e^(-x/4) の値
+ln_first_open_bracket_pos
+	行内の開き括弧の出現の早さ。大きいほど早く出現。なければ 0。
+
+ln_first_close_bracket_pos
+	行内の閉じ括弧の出現の早さ。大きいほど早く出現。なければ 0。
 
 ln_first_space_pos
-	行内の最初の空白の位置 (0, 1, ...) を x とし、e^(-x/4) の値
+	行内の空白文字の出現の早さ。大きいほど早く出現。なければ 0。
+
+ln_first_comma_pos
+	行内の読点の出現の早さ。大きいほど早く出現。なければ 0。
+
+ln_first_period_pos
+	行内の句点の出現の早さ。大きいほど早く出現。なければ 0。
 
 ln_length_of_indent
 	インデントの長さ
 
+ln_begins_with_name
+	行頭の単語が名詞なら 1, 固有名詞なら 2, 人名なら 4
+
+ln_ends_with_close_bracket
+	行の最後が閉じ括弧か
+
+
+最後の単語の品詞
 
 最後の文字
-最初の単語の品詞
-最後の単語の品詞
 動詞の活用形の分布
 体言止めの出現回数
 句読点の出現回数
