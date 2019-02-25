@@ -2,22 +2,22 @@ import re
 
 
 classes = (
-    "TITLE",
-    "AUTHOR",
-    "CHARSHEADLINE",
-    "CHARACTER",
-    "H1",
-    "H2",
-    "H3",
-    "DIRECTION",
-    "DIALOGUE",
-    "ENDMARK",
-    "COMMENT",
-    "EMPTY",
-    "CHARACTER_CONTINUED",
-    "DIRECTION_CONTINUED",
-    "DIALOGUE_CONTINUED",
-    "COMMENT_CONTINUED"
+    "TITLE",                // 0
+    "AUTHOR",               // 1
+    "CHARSHEADLINE",        // 2
+    "CHARACTER",            // 3
+    "H1",                   // 4
+    "H2",                   // 5
+    "H3",                   // 6
+    "DIRECTION",            // 7
+    "DIALOGUE",             // 8
+    "ENDMARK",              // 9
+    "COMMENT",              // 10
+    "EMPTY",                // 11
+    "CHARACTER_CONTINUED",  // 12
+    "DIRECTION_CONTINUED",  // 13
+    "DIALOGUE_CONTINUED",   // 14
+    "COMMENT_CONTINUED"     // 15
 )
 
 features = (
@@ -45,9 +45,15 @@ spaces = (' ', '　', '\t')
 commas = (',', '、')
 periods = ('.', '。')
 
-# 特徴量設定データから、(特徴名, ハイパーパラメータ) のタプルのリストを作る関数。
-# ffeat は、存在が保証されているファイルの名前。
 def make_feature_elements(ffeat):
+    """
+    特徴量設定ファイルの内容から、(特徴名, ハイパーパラメータ) のタプルのリストを作る関数。
+    
+    Parameters
+    ----------
+    ffeat : string
+        特徴量設定ファイルの名前。ファイルの存在が保証されていること。
+    """
 
     # ファイル ffeat から、使用する特徴量の設定を取得。
     # Load feature elements to be used.

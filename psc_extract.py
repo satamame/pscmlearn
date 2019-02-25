@@ -7,7 +7,7 @@ import sys
 import re
 import json
 import psclib.psc as psc
-from psclib.extractor import Extractor
+from psclib.extract import Extractor
 
 # すべてのファイルを閉じる関数。
 def close_all():
