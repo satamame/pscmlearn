@@ -2,22 +2,22 @@ import re
 
 
 classes = (
-    "TITLE",                // 0
-    "AUTHOR",               // 1
-    "CHARSHEADLINE",        // 2
-    "CHARACTER",            // 3
-    "H1",                   // 4
-    "H2",                   // 5
-    "H3",                   // 6
-    "DIRECTION",            // 7
-    "DIALOGUE",             // 8
-    "ENDMARK",              // 9
-    "COMMENT",              // 10
-    "EMPTY",                // 11
-    "CHARACTER_CONTINUED",  // 12
-    "DIRECTION_CONTINUED",  // 13
-    "DIALOGUE_CONTINUED",   // 14
-    "COMMENT_CONTINUED"     // 15
+    "TITLE",                # 0
+    "AUTHOR",               # 1
+    "CHARSHEADLINE",        # 2
+    "CHARACTER",            # 3
+    "H1",                   # 4
+    "H2",                   # 5
+    "H3",                   # 6
+    "DIRECTION",            # 7
+    "DIALOGUE",             # 8
+    "ENDMARK",              # 9
+    "COMMENT",              # 10
+    "EMPTY",                # 11
+    "CHARACTER_CONTINUED",  # 12
+    "DIRECTION_CONTINUED",  # 13
+    "DIALOGUE_CONTINUED",   # 14
+    "COMMENT_CONTINUED"     # 15
 )
 
 features = (
@@ -58,7 +58,7 @@ def make_feature_elements(ffeat):
     # ファイル ffeat から、使用する特徴量の設定を取得。
     # Load feature elements to be used.
     ftin = [] # Feature elements input.
-    for line in ffeat.readlines():
+    for line in open(ffeat, 'r'):
         # 読み込んだ行からコメント部分を削除。
         ftline = re.sub(r"#.*", "", line).strip()
         # 空行ならスキップ。

@@ -13,8 +13,6 @@ from psclib.extract import Extractor
 def close_all():
     if 'fout' in globals():
         fout.close()
-    if 'ffeat' in globals():
-        ffeat.close()
     if 'fin' in globals():
         fin.close()
 
@@ -26,7 +24,6 @@ if len(args) < 4:
     sys.exit()
 try:
     fin = open(args[1], encoding='utf-8') # Morphologically analyzed script.
-    ffeat = open(args[2])                 # Feature vector setting.
     fout = open(args[3], 'w')             # Output of features.
 except IOError as err:
     print(err)
@@ -34,7 +31,7 @@ except IOError as err:
     sys.exit()
 
 # Load feature elements to be used.
-ftels = psc.make_feature_elements(ffeat)
+ftels = psc.make_feature_elements(args[2])
 
 # print ('Feature elements : {0}'.format(ftels))
 
