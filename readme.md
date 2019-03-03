@@ -114,4 +114,4 @@
 	- PSCML (または何らかの台本フォーマット) として出力。
 
 ## 実行のしかた
-[command_samples.txt](command_samples.txt) を参照してください。
+[command_samples.txt](docs/command_samples.txt) を参照してください。
