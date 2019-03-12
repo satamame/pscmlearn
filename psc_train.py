@@ -1,22 +1,21 @@
 #! python3
 # encoding: utf-8
 
-# In[ ]:
-
-
-# 特徴量データ + 教師ラベルのリストを入力として、予測モデルを出力するプログラム。
+# 学習用データ, 評価用データを入力として、学習した予測モデルを出力するプログラム。
 
 import sys
 import csv
-import random
+# import random # 不要か？
+import pickle
 
 import psclib.psc as psc
 
 import numpy as np
 import chainer
-from chainer import Link, Chain, ChainList, Variable
+from chainer import Link, ChainList, Variable
+# from chainer import Chain
 from chainer import iterators, optimizers
-import chainer.links as L
+# import chainer.links as L
 import chainer.functions as F
 from chainer.datasets import split_dataset_random
 from chainer.dataset import concat_examples
@@ -26,20 +25,27 @@ from chainer.cuda import to_cpu
 # In[ ]:
 
 
-
 args = sys.argv
 if len(args) < 4:
-    print('Usage: python psc_train.py train_list_file, test_list_file, model_file')
+    print('Usage: python psc_train.py train_list_file, eval_list_file, model_file')
     sys.exit()
-
 """
 args = [
     "psc_train.py",
     "ds_train_list.txt",
-    "ds_test_list.txt",
+    "ds_eval_list.txt",
     "model/mdl_0000.pkl"
 ]
 """
+
+
+# In[ ]:
+
+
+train_list_file = args[1]
+eval_list_file = args[2]
+model_save_file = args[3]
+
 
 # In[ ]:
 
@@ -94,8 +100,8 @@ def make_dataset(list_file):
 # In[ ]:
 
 
-ds_train = make_dataset(args[1])
-ds_test = make_dataset(args[2])
+ds_train = make_dataset(train_list_file)
+ds_eval = make_dataset(eval_list_file)
 
 # __TODO__ BOM があるとエラーになるので何とかする。
 
@@ -104,45 +110,7 @@ ds_test = make_dataset(args[2])
 
 
 print(len(ds_train))
-print(len(ds_test))
-
-
-# In[ ]:
-
-
-# クラスは、あとで psc パッケージに移す
-class PscChain(Chain):
-    def __init__(self, hid_dim, out_dim):
-        """
-        初期化メソッド
-
-        Parameters
-        ----------
-        hid_dim : integer
-            隠れ層のノード数
-        out_dim : integer
-            出力層のノード数
-        """
-        super().__init__(
-            l1=L.Linear(None, hid_dim),
-            l2=L.Linear(hid_dim, hid_dim),
-            l3=L.Linear(hid_dim, out_dim)
-        )
-    
-    def __call__(self, x):
-        """
-        順伝播して、出力層 (Variable) を返す
-
-        Parameters
-        ----------
-        x : Variable
-            (バッチサイズ x 特徴ベクトルの次元数) の、入力データ
-        """
-        h1 = F.relu(self.l1(x))
-        h2 = F.relu(self.l2(h1))
-        return self.l3(h2)
-
-        # ここで softmax して、確率にして返すこと。
+print(len(ds_eval))
 
 
 # In[ ]:
@@ -167,7 +135,7 @@ print(len(ds_valid))
 hid_dim = 20                # 隠れ層のノード数 : いい塩梅に決める
 out_dim = len(psc.classes)  # 出力層のノード数 : 定義されているラベルの数
 
-model = PscChain(hid_dim, out_dim)
+model = psc.PscChain(hid_dim, out_dim)
 
 
 # In[ ]:
@@ -195,7 +163,7 @@ if gpu_id >= 0:
 
 
 # エポック数
-max_epoch = 100
+max_epoch = 40
 
 while train_iter.epoch < max_epoch:
     # イテレーション
@@ -204,6 +172,9 @@ while train_iter.epoch < max_epoch:
     # 1 イテレーション分の、入力データの array と、教師ラベルの array
     x, t = concat_examples(train_batch, gpu_id)
     x = x.astype(np.float32)
+    
+    print(type(x))
+    print(x.shape)
     
     # 順伝播の結果を得る
     y = model(x)
@@ -250,49 +221,58 @@ while train_iter.epoch < max_epoch:
                 valid_iter.reset()
                 break
 
-        print('val_loss:{:.04f} val_accuracy:{:.04f}'.format(
-            np.mean(valid_losses), np.mean(valid_accuracies)))
+        print('{:0=2} val_loss:{:.04f} val_accuracy:{:.04f}'.format(
+            train_iter.epoch, np.mean(valid_losses), np.mean(valid_accuracies)))
 
 
 # In[ ]:
 
 
 # 評価用イテレータ
-test_iter = iterators.SerialIterator(ds_test, batch_size, repeat=False, shuffle=False)
+eval_iter = iterators.SerialIterator(ds_eval, batch_size, repeat=False, shuffle=False)
 
 
 # In[ ]:
 
 
-# テストデータでの評価
-test_accuracies = []
+# 評価用データでの評価
+eval_accuracies = []
 while True:
-    test_batch = test_iter.next()
-    x_test, t_test = concat_examples(test_batch, gpu_id)
-    x_test = x_test.astype(np.float32)
+    eval_batch = eval_iter.next()
+    x_eval, t_eval = concat_examples(eval_batch, gpu_id)
+    x_eval = x_eval.astype(np.float32)
     
-    # print(x_test)
+    # print(x_eval)
 
-    # テストデータをforward
+    # 評価用データをforward
     with chainer.using_config('train', False),             chainer.using_config('enable_backprop', False):
-        y_test = model(x_test)
+        y_eval = model(x_eval)
     
-    # print(y_test)
+    # print(y_eval)
     
     """
-    for i, a in enumerate(y_test):
-        print(a, t_test[i])
+    for i, a in enumerate(y_eval):
+        print(a, t_eval[i])
     """
     # 精度を計算
-    accuracy = F.accuracy(y_test, t_test)
+    accuracy = F.accuracy(y_eval, t_eval)
     accuracy.to_cpu()
-    test_accuracies.append(accuracy.array)
+    eval_accuracies.append(accuracy.array)
 
-    if test_iter.is_new_epoch:
-        test_iter.reset()
+    if eval_iter.is_new_epoch:
+        eval_iter.reset()
         break
 
-print('test_accuracy:{:.04f}'.format(np.mean(test_accuracies)))
+print('eval_accuracy:{:.04f}'.format(np.mean(eval_accuracies)))
+
+
+# In[ ]:
+
+
+# モデルを保存する (保存するときは CPU 版とする)
+with open(model_save_file, 'wb') as f:
+    pickle.dump(model.to_cpu(), f)
+print("Model is saved as {}.".format(model_save_file))
 
 
 # In[ ]:

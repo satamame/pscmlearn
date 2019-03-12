@@ -7,9 +7,9 @@ verify_ssl = true
 
 [packages]
 janome = "*"
-jupyter = "*"
 chainer = "*"
 cupy-cuda100 = "*"
+jupyter = "*"
 
 [requires]
 python_version = "3.6"

@@ -1,5 +1,9 @@
 import re
 
+from chainer import Chain
+import chainer.links as L
+import chainer.functions as F
+
 
 classes = (
     "TITLE",                # 0
@@ -95,3 +99,40 @@ def make_feature_elements(ffeat):
             ftels.append((ftel[0], v))
 
     return ftels
+
+
+class PscChain(Chain):
+    """
+    予測モデル
+    """
+    def __init__(self, hid_dim, out_dim):
+        """
+        初期化メソッド
+
+        Parameters
+        ----------
+        hid_dim : integer
+            隠れ層のノード数
+        out_dim : integer
+            出力層のノード数
+        """
+        super().__init__(
+            l1=L.Linear(None, hid_dim),
+            l2=L.Linear(hid_dim, hid_dim),
+            l3=L.Linear(hid_dim, out_dim)
+        )
+    
+    def __call__(self, x):
+        """
+        順伝播して、出力層 (Variable) を返す
+
+        Parameters
+        ----------
+        x : Variable
+            (バッチサイズ x 特徴ベクトルの次元数) の、入力データ
+        """
+        h1 = F.relu(self.l1(x))
+        h2 = F.relu(self.l2(h1))
+        return self.l3(h2)
+
+        # ここで softmax して、確率にして返すこと。
