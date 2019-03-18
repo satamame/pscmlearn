@@ -7,26 +7,27 @@ import sys
 import pickle
 
 import psclib.psc as psc
+from psclib.extract import Extractor
 
 import numpy as np
-from chainer import Chain
-import chainer.links as L
-import chainer.functions as F
 import cupy
+from chainer import Chain
+import pandas as pd
 
 
 # In[ ]:
 
 
 args = sys.argv
-if len(args) < 4:
-    print('Usage: python psc_predict.py model_file, feature_file, result_file')
+if len(args) < 5:
+    print('Usage: python psc_predict.py model_file, feature_setting_file, script_file, result_save_file')
     sys.exit()
 """
 args = [
     "psc_predict.py",
     "model/mdl_0000.pkl",
-    "predict/prd_0000_ft.txt",
+    "model/mdl_0000_ft.txt",
+    "predict/prd_0000_sc.txt",
     "predict/prd_0000_lbl.txt"
 ]
 """
@@ -35,9 +36,33 @@ args = [
 # In[ ]:
 
 
+# パラメタを再定義
 mdl_file = args[1]
-ft_file = args[2]
-lbl_file = args[3]
+ft_setting_file = args[2]
+sc_file = args[3]
+lbl_file = args[4]
+
+
+# In[ ]:
+
+
+# 入力データをリストに
+with open(sc_file, 'r', encoding='utf_8_sig') as f:
+    lines = [l.rstrip() for l in f.readlines()]
+
+# 形態素解析
+token_lines = psc.tokenize_lines(lines)
+
+
+# In[ ]:
+
+
+# 特徴量設定を読み込む
+ftels = psc.read_feature_elements(ft_setting_file)
+
+# 特徴量抽出
+ex = Extractor(token_lines, ftels)
+ft_list = ex.extract()
 
 
 # In[ ]:
@@ -47,8 +72,8 @@ lbl_file = args[3]
 with open(mdl_file, mode='rb') as f:
     model = pickle.load(f)
 
-# GPU を使う (使うなら 0, 使わないなら -1)
-gpu_id = -1
+# GPU を使うかのフラグ (使うなら 0, 使わないなら -1)
+gpu_id = 0
 
 if gpu_id >= 0:
     model.to_gpu(gpu_id)
@@ -57,32 +82,22 @@ if gpu_id >= 0:
 # In[ ]:
 
 
-# 特徴量データのリストを作成
-in_fts = []
-for line in open(ft_file, 'r'):
-    fts = [float(f) for f in line.split(',')]
-    in_fts.append(fts)
-
+# 特徴量データの ndarray を作成
 if gpu_id >= 0:
-    in_dataset = cupy.cupy.array(in_fts, dtype=np.float32)
+    in_dataset = cupy.cupy.array(ft_list, dtype=np.float32)
 else:
-    in_dataset = np.array(in_fts, dtype=np.float32)
+    in_dataset = np.array(ft_list, dtype=np.float32)
 
 
 # In[ ]:
 
 
-print(type(in_dataset))
-print(in_dataset.shape)
-
-
-# In[ ]:
-
-
-# 順伝播の結果を得て、ラベルとして保存
+# 順伝播
 out = model(in_dataset)
+
 # 個々の出力の最大値のインデックスをリストにする
 out_idx = out.data.argmax(axis = 1).tolist()
+
 # ラベルを表す文字列にする
 lbls = [psc.classes[i] for i in out_idx]
 
@@ -90,7 +105,15 @@ lbls = [psc.classes[i] for i in out_idx]
 # In[ ]:
 
 
-print(lbls)
+# 表示用に DataFrame にする
+df = pd.DataFrame({"line": [l.rstrip() for l in open(sc_file, 'r', encoding='utf-8')],
+                            "label": lbls})
+
+
+# In[ ]:
+
+
+print(df)
 
 
 # In[ ]:

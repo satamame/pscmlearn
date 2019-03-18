@@ -1,6 +1,5 @@
 /.venv/
 /runjupyter.bat
-
 .ipynb_checkpoints/
 .vscode/
 *.lnk

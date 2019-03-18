@@ -7,25 +7,44 @@ class Extractor:
     def __init__(self, lines, ftels):
         self.lines = lines # 形態素解析された行のリスト (台本1冊分)
         self.ftels = ftels # (特徴名, ハイパーパラメータ) のタプルのリスト
+
+        # 抽出中に使うワーク変数
         self.common_heads = [] # (よくある行頭, 出現行数) のタプルのリスト
     
-    def extract(self, fout):
+    def extract(self):
         """
-        台本のすべての行の特徴を抽出してファイルに書き出すメソッド。
+        lines のすべての行の特徴を抽出してリストにして返すメソッド
+
+        Returns
+        -------
+        ft_list : list
+            各行の特徴ベクトル (リスト) のリスト
         """
+        ft_list = []
         for lnum in range(len(self.lines)):
-            # print('Line {}'.format(lnum))
-            fout.write(self.extract_line(lnum) + '\n')
-    
+            ft_list.append(self.extract_line(lnum))
+        return ft_list
+
     def extract_line(self, lnum):
         """
-        lnum 行目の特徴を抽出し、カンマ区切りにして返すメソッド。
+        lnum 行目の特徴を抽出し、リストにして返すメソッド
+
+        Parameters
+        ----------
+        lnum : int
+            注目している行の番号
+        
+        Returns
+        -------
+        feature_vec : list
+            その行の特徴ベクトル
+
         """
         feature_vec = []
         line = self.lines[lnum]
         for ftname in [ftel[0] for ftel in self.ftels]:
             """
-            ftels の各要素の特徴名にもとづいて、特徴量を取得する。
+            ftels の各要素の特徴名にもとづいて、特徴量を取得するメソッド
             """
             if ftname == 'sc_count_of_lines': # 台本内の行数
                 ft = len(self.lines)
@@ -81,11 +100,11 @@ class Extractor:
                     ft = 0
 
             feature_vec.append(ft)
-        return ",".join([str(ft) for ft in feature_vec])
+        return feature_vec
     
     def get_count_of_lines_with_bracket(self):
         """
-        台本内の括弧を含む行の数を返すメソッド。
+        台本内の括弧を含む行の数を返すメソッド
         """
         if hasattr(self, 'count_of_lines_with_bracket'):
             return self.count_of_lines_with_bracket
@@ -101,9 +120,16 @@ class Extractor:
 
     def get_count_of_lines_with_head(self, head, lnum = 0):
         """
-        lnum 行目以降の、行頭が head である行の数を返すメソッド。
-        head は {surface, part_of_speech} の辞書のリスト。
-        get_length_of_common_head() から呼ばれるためのメソッド。
+        lnum 行目以降の、行頭が head である行の数を返すメソッド
+
+        get_length_of_common_head() から呼ばれる。
+
+        Parameters
+        ----------
+        head : list
+            {surface, part_of_speech} の辞書のリスト
+        lnum : int
+            注目している行の番号
         """
         count = 0
         for line in self.lines[lnum:]:
@@ -125,8 +151,18 @@ class Extractor:
 
     def get_length_of_common_head(self, lnum):
         """
-        lnum 行目にて、共通の行頭を持つ行の数のリストを返す。
-        返り値は1単語目～n単語目までの、同じ行頭を持つ行数のリスト（自分自身もカウントする）。
+        lnum 行目にて、共通の行頭を持つ行の数のリストを返すメソッド
+        
+        Parameters
+        ----------
+        lnum : integer
+            行番号 (from 0)
+        
+        Returns
+        -------
+        count : list
+            1単語目～n単語目までの、同じ行頭を持つ行数 (自分自身もカウントする) のリスト
+
         """
         line = self.lines[lnum]
         length = 0
@@ -153,8 +189,19 @@ class Extractor:
 
     def get_first_pos_in_line(self, lnum, words):
         """
-        lnum 行目にて、words 内のいずれかの語が最初に出現する位置。
-        返り値は、位置 (0, 1, ...) を x とし、e^(-x/4) の値。なければ 0。
+        lnum 行目にて、words 内のいずれかの語が最初に出現する「早さ」を返すメソッド
+
+        Parameters
+        ----------
+        lnum : integer
+            行番号 (from 0)
+        words: list
+            単語のリスト
+        
+        Returns
+        -------
+        position : float
+            返り値は、位置 (0, 1, ...) を x とし、e^(-x/4) の値。なければ 0.
         """
         line = self.lines[lnum]
         lw = [word['surface'] for word in line['tokenized_words']]
@@ -163,4 +210,4 @@ class Extractor:
             x = li[0]
             return np.exp(-x/4)
         else:
-            return 0
+            return 0.

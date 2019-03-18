@@ -5,7 +5,6 @@
 
 import sys
 import csv
-# import random # 不要か？
 import pickle
 
 import psclib.psc as psc
@@ -13,9 +12,7 @@ import psclib.psc as psc
 import numpy as np
 import chainer
 from chainer import Link, ChainList, Variable
-# from chainer import Chain
 from chainer import iterators, optimizers
-# import chainer.links as L
 import chainer.functions as F
 from chainer.datasets import split_dataset_random
 from chainer.dataset import concat_examples
@@ -27,7 +24,7 @@ from chainer.cuda import to_cpu
 
 args = sys.argv
 if len(args) < 4:
-    print('Usage: python psc_train.py train_list_file, eval_list_file, model_file')
+    print('Usage: python psc_train.py train_list_file, eval_list_file, model_save_file')
     sys.exit()
 """
 args = [
@@ -42,6 +39,7 @@ args = [
 # In[ ]:
 
 
+# パラメタを再定義
 train_list_file = args[1]
 eval_list_file = args[2]
 model_save_file = args[3]
@@ -58,40 +56,35 @@ def make_dataset(list_file):
     ----------
     list_file : string
         入力データのリストのファイル名
-        各行が、"特徴量データのファイル名, 教師ラベルのファイル名" の形式
+        ファイルの各行が、"特徴量データのファイル名, 教師ラベルのファイル名" の形式
+    
+    Returns
+    -------
+    dataset : list
+        (特徴量データ, 教師ラベル) というタプルを要素に持つリスト
     """
 
     # 「特徴量データ, 教師ラベル」 のファイル名リストを読み込む
     ft_files = []
     lbl_files = []
-    try:
-        for line in open(list_file, 'r'):
+    with open(list_file, 'r', encoding='utf_8_sig') as f:
+        for line in f:
             ft, lbl = line.split(',')
             ft_files.append(ft.strip())
             lbl_files.append(lbl.strip())
-    except IOError as err:
-        print(err)
-        sys.exit()
-    except ValueError as err:
-        print(err)
-        sys.exit()
 
     # 特徴量データのリストを作成
     in_fts = []
     for ft_file in ft_files:
-        for line in open(ft_file, 'r'):
-            fts = [float(f) for f in line.split(',')]
-            in_fts.append(fts)
-
+        with open(ft_file, 'r') as f:
+            reader = csv.reader(f, quoting=csv.QUOTE_NONNUMERIC)
+            in_fts.extend([[float(v) for v in row] for row in reader])
+        
     # 教師ラベル (数値に変換したもの) のリストを作成
     in_lbls = []
-    try:
-        for lbl_file in lbl_files:
-            for line in open(lbl_file, 'r'):
-                in_lbls.append(psc.classes.index(line.strip()))
-    except ValueError as err:
-        print(err)
-        sys.exit()
+    for lbl_file in lbl_files:
+        with open(lbl_file, 'r', encoding='utf_8_sig') as f:
+            in_lbls.extend([psc.classes.index(line.strip()) for line in f])
 
     dataset = list(zip(in_fts, in_lbls))
     return dataset
@@ -100,17 +93,10 @@ def make_dataset(list_file):
 # In[ ]:
 
 
+# 学習用データセット
 ds_train = make_dataset(train_list_file)
+# 評価用データセット
 ds_eval = make_dataset(eval_list_file)
-
-# __TODO__ BOM があるとエラーになるので何とかする。
-
-
-# In[ ]:
-
-
-print(len(ds_train))
-print(len(ds_eval))
 
 
 # In[ ]:
@@ -119,13 +105,6 @@ print(len(ds_eval))
 # 特徴量データと教師ラベルを対にして、学習用と検証用に分ける
 train_count = int(len(ds_train) * 0.8) # 8割のデータを学習用に
 ds_train, ds_valid = split_dataset_random(ds_train, train_count, seed=0)
-
-
-# In[ ]:
-
-
-print(len(ds_train))
-print(len(ds_valid))
 
 
 # In[ ]:
@@ -173,9 +152,6 @@ while train_iter.epoch < max_epoch:
     x, t = concat_examples(train_batch, gpu_id)
     x = x.astype(np.float32)
     
-    print(type(x))
-    print(x.shape)
-    
     # 順伝播の結果を得る
     y = model(x)
     
@@ -202,12 +178,10 @@ while train_iter.epoch < max_epoch:
             x_valid, t_valid = concat_examples(valid_batch, gpu_id)
             x_valid = x_valid.astype(np.float32)
 
-            # Validationデータをforward
+            # Validation データを forward
             with chainer.using_config('train', False),                     chainer.using_config('enable_backprop', False):
                 y_valid = model(x_valid)
                 
-            # print(y_valid)
-
             # ロスを計算
             loss_valid = F.softmax_cross_entropy(y_valid, t_valid)
             valid_losses.append(to_cpu(loss_valid.array))
@@ -221,6 +195,7 @@ while train_iter.epoch < max_epoch:
                 valid_iter.reset()
                 break
 
+        # ロスと精度の表示
         print('{:0=2} val_loss:{:.04f} val_accuracy:{:.04f}'.format(
             train_iter.epoch, np.mean(valid_losses), np.mean(valid_accuracies)))
 
@@ -242,18 +217,10 @@ while True:
     x_eval, t_eval = concat_examples(eval_batch, gpu_id)
     x_eval = x_eval.astype(np.float32)
     
-    # print(x_eval)
-
     # 評価用データをforward
     with chainer.using_config('train', False),             chainer.using_config('enable_backprop', False):
         y_eval = model(x_eval)
     
-    # print(y_eval)
-    
-    """
-    for i, a in enumerate(y_eval):
-        print(a, t_eval[i])
-    """
     # 精度を計算
     accuracy = F.accuracy(y_eval, t_eval)
     accuracy.to_cpu()

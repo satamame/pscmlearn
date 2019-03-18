@@ -4,6 +4,8 @@ from chainer import Chain
 import chainer.links as L
 import chainer.functions as F
 
+from janome.tokenizer import Tokenizer
+
 
 classes = (
     "TITLE",                # 0
@@ -49,20 +51,115 @@ spaces = (' ', '　', '\t')
 commas = (',', '、')
 periods = ('.', '。')
 
-def make_feature_elements(ffeat):
+def isolate_labels_from_lines(lines):
     """
-    特徴量設定ファイルの内容から、(特徴名, ハイパーパラメータ) のタプルのリストを作る関数。
+    教師データの各行から教師ラベルとデータを分離する関数
+    
+    各行にラベルがある前提とし、ラベルがない行については空文字列を出力する。
+    入力ファイルにおいてラベルがない事を明示するには、行の先頭にカンマをつける。
+    ラベルが正しいかどうかの厳密なチェックは行わない。
+
+    Parameters
+    ----------
+    lines : list
+        行 (str) のリスト
+    
+    Returns
+    -------
+    data : list
+        教師ラベルを除いたデータ (str) のリスト
+    labels : list
+        教師ラベル（str）のリスト
+    """
+    
+    # 正規表現マッチングパターン
+    class_pattern = re.compile(r"([A-Z0-9_]*),(.*)")
+    
+    data = []
+    labels = []
+    for line in lines:
+        matched = re.match(class_pattern, line)
+        if matched:
+            data.append(matched.group(2))
+            labels.append(matched.group(1))
+        else:
+            data.append(line)
+            labels.append("")
+    
+    return data, labels
+
+
+def tokenize_lines(lines):
+    """
+    複数の行を形態素解析する関数
+
+    Parameters
+    ----------
+    lines : list
+        行 (str) のリスト
+    
+    Returns
+    -------
+    token_lines : list
+        解析結果（dict）のリスト
+    """
+    t = Tokenizer()
+    # token_lines は、行ごとの解析結果（辞書型）を要素とするリストになる。
+    token_lines = []
+    # 正規表現マッチングに使うパターン
+    space_pattern = re.compile(r"[\s　]+")
+    
+    for data in lines:
+        # 行頭の空白文字列を、形態素解析とは別に取っておく。
+        # Space characters in indent
+        matched = re.match(space_pattern, data)
+        if matched:
+            indent_chars = matched.group()
+        else:
+            indent_chars = ""
+
+        # この行の単語リストを作る。
+        # List words in the line
+        tokenized_words = []
+        for token in t.tokenize(data):
+            token_info = {
+                'surface': token.surface,
+                'part_of_speech': token.part_of_speech,
+                'infl_type': token.infl_type,
+                'infl_form': token.infl_form,
+                'base_form': token.base_form,
+                'reading': token.reading,
+                'phonetic': token.phonetic
+            }
+            tokenized_words.append(token_info)
+
+        # 行頭の空白文字列と、解析した単語のリストを、辞書型にしてリストに追加する。
+        token_lines.append({
+            'indent_chars': indent_chars,
+            'tokenized_words': tokenized_words
+        })
+    return token_lines
+
+
+def read_feature_elements(ftset_file):
+    """
+    特徴量設定ファイルの内容からリストを作る関数
     
     Parameters
     ----------
-    ffeat : string
+    ftset_file : str
         特徴量設定ファイルの名前。ファイルの存在が保証されていること。
+    
+    Returns
+    -------
+    ftels : list
+        (特徴名, ハイパーパラメータ) のタプルのリスト
     """
 
-    # ファイル ffeat から、使用する特徴量の設定を取得。
+    # ファイル ftset_file から、使用する特徴量の設定を取得。
     # Load feature elements to be used.
     ftin = [] # Feature elements input.
-    for line in open(ffeat, 'r'):
+    for line in open(ftset_file, 'r'):
         # 読み込んだ行からコメント部分を削除。
         ftline = re.sub(r"#.*", "", line).strip()
         # 空行ならスキップ。
@@ -79,6 +176,7 @@ def make_feature_elements(ffeat):
         elif ftel[0]:
             print('Warning: Feature \'' + ftel[0] + '\' not defined.')
     
+    # 特徴量の名前のリスト
     ftnames = [ftel[0] for ftel in ftin]
 
     # Check duplicates.
@@ -111,9 +209,9 @@ class PscChain(Chain):
 
         Parameters
         ----------
-        hid_dim : integer
+        hid_dim : int
             隠れ層のノード数
-        out_dim : integer
+        out_dim : int
             出力層のノード数
         """
         super().__init__(
@@ -124,15 +222,18 @@ class PscChain(Chain):
     
     def __call__(self, x):
         """
-        順伝播して、出力層 (Variable) を返す
+        順伝播して、出力層 (Variable) を返すメソッド
 
         Parameters
         ----------
-        x : Variable
+        x : chainer.variable.Variable
             (バッチサイズ x 特徴ベクトルの次元数) の、入力データ
+        
+        Returns
+        -------
+        output : chainer.variable.Variable
+            softmax をかける前の出力
         """
         h1 = F.relu(self.l1(x))
         h2 = F.relu(self.l2(h1))
         return self.l3(h2)
-
-        # ここで softmax して、確率にして返すこと。
