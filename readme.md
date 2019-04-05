@@ -100,7 +100,7 @@
 1. 学習用ラベルデータ
 	- e.g. train/tr_0000_lbl.txt
 1. 特徴量データ (行ごと)
-	- e.g. train/tr_0000_ft.txt
+	- e.g. train/tr_0000_ft.csv
 
 ## 学習したモデル
 
