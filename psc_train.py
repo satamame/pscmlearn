@@ -179,7 +179,7 @@ while train_iter.epoch < max_epoch:
             x_valid = x_valid.astype(np.float32)
 
             # Validation データを forward
-            with chainer.using_config('train', False),                     chainer.using_config('enable_backprop', False):
+            with chainer.using_config('train', False), chainer.using_config('enable_backprop', False):
                 y_valid = model(x_valid)
                 
             # ロスを計算
@@ -218,7 +218,7 @@ while True:
     x_eval = x_eval.astype(np.float32)
     
     # 評価用データをforward
-    with chainer.using_config('train', False),             chainer.using_config('enable_backprop', False):
+    with chainer.using_config('train', False), chainer.using_config('enable_backprop', False):
         y_eval = model(x_eval)
     
     # 精度を計算
