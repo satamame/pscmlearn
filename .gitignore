@@ -3,6 +3,7 @@
 .ipynb_checkpoints/
 .vscode/
 *.lnk
+*.ipynb
 /material/
 /memo/
 __pycache__

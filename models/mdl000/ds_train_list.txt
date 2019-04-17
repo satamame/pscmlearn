@@ -1,1 +1,2 @@
-train\tr_0000_ft.csv, train\tr_0000_lbl.txt
+000001
+000002

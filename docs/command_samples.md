@@ -1,17 +1,25 @@
 # Command samples
 
-## 特徴量抽出
+## 学習用データの作成
 
-python psc_extract.py script_file feature_setting_file feature_save_file [label_save_file]
+python psc_maketrain.py model_folder
 
-- script_file: 台本
-- feature_setting_file: 特徴量設定
-- feature_save_file: 特徴量出力先
-- label_save_file: 教師ラベル出力先 (台本に含まれている場合)
+- model_folder : モデルのフォルダ名
 
-例（入力に教師ラベルがない場合）
+例
 ```
-> python psc_extract.py dataset/000001.txt models/mdl000/mdl_fts.txt models/mdl000/train/000001_ft.csv
+> python psc_maketrain.py mdl000
+```
+
+## 検証用データの作成
+
+python psc_makeeval.py model_folder
+
+- model_folder : モデルのフォルダ名
+
+例
+```
+> python psc_makeeval.py mdl000
 ```
 
 ## モデルの学習

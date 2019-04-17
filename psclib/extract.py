@@ -3,8 +3,49 @@ import copy
 import numpy as np
 
 
+def extract_file(in_file, fts_file):
+    """
+    ファイルの内容を特徴量にして返す
+    
+    Parameters
+    ----------
+    in_file : str
+        入力となるファイルの名前
+    fts_file : str
+        特徴量設定ファイルの名前
+    
+    Returns
+    -------
+    ft_list : list
+        各行の特徴ベクトル (リスト) のリスト
+    """
+
+    # 入力データをリストに
+    with open(in_file, 'r', encoding='utf_8_sig') as f:
+        lines = [l.rstrip() for l in f.readlines()]
+
+    # 形態素解析
+    token_lines = psc.tokenize_lines(lines)
+
+    # 特徴量の設定を読み込む
+    ftels = psc.read_feature_elements(fts_file)
+
+    # 特徴抽出・保存
+    ex = Extractor(token_lines, ftels)
+    ft_list = ex.extract()
+
+    return ft_list
+
+
 class Extractor:
+    """
+    特徴量を抽出するクラス
+    """
+    
     def __init__(self, lines, ftels):
+        """
+        コンストラクタ
+        """
         self.lines = lines # 形態素解析された行のリスト (台本1冊分)
         self.ftels = ftels # (特徴名, ハイパーパラメータ) のタプルのリスト
 
