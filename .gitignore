@@ -7,3 +7,5 @@
 /material/
 /memo/
 __pycache__
+train/
+eval/

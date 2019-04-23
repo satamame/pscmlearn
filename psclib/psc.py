@@ -1,9 +1,5 @@
 import re
-
-from chainer import Chain
-import chainer.links as L
-import chainer.functions as F
-
+import csv
 from janome.tokenizer import Tokenizer
 
 
@@ -50,6 +46,7 @@ brackets = open_brackets + close_brackets
 spaces = (' ', '　', '\t')
 commas = (',', '、')
 periods = ('.', '。')
+
 
 def isolate_labels_from_lines(lines):
     """
@@ -141,13 +138,13 @@ def tokenize_lines(lines):
     return token_lines
 
 
-def read_feature_elements(ftset_file):
+def read_feature_elements(fts_file):
     """
     特徴量設定ファイルの内容からリストを作る関数
     
     Parameters
     ----------
-    ftset_file : str
+    fts_file : str
         特徴量設定ファイルの名前。ファイルの存在が保証されていること。
     
     Returns
@@ -156,10 +153,10 @@ def read_feature_elements(ftset_file):
         (特徴名, ハイパーパラメータ) のタプルのリスト
     """
 
-    # ファイル ftset_file から、使用する特徴量の設定を取得。
+    # ファイル fts_file から、使用する特徴量の設定を取得。
     # Load feature elements to be used.
     ftin = [] # Feature elements input.
-    for line in open(ftset_file, 'r'):
+    for line in open(fts_file, 'r', encoding='utf_8_sig'):
         # 読み込んだ行からコメント部分を削除。
         ftline = re.sub(r"#.*", "", line).strip()
         # 空行ならスキップ。
@@ -199,41 +196,53 @@ def read_feature_elements(ftset_file):
     return ftels
 
 
-class PscChain(Chain):
+def make_dataset(model_name, list_type='train'):
     """
-    予測モデル
-    """
-    def __init__(self, hid_dim, out_dim):
-        """
-        初期化メソッド
+    特徴量データと教師ラベルが対になったデータのリストを作成
 
-        Parameters
-        ----------
-        hid_dim : int
-            隠れ層のノード数
-        out_dim : int
-            出力層のノード数
-        """
-        super().__init__(
-            l1=L.Linear(None, hid_dim),
-            l2=L.Linear(hid_dim, hid_dim),
-            l3=L.Linear(hid_dim, out_dim)
-        )
+    Parameters
+    ----------
+    model_name: str
+        モデル名
+    list_type : str
+        学習用データを作るなら 'train', 評価用データを作るなら 'eval'
     
-    def __call__(self, x):
-        """
-        順伝播して、出力層 (Variable) を返すメソッド
+    Returns
+    -------
+    dataset : list
+        (特徴量データ, 教師ラベル) というタプルを要素に持つリスト
+    """
 
-        Parameters
-        ----------
-        x : chainer.variable.Variable
-            (バッチサイズ x 特徴ベクトルの次元数) の、入力データ
+    # 番号リストファイルのパス
+    if list_type != 'eval':
+        list_type = 'train'
+    list_path = "models/{}/ds_{}_list.txt".format(model_name, list_type)
+    
+    # 「特徴量データ, 教師ラベル」 のファイル名リストを読み込む
+    ft_files = []
+    lbl_files = []
+    with open(list_path, 'r', encoding='utf_8_sig') as f:
+        for i, line in enumerate(f):
+            try:
+                num = int(line.strip())
+                fn = ("{:0>6}".format(num))
+                ft_files.append("models/{}/{}/{}_ft.csv".format(model_name, list_type, fn))
+                lbl_files.append("models/{}/{}/{}_lbl.txt".format(model_name, list_type, fn))
+            except ValueError:
+                print('Warning: {}: Line {} is not number. Ignored.'.format(list_path, i+1))
+
+    # 特徴量データのリストを作成
+    in_fts = []
+    for ft_file in ft_files:
+        with open(ft_file, 'r', encoding='utf_8_sig') as f:
+            reader = csv.reader(f, quoting=csv.QUOTE_NONNUMERIC)
+            in_fts.extend([[float(v) for v in row] for row in reader])
         
-        Returns
-        -------
-        output : chainer.variable.Variable
-            softmax をかける前の出力
-        """
-        h1 = F.relu(self.l1(x))
-        h2 = F.relu(self.l2(h1))
-        return self.l3(h2)
+    # 教師ラベル (数値に変換したもの) のリストを作成
+    in_lbls = []
+    for lbl_file in lbl_files:
+        with open(lbl_file, 'r', encoding='utf_8_sig') as f:
+            in_lbls.extend([classes.index(line.strip()) for line in f])
+
+    dataset = list(zip(in_fts, in_lbls))
+    return dataset
